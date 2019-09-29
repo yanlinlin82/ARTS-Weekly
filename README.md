@@ -15,3 +15,7 @@ ARTS是以下四项内容的简称：
 打卡地址（知乎）：<https://www.zhihu.com/question/301150832>
 
 读者故事：<http://stuq.com/a/100mT>
+
+## 打卡记录
+
+* 第一周：<week-001/ARTS-week-001.md>
