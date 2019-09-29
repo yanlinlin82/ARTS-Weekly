@@ -86,4 +86,18 @@ public:
 
 ## Tip
 
+[\[SuperUser\] How to expand \* on Bash command line](https://superuser.com/questions/215950/how-to-expand-on-bash-command-line)
+
+我是在Linux命令行上误操作时，发现通配符被自动扩展出来，于是通过搜索，找到了该“隐藏”的功能键：
+
+输入命令`ls *`后，按键：`<Ctrl>` + `x` + `*`，可以看到该目录下的文件列表，被扩展出来，可以继续进行编辑。
+
+而在过去，我通常都需要手工对`ls`命令的结果进行选择和拷贝。
+
 ## Share
+
+分享一篇CSDN上的技术文章：
+
+[深入理解C语言指针](https://blog.csdn.net/ZackSock/article/details/101594794)
+
+这篇文章写得很认真，详细讲解了C语言指针的相关基础知识，包括清晰的示意图，很适合编程入门者把基本功打扎实。
