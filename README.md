@@ -1,5 +1,7 @@
 # 左耳听风ARTS
 
+授权：本文遵循[CC-BY-4.0协议](LICENSE)，可在保留原出处信息时进行自由分享，更多关于该协议的信息可参见[此处](https://creativecommons.org/licenses/by/4.0/deed.zh)。
+
 ## 活动简介
 
 这是[极客时间《左耳听风》专栏](https://time.geekbang.org/column/intro/48)中发起的学习活动，要求自发每周完成一个ARTS。
