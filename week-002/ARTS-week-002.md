@@ -94,5 +94,18 @@ public:
 
 ## Tip
 
+本地目录的快速搜索利器：ag <https://geoff.greer.fm/ag/>
+
+平常阅读和修改源码时，经常需要在全目录搜索某些关键词，过去通常的做法是使用grep配合一系列的shell循环，遇到文件较多的情况，就奇慢无比。这个工具的确非常有优势，能够节省大量时间。
 
 ## Share
+
+关注CppCon：
+
+以C++为常用语言的程序员，应该关注C++新标准（C++11/14/17/20）的发展，并尽量利用这些新特性，来提高自己代码的开发维护效率和质量。[CppCon](http://cppcon.org/)是一个每年举办的会议，并且公开相应的视频和幻灯片等内容，值得逐一学习。
+
+相应链接：
+
+* [CppCon](http://cppcon.org/)
+* [CppCon2019](https://cppcon.org/cppcon-2019-program/)
+* [CppCon2019的相关共享资料](https://github.com/CppCon/CppCon2019)
