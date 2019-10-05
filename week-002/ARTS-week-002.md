@@ -65,6 +65,32 @@ public:
 
 ## Review
 
+[\[CodeProject\] Cryptographic Hashes: What They Are, and Why You Should be Friends](https://www.codeproject.com/Articles/1044042/Cryptographic-Hashes-What-They-Are-and-Why-You-Sho)
+
+本文展示了什么是密码学哈希函数（cryptographic hash function），以及相应的一些应用场景。
+
+哈希函数能将不定长的原始数据映射到定长的数据空间。密码学哈希函数则是一种特定的哈希函数，具有不可逆（non-invertible）的特性，即无法单纯从输出结果（也称为“信息摘要(message digest)”），还原出原始数据内容（也称为“信息(message)”）。除此之外，密码学哈希函数通常还具有如下特征：
+
+1. 易计算（computationally easy）：从信息计算信息摘要是容易的。
+2. 信息完整（message integrity）：信息的变动必然引发信息摘要的变动。
+3. 耐碰撞（collision resistance）：很难找到同一信息摘要所对应的多个不同信息。
+
+常见的密码学哈希函数包括：
+
+* [MD5](https://en.wikipedia.org/wiki/MD5)
+* [SHA-1](https://en.wikipedia.org/wiki/SHA-1)
+* [SHA-2](https://en.wikipedia.org/wiki/SHA-2)
+* [SHA-3](https://en.wikipedia.org/wiki/SHA-3)
+
+常见应用：
+
+* 文件的校验，尤其是经过网络传输、或一些易损坏的存储介质的文件。
+* 区块链技术，用于标记一个区块、标识某个比特币地址，以及工作量证明（[Proof-of-Work](https://en.bitcoin.it/wiki/Proof_of_work)）等。
+
+本文还展示了如下实例：
+
+* SHA1碰撞，从而证实了该函数的确已经不安全。
+* 命令行或C/C++代码实现常见密码学哈希函数的计算。
 
 ## Tip
 
