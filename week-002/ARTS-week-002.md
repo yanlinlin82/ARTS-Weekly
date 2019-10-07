@@ -4,7 +4,7 @@
 
 **链接：** <https://leetcode-cn.com/problems/longest-consecutive-sequence>
 
-**题目：**
+**题目：** 最长连续序列
 
 给定一个未排序的整数数组，找出最长连续序列的长度。
 
