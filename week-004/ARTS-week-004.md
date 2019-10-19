@@ -22,8 +22,33 @@
 
 ## Tip
 
+这里提及一个如何实现组合穷举的技巧，算是自己在解一个算法题时遇到并尝试实现的。            
+                                                                                          
+题目在这里，是个涂色问题：<https://yanlinlin82.github.io/191017a_Color-Filling/>          
+                                                                                          
+![](https://yanlinlin82.github.io/191017a_Color-Filling/problem.jpg)                      
+                                                                                          
+解法详细过程在这里：<https://yanlinlin82.github.io/191017a_Color-Filling/analysis.v3.html>
+
+重点是其中穷举所有组合的部分，由于需要把每个组合都以一个数据框（data.frame）结构列出，所以使用了递归函数，逐级去追加新的房间（方块）号进来：
+
+```r
+all_comb <- function(n) {
+  if (n <= 1) {
+    lapply(1:max_color, function(x) tibble(house = 1, fill = x))
+  } else {
+    l <- all_comb(n - 1)
+    lapply(1:max_color, function(x) {
+      lapply(l, function(d) rbind(d, tibble(house = n, fill = x)))
+    }) %>% do.call("c", .)
+  }
+}
+```
+
+递归函数实现，能够有效避免繁琐的回溯式遍历的写法，让程序的逻辑更加容易读懂。
+
 ## Share
 
-这里，我分享一篇自己新写的技术随笔，我相信还算是“有观点和思考的”：
+这里，我分享一篇自己新写的技术随笔（新开公号的第一篇，准备开始持续原创），我相信还算是“有观点和思考的”：
 
 [数据统治世界](https://github.com/yanlinlin82/bukaopuyanlun/blob/master/articles/191017-first.md)
