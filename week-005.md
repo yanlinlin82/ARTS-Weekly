@@ -2,6 +2,10 @@
 
 ## Algorithm
 
+[LeetCode题库](https://leetcode-cn.com/problemset/all/)
+
+* [有效的括号](https://github.com/yanlinlin82/leetcode/blob/master/00020_valid-parentheses/191025-1.cpp)
+
 ## Review
 
 [Ten simple rules to aid in achieving a vision](https://doi.org/10.1371/journal.pcbi.1007395)
@@ -25,5 +29,20 @@
 
 ## Tip
 
+如何让Linux命令`history`能显示运行时间？
+
+方法：
+
+在`~/.bashrc`中加入一行：
+
+```
+export HISTTIMEFORMAT="%Y-%m-%d %T "
+```
+
+来源： <https://www.cyberciti.biz/faq/unix-linux-bash-history-display-date-time/>
+
 ## Share
 
+[自然语言处理NLP基本概念大全](https://easyai.tech/blog/59pdf-nlp-all-in-one/)
+
+这是一个资源分享，一个59页的中文PDF文件，总结了自然语言处理（NLP）的基本概念。虽然算是“二手知识”，但其图文解释、总结用心，还是值得一阅的。对于已经有一定基础的人，就当重新复习一遍，并查缺补漏巩固下了。
