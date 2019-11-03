@@ -30,7 +30,7 @@ for_each(genYNames, [](auto name) {
 
 ## Tip
 
-如何在bash里读取csv文件
+**如何在bash里读取csv文件**
 
 过去，我在bash里用`read`命令读取csv文件时，总需要先用tr或awk做转换，例如：
 
@@ -47,6 +47,8 @@ $ echo -e "a,b\n1,2" | while IFS=',' read a b; do echo "($a) ($b)"; done
 (a) (b)
 (1) (2)
 ```
+
+参考：<https://www.cyberciti.biz/faq/unix-linux-bash-read-comma-separated-cvsfile/>
 
 ## Share
 
