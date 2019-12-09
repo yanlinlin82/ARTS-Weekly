@@ -6,10 +6,12 @@
 
 [LeetCode题库](https://leetcode-cn.com/problemset/all/)
 
-* [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/)：[我的解答](https://github.com/yanlinlin82/leetcode/blob/master/00036_valid-sudoku/191208-1.cpp)
-* [解数独](https://leetcode-cn.com/problems/sudoku-solver/)：[我的解答](https://github.com/yanlinlin82/leetcode/blob/master/00037_sudoku-solver/191208-1.cpp)
-* [报数](https://leetcode-cn.com/problems/count-and-say/)：[我的解答](https://github.com/yanlinlin82/leetcode/blob/master/00038_count-and-say/191209-1.cpp)
-* [组合总和](https://leetcode-cn.com/problems/combination-sum/)：[我的解答](https://github.com/yanlinlin82/leetcode/blob/master/00039_combination-sum/191209-1.cpp)
+| 编号 | 难度 | 题目 | 我的解答 | 执行用时 | 内存消耗 | 排名 |
+|:----:|:----:|:-----|:-----|---------:|---------:|-----:|
+| 36 | 中等 | [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/) | [191208-1.cpp](https://github.com/yanlinlin82/leetcode/00036_valid-sudoku/191208-1.cpp) | 4 ms | 9.4 MB | [99.97%](https://leetcode-cn.com/submissions/detail/39343183/) |
+| 37 | 困难 | [解数独](https://leetcode-cn.com/problems/sudoku-solver/) | [191208-1.cpp](https://github.com/yanlinlin82/leetcode/00037_sudoku-solver/191208-1.cpp) | 40 ms | 8.6 MB | [23.66%](https://leetcode-cn.com/submissions/detail/39348102/) |
+| 38 | 简单 | [报数](https://leetcode-cn.com/problems/count-and-say/) | [191209-1.cpp](https://github.com/yanlinlin82/leetcode/00038_count-and-say/191209-1.cpp) | 4 ms | 9 MB | [90.22%](https://leetcode-cn.com/submissions/detail/39452320/) |
+| 39 | 中等 | [组合总和](https://leetcode-cn.com/problems/combination-sum/) | [191209-1.cpp](https://github.com/yanlinlin82/leetcode/00039_combination-sum/191209-1.cpp) | 20 ms | 10 MB | [63.90%](https://leetcode-cn.com/submissions/detail/39459423/) |
 
 ## Review
 
