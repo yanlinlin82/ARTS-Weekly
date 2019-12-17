@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARTS第一周（2019年9月23日~29日） - 颜林林的“左耳听风ARTS”打卡记录</title>
+<style type="text/css">
+body{margin:16px auto;max-width:677px;padding:0 10px;color:#333;line-height:1.6}
+h1,h2,h3{line-height:1.2}
+h1{font-size:160%}
+h2{font-size:120%}
+h3,h4,h5,h6{font-size:100%}
+header{margin:0;padding:0;border-bottom:1px solid #999;line-height:1}
+footer{margin:0;padding:10px 0;border-top:1px solid #999;line-height:1;text-align:center}
+p,div,table,ul,ol{margin:10px 0}
+img{margin:10px auto;width:90%;max-width:600px;padding:0 10px;height:auto;display:block}
+hr{border:none;border-top:1px dashed #999;color:#fff;background-color:#fff;height:1px}
+a{color:#00f}
+a:visited{color:#009}
+a:hover{color:#f00}
+header a,header a:visited,footer a,footer a:visited,h1 a,h1 a:visited,h2 a,h2 a:visited{text-decoration:none;color:#333}
+header a:hover,footer a:hover,h1 a:hover,h2 a:hover{text-decoration:none;color:#f00}
+nav{padding:10px 0;text-align:right}
+nav a{padding-left:15px}
+table{border-collapse:collapse}
+th,td{border:1px solid gray;padding:2px 5px}
+code{border:1px solid #999;background-color:#f0f0f0;padding:1px 2px}
+pre{border:1px solid #999;background-color:#f0f0f0;padding:5px;overflow:auto;max-height:500px}
+pre code{border:0;background:none;padding:0}
+ul.pagination{list-style-type:none;text-align:center}
+li.page-item{display:inline;padding-right:15px}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1><a href="http://yanlinlin82.github.io/ARTS-Weekly/">颜林林的“左耳听风ARTS”打卡记录</a></h1>
+  </div>
+  <nav><a href="/ARTS-Weekly/">目录</a><a href="/ARTS-Weekly/about/">关于</a></nav>
+</header>
+<main>
+  <article class="content">
+    <div>
+  <h1>ARTS第一周（2019年9月23日~29日）</h1>
+</div>
+<div>
+  <div>2019-09-29 22:11</span>
+  </div>
+<div>
+  <h2 id="algorithm">Algorithm</h2>
+<p><strong>链接：</strong> <a href="https://leetcode-cn.com/problems/add-two-numbers">https://leetcode-cn.com/problems/add-two-numbers</a></p>
+<p><strong>题目：</strong> 两数相加</p>
+<p>给出两个<strong>非空</strong>的链表用来表示两个非负的整数。其中，它们各自的位数是按照 逆序 的方式存储的，并且它们的每个节点只能存储<strong>一位</strong>数字。</p>
+<p>如果，我们将这两个数相加起来，则会返回一个新的链表来表示它们的和。</p>
+<p>您可以假设除了数字<strong>0</strong>之外，这两个数都不会以<strong>0</strong>开头。</p>
+<p><strong>示例：</strong></p>
+<blockquote>
+<p><strong>输入：</strong> (2 -&gt; 4 -&gt; 3) + (5 -&gt; 6 -&gt; 4)<br>
+<strong>输出：</strong> 7 -&gt; 0 -&gt; 8<br>
+<strong>原因：</strong> 342 + 465 = 807</p>
+</blockquote>
+<p><strong>解答：</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cpp" data-lang="cpp"><span style="color:#75715e">/**
+</span><span style="color:#75715e"> * Definition for singly-linked list.
+</span><span style="color:#75715e"> * struct ListNode {
+</span><span style="color:#75715e"> *     int val;
+</span><span style="color:#75715e"> *     ListNode *next;
+</span><span style="color:#75715e"> *     ListNode(int x) : val(x), next(NULL) {}
+</span><span style="color:#75715e"> * };
+</span><span style="color:#75715e"> */</span>
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
+<span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
+    ListNode<span style="color:#f92672">*</span> addTwoNumbers(ListNode<span style="color:#f92672">*</span> l1, ListNode<span style="color:#f92672">*</span> l2) {
+        ListNode<span style="color:#f92672">*</span> r <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ListNode(<span style="color:#ae81ff">0</span>);
+        ListNode<span style="color:#f92672">*</span> p <span style="color:#f92672">=</span> r;
+        <span style="color:#66d9ef">bool</span> carry <span style="color:#f92672">=</span> false;
+        <span style="color:#66d9ef">while</span> (l1 <span style="color:#f92672">|</span><span style="color:#f92672">|</span> l2) {
+            <span style="color:#66d9ef">int</span> value <span style="color:#f92672">=</span> (l1 <span style="color:#f92672">?</span> l1<span style="color:#f92672">-</span><span style="color:#f92672">&gt;</span>val : <span style="color:#ae81ff">0</span>) <span style="color:#f92672">+</span> (l2 <span style="color:#f92672">?</span> l2<span style="color:#f92672">-</span><span style="color:#f92672">&gt;</span>val : <span style="color:#ae81ff">0</span>) <span style="color:#f92672">+</span> carry;
+            carry <span style="color:#f92672">=</span> (value <span style="color:#f92672">&gt;</span><span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>);
+            ListNode<span style="color:#f92672">*</span> n <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ListNode(value <span style="color:#f92672">%</span> <span style="color:#ae81ff">10</span>);
+            l1 <span style="color:#f92672">=</span> (l1 <span style="color:#f92672">?</span> l1<span style="color:#f92672">-</span><span style="color:#f92672">&gt;</span>next : NULL);
+            l2 <span style="color:#f92672">=</span> (l2 <span style="color:#f92672">?</span> l2<span style="color:#f92672">-</span><span style="color:#f92672">&gt;</span>next : NULL);
+            p<span style="color:#f92672">-</span><span style="color:#f92672">&gt;</span>next <span style="color:#f92672">=</span> n;
+            p <span style="color:#f92672">=</span> n;
+        }
+        <span style="color:#66d9ef">if</span> (carry) {
+            p<span style="color:#f92672">-</span><span style="color:#f92672">&gt;</span>next <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ListNode(<span style="color:#ae81ff">1</span>);
+        }
+        p <span style="color:#f92672">=</span> r<span style="color:#f92672">-</span><span style="color:#f92672">&gt;</span>next;
+        <span style="color:#66d9ef">delete</span> r;
+        <span style="color:#66d9ef">return</span> p;
+    }
+};
+</code></pre></div><h2 id="review">Review</h2>
+<p><a href="https://www.codeproject.com/Articles/1043089/HotPatching-VERY-Deep-Inside">[CodeProject] HotPatching: (VERY) Deep Inside</a></p>
+<p>本文展示了在Windows系统中，不退出程序的情况下，给运行中的程序打补丁的技术。分别展示了五种不同的实现方法，并进行了比较：</p>
+<ol>
+<li>载入一个DLL，并在DLL中，对EXE中的函数打补丁。这是最安全的一种方法。
+<ul>
+<li>优点：最安全，最容易实现，在单个地址空间中完成打补丁的过程。</li>
+<li>缺点：需要一个额外的DLL。</li>
+</ul>
+</li>
+<li>通过COM接口（服务）的方式，实现EXE更新。
+<ul>
+<li>优点：不需要额外的DLL。</li>
+<li>缺点：程序运行在不同的地址空间，通过COM服务器的代理方式调用。</li>
+</ul>
+</li>
+<li>通过共享内存和代理函数，更新EXE。
+<ul>
+<li>优点：不需要额外的DLL。</li>
+<li>缺点：程序运行在不同的地址空间，通过代理函数调用。</li>
+</ul>
+</li>
+<li>将更新的EXE直接载入当前地址空间。
+<ul>
+<li>优点：所有程序都运行在同一地址空间，且只需要单一EXE。</li>
+<li>缺点：技巧性太强。</li>
+</ul>
+</li>
+<li>把所有功能放到DLL中实现。
+<ul>
+<li>优点：单个程序文件即可。</li>
+<li>缺点：需要为应用程序提供自举（bootstrap）方案（诸如.bat文件或快捷方式等），以便用户启动该程序。</li>
+</ul>
+</li>
+</ol>
+<p>其代码存储在： <a href="https://github.com/WindowsNT/hotpatch">https://github.com/WindowsNT/hotpatch</a></p>
+<p>点评：</p>
+<ol>
+<li>这篇文章技术比较硬核，需要深入了解操作系统如何装载程序到地址空间并运行；</li>
+<li>而且对不同的运行方式（普通EXE、COM服务器、独立DLL等）都有涉及和介绍；</li>
+<li>针对不同操作系统（如Linux），需要根据其他相应体系架构调整实现。</li>
+</ol>
+<h2 id="tip">Tip</h2>
+<p><a href="https://superuser.com/questions/215950/how-to-expand-on-bash-command-line">[SuperUser] How to expand * on Bash command line</a></p>
+<p>我是在Linux命令行上误操作时，发现通配符被自动扩展出来，于是通过搜索，找到了该“隐藏”的功能键：</p>
+<p>输入命令<code>ls *</code>后，按键：<code>&lt;Ctrl&gt;</code> + <code>x</code> + <code>*</code>，可以看到该目录下的文件列表，被扩展出来，可以继续进行编辑。</p>
+<p>而在过去，我通常都需要手工对<code>ls</code>命令的结果进行选择和拷贝。</p>
+<h2 id="share">Share</h2>
+<p>分享一篇CSDN上的技术文章：</p>
+<p><a href="https://blog.csdn.net/ZackSock/article/details/101594794">深入理解C语言指针</a></p>
+<p>这篇文章写得很认真，详细讲解了C语言指针的相关基础知识，包括清晰的示意图，很适合编程入门者把基本功打扎实。</p>
+</div>
+
+  </article>
+</main>
+<footer>
+  <div>
+    <div>
+      &copy; 2019 Linlin Yan. <a href="https://creativecommons.org/licenses/by/4.0/deed.zh">CC-BY-4.0</a></div>
+  </div>
+</footer>
+</body>
+</html>

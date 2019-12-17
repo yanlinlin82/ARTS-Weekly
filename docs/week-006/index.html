@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARTS第六周（2019年10月28日~11月3日） - 颜林林的“左耳听风ARTS”打卡记录</title>
+<style type="text/css">
+body{margin:16px auto;max-width:677px;padding:0 10px;color:#333;line-height:1.6}
+h1,h2,h3{line-height:1.2}
+h1{font-size:160%}
+h2{font-size:120%}
+h3,h4,h5,h6{font-size:100%}
+header{margin:0;padding:0;border-bottom:1px solid #999;line-height:1}
+footer{margin:0;padding:10px 0;border-top:1px solid #999;line-height:1;text-align:center}
+p,div,table,ul,ol{margin:10px 0}
+img{margin:10px auto;width:90%;max-width:600px;padding:0 10px;height:auto;display:block}
+hr{border:none;border-top:1px dashed #999;color:#fff;background-color:#fff;height:1px}
+a{color:#00f}
+a:visited{color:#009}
+a:hover{color:#f00}
+header a,header a:visited,footer a,footer a:visited,h1 a,h1 a:visited,h2 a,h2 a:visited{text-decoration:none;color:#333}
+header a:hover,footer a:hover,h1 a:hover,h2 a:hover{text-decoration:none;color:#f00}
+nav{padding:10px 0;text-align:right}
+nav a{padding-left:15px}
+table{border-collapse:collapse}
+th,td{border:1px solid gray;padding:2px 5px}
+code{border:1px solid #999;background-color:#f0f0f0;padding:1px 2px}
+pre{border:1px solid #999;background-color:#f0f0f0;padding:5px;overflow:auto;max-height:500px}
+pre code{border:0;background:none;padding:0}
+ul.pagination{list-style-type:none;text-align:center}
+li.page-item{display:inline;padding-right:15px}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1><a href="http://yanlinlin82.github.io/ARTS-Weekly/">颜林林的“左耳听风ARTS”打卡记录</a></h1>
+  </div>
+  <nav><a href="/ARTS-Weekly/">目录</a><a href="/ARTS-Weekly/about/">关于</a></nav>
+</header>
+<main>
+  <article class="content">
+    <div>
+  <h1>ARTS第六周（2019年10月28日~11月3日）</h1>
+</div>
+<div>
+  <div>2019-11-04 00:47</span>
+  </div>
+<div>
+  <h2 id="algorithm">Algorithm</h2>
+<p><a href="https://leetcode-cn.com/problemset/all/">LeetCode题库</a></p>
+<ul>
+<li><a href="https://github.com/yanlinlin82/leetcode/blob/master/00021_merge-two-sorted-lists/191028-1.cpp">合并两个有序链表</a></li>
+<li><a href="https://github.com/yanlinlin82/leetcode/blob/master/00022_generate-parentheses/191104-1.cpp">括号生成</a></li>
+</ul>
+<h2 id="review">Review</h2>
+<p><a href="https://itnext.io/the-case-for-c-4122a5b47130">The Case for C++</a></p>
+<p>这篇文章快速介绍了现代C++（即C++11以来的新标准）的一些新特性，并提供了一些社区、工具等资源。</p>
+<p>其中让我比较惊艳的是管道的实现（我之前尝试自己做做，但没能成功，后面还打算深入学习下其原理）：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cpp" data-lang="cpp"><span style="color:#66d9ef">auto</span> genYNames <span style="color:#f92672">=</span> people <span style="color:#f92672">|</span> filter(younger_than(<span style="color:#ae81ff">39</span>))
+                        <span style="color:#f92672">|</span> filter(older_than(<span style="color:#ae81ff">19</span>))
+                        <span style="color:#f92672">|</span> transform(names)
+                        <span style="color:#f92672">|</span> sort()
+                        <span style="color:#f92672">|</span> unique();
+for_each(genYNames, [](<span style="color:#66d9ef">auto</span> name) {
+    cout <span style="color:#f92672">&lt;</span><span style="color:#f92672">&lt;</span> name <span style="color:#f92672">&lt;</span><span style="color:#f92672">&lt;</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>;
+});
+</code></pre></div><p>这篇文章，让我重拾对现代C++的信心。因为C++在表现得更加现代的同时，也依然能够几乎完全兼容旧语言规范，从而使这门语言能够应用在跨度更大的范围。</p>
+<h2 id="tip">Tip</h2>
+<p><strong>如何在bash里读取csv文件</strong></p>
+<p>过去，我在bash里用<code>read</code>命令读取csv文件时，总需要先用tr或awk做转换，例如：</p>
+<pre><code>$ echo -e &quot;a,b\n1,2&quot; | tr ',' '\t' | while read a b; do echo &quot;($a) ($b)&quot;; done
+(a) (b)
+(1) (2)
+</code></pre><p>通过这篇文章，了解到可以直接设置<code>IFS</code>变量来实现同样效果：</p>
+<pre><code>$ echo -e &quot;a,b\n1,2&quot; | while IFS=',' read a b; do echo &quot;($a) ($b)&quot;; done
+(a) (b)
+(1) (2)
+</code></pre><p>参考：<a href="https://www.cyberciti.biz/faq/unix-linux-bash-read-comma-separated-cvsfile/">https://www.cyberciti.biz/faq/unix-linux-bash-read-comma-separated-cvsfile/</a></p>
+<h2 id="share">Share</h2>
+<p><a href="https://github.com/danistefanovic/build-your-own-x">Build your own (insert technology here)</a></p>
+<p>GitHub上超过5万星标的项目，收集各类“自己打造”系列链接。所谓“不要造轮子，除非想学透”，亲自折腾，才是技能内化的捷径。</p>
+</div>
+
+  </article>
+</main>
+<footer>
+  <div>
+    <div>
+      &copy; 2019 Linlin Yan. <a href="https://creativecommons.org/licenses/by/4.0/deed.zh">CC-BY-4.0</a></div>
+  </div>
+</footer>
+</body>
+</html>

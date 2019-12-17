@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 颜林林的“左耳听风ARTS”打卡记录</title>
+    <link>http://yanlinlin82.github.io/ARTS-Weekly/post/</link>
+    <description>Recent content in Posts on 颜林林的“左耳听风ARTS”打卡记录</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 17 Dec 2019 22:36:42 +0800</lastBuildDate>
+    
+	<atom:link href="http://yanlinlin82.github.io/ARTS-Weekly/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ARTS第十三周（2019年12月16日~22日）</title>
+      <link>http://yanlinlin82.github.io/ARTS-Weekly/week-013/</link>
+      <pubDate>Tue, 17 Dec 2019 22:36:42 +0800</pubDate>
+      
+      <guid>http://yanlinlin82.github.io/ARTS-Weekly/week-013/</guid>
+      <description>Algorithm  LeetCode题库     编号 难度 题目 我的解答 执行用时 内存消耗 排名     42 困难 接雨水 191216-1.cpp 496 ms 10.1 MB 5.05%   43 中等 字符串相乘 191217-1.cpp 8 ms 9.7 MB 80.75%    Review (1) 7 Advanced C++ Concepts You Should Know 这篇文章介绍了C++中的七个高级概念：
+ RAII（Resource Acquisition Is Initialization，资源获取即初始化）：这种方法利用变量生存期来管理资源，在变量销毁时，通过其类型的析构函数进行资源释放，从而有效避免资源泄露。 Return Type Resolver（返回类型的识别）：通常对函数的重载，是不允许两个函数只有返回类型有差别的，然而通过将函数封装成为某个类的构造函数，同时为该类提供一个模板化的类型转换运算符（templatized conversion operator），可以实现相应效果。详见文中示例。 Type Erasure（类型清除）：对于C++这种强类型语言，想要实现一些弱类型语言的效果（诸如新标准提供的std::any、std::variant和std::function等），就需要用到这项技术，可以通过模板、多态重载、联合（union）类型等方式来实现。 CRTP（Curiously Recurring Template Pattern，奇异递归模板模式）：这是为了实现静态（即编译期）多态性，通过将类型依赖的代码单独提出来实现，而将类型独立的代码，放到模板类或模板函数中实现，从而实现不用类继承方式的多态性，避免增加虚指针带来的额外运行时开销。 Virtual Constructor（虚构造函数）：设计模式中的工厂方法，根据一个已经实例化出来的对象，去构造（或克隆）一个同类型的新实例对象出来。 SFINAE and std::enable_if（Substitution Failure Is Not An Error，替换失败不是错误）：这是一个现代C++编译器提供的特性，通过这个特性，可以实现各种模板偏特化效果，在编译期完成更多逻辑判断。 Proxy（代理）：这是应用中间类的方法，来实现面向对象的二维数组，所以也可能被看成仅仅是operator []的一种技巧。详细描述可参见文中示例。  (2) PHP: a fractal of bad design 这是一篇2012年的吐槽PHP语言的文章。文中从诸如核心语言理念、运算符、变量、数据结构、错误处理、函数、面向对象、标准库、文本处理等方面，翔实地罗列了这门语言存在的问题，并给出了相应的示例，以及解释为什么这种设计是不好的。</description>
+    </item>
+    
+    <item>
+      <title>ARTS第十二周（2019年12月9日~15日）</title>
+      <link>http://yanlinlin82.github.io/ARTS-Weekly/week-012/</link>
+      <pubDate>Mon, 09 Dec 2019 23:36:14 +0800</pubDate>
+      
+      <guid>http://yanlinlin82.github.io/ARTS-Weekly/week-012/</guid>
+      <description>Algorithm LeetCode题库
+   编号 难度 题目 我的解答 执行用时 内存消耗 排名     36 中等 有效的数独 191208-1.cpp 4 ms 9.4 MB 99.97%   37 困难 解数独 191208-1.cpp 40 ms 8.6 MB 23.66%   38 简单 报数 191209-1.cpp 4 ms 9 MB 90.22%   39 中等 组合总和 191209-1.cpp 20 ms 10 MB 63.90%   40 中等 组合总和 II 191212-1.cpp 8 ms 9.7 MB 93.88%   41 困难 缺失的第一个正数 191213-1.</description>
+    </item>
+    
+    <item>
+      <title>ARTS第十一周（2019年12月2日~8日）</title>
+      <link>http://yanlinlin82.github.io/ARTS-Weekly/week-011/</link>
+      <pubDate>Tue, 03 Dec 2019 00:20:12 +0800</pubDate>
+      
+      <guid>http://yanlinlin82.github.io/ARTS-Weekly/week-011/</guid>
+      <description>Algorithm LeetCode题库
+ 搜索旋转排序数组：我的解答 在排序数组中查找元素的第一个和最后一个位置：我的解答 搜索插入位置：我的解答  Review Implementation of Resizable Multidimensional Arrays in C++17
+这是一篇技术文章，在C++中从头构建多维数组类型，并支持其数组大小可变。C++本身只支持一维数组（vector类型），而不支持多维数组。虽然可以使用嵌套的vector来实现类似效果，但这种方式每个层级不同元素之间的数组长度互相独立，其效果与科学计算中的矩阵和张量并不一致。这篇文章充分使用了恰当的内存布局和指针寻址方式，配合C++新标准的操作符重载与模板封装方法，来实现了所需的多维数组效果。其最终表现性能胜过vector的方式。且文章在介绍各个实现细节重点时，也讲解清楚，值得仔细阅读学习。
+Tip 如何在Linux下对PDF文件进行减肥
+Linux shell script to reduce PDF file size
+本文提供了一个shell脚本，调用gs命令，对pdf中图片、meta信息等进行缩减，从而达到缩小PDF文件大小的目的。
+Share html提供的几种空格实体
+介绍了如下字符：
+ &amp;amp;nbsp;或&amp;amp;#x0020;（不换行空格，no-break space） &amp;amp;ensp;（半角空格，en space） &amp;amp;emsp;（全角空格，em space） &amp;amp;thinsp;（窄空格，thin space） &amp;amp;zwnj;（零宽不连字，zero width non joiner） &amp;amp;zwj;（零宽连字，zero width joiner） &amp;amp;#x0009;（制表符） &amp;amp;#x000A;（换行） &amp;amp;#x000D;（回车） &amp;amp;#12288;  </description>
+    </item>
+    
+    <item>
+      <title>ARTS第十周（2019年11月25日~12月1日）</title>
+      <link>http://yanlinlin82.github.io/ARTS-Weekly/week-010/</link>
+      <pubDate>Wed, 27 Nov 2019 00:20:17 +0800</pubDate>
+      
+      <guid>http://yanlinlin82.github.io/ARTS-Weekly/week-010/</guid>
+      <description>Algorithm LeetCode题库
+ 串联所有单词的子串：我的解答 下一个排列：我的解答 最长有效括号：我的解答  Review Lessons from a Life in a Chair
+这是一篇来自一位从1988年开始编程的老程序员的分享，对其多年编程经验中的心得总结（以下中文翻译和解释，为我自己的理解）：
+ 复杂度是魔鬼（Complexity is the Devil）：包括不可避免的优化和扩展性等需求，都会导致复杂度的提升，进而带来各种问题。 持久进行的持久化（The Persistence of Persistence）：对于各类需要保存下来的数据，一定要有版本控制，并应该使其具备可扩展性。 坐在卧室中打造一个帝国（An Empire in my Underwear）：软件开发提供的机会，可以在卧室中，通过发挥创造力，来改变世界。 把所期望的东西正确表达出来（Say What You Mean）：用计算机语言把需求表达出来，所有语言都应该优先增加表达语义的能力。 不可避免的中年负担（The Inevitability of Middle Age）：随着语言的发展，必然会背负越来越多的历史负担，就像中年人一样越来越难。 过去的错误成为未来的希望（The Mistakes of the Past Become the Promise of the Future）：过去遇到的很多问题及其折衷解决方案，会被不了解历史的人诟病。 产品驱动还是技术驱动（Entrepreneurs vs. Mercenaries）：两类开发人员，产品驱动者会将语言视为工具，而技术驱动者会更看重语言本身特性的优劣比较。 让少量有特殊需求者自己去吧（Let the X Percenters Take Care of Themselves）：基于优化的80/20原则，面对少量特殊需求，我们不用太过迎合，让他们自己去吧就好。 从一开始就认真对待项目结构（Take Project Structure Seriously From Day One）：因为项目中后期调整结构的代价太大。 数据分离与表示（Separation of Data and Presentation）：这是显而易见的需求，但却也是很容易陷入其中的问题。 永不放弃，永不投降（Never Give Up, Never Surrender）：坚持挑战下去。  Tip 如何在Linux下正常解压缩来自Windows系统的zip压缩包</description>
+    </item>
+    
+    <item>
+      <title>ARTS第九周（2019年11月18日~24日）</title>
+      <link>http://yanlinlin82.github.io/ARTS-Weekly/week-009/</link>
+      <pubDate>Mon, 18 Nov 2019 23:39:01 +0800</pubDate>
+      
+      <guid>http://yanlinlin82.github.io/ARTS-Weekly/week-009/</guid>
+      <description>Algorithm LeetCode题库
+ 移除元素：我的解答 实现 strStr()：我的解答 两数相除：我的解答  Review aRrgh: a newcomer’s (angry) guide to R
+这是一篇发布于七年前（2012年）的文档了，吐槽了很多R语言基础语法方面的糟糕设计，这些槽点的确让众多初学者（尤其是从其他语言转过来的初学者）很是头疼一番，才能开始正确使用该语言。用作者的原话表述，“The more you learn about the R language, the worse it will feel”。
+包括了如下几个方面：
+ 基础语法 向量类型 因子类型 数据框类型  仔细阅读这篇文章，其实有助于初学者加深对这些容易混淆或理解错误的地方的印象，从而更高效的掌握和使用这门语言。
+不过遗憾的是，这篇文档并未更新完成，所列举的诸如“索引”、“列表”等内容，至今仍处于“To come?”状态。
+所幸，文档提及的推荐“tidyverse”软件包和“Bioconductor”生态，倒是一直欣欣向荣，对R语言的易用和能力扩展，起到了重要作用。
+Tip 如何在用vim打开文件时，自动定位到特定行
+vim +行号 文件名 # 根据行号指定跳转位置 vim +/关键词 文件名 # 根据内容指定跳转位置 参考：https://www.cyberciti.biz/faq/linux-unix-command-open-file-linenumber-function/
+Share 5 Ways Using Braces Can Make Your C++ Code More Expressive
+本文分享了使用花括号改善C++代码的几种方法。这些内容大多都依赖于C++新标准。
+ 填充各类容器（Filling all sorts of containers）  std::vector&amp;lt;std::string&amp;gt; words = {&amp;#34;the&amp;#34;, &amp;#34;mortar&amp;#34;, &amp;#34;holding&amp;#34;, &amp;#34;code&amp;#34;, &amp;#34;together&amp;#34;}; std::pair answer = {&amp;#34;forty-two&amp;#34;, 42}; std::tuple cue = {3, 2, 1, &amp;#34;go!</description>
+    </item>
+    
+    <item>
+      <title>ARTS第八周（2019年11月11日~17日）</title>
+      <link>http://yanlinlin82.github.io/ARTS-Weekly/week-008/</link>
+      <pubDate>Fri, 15 Nov 2019 22:29:44 +0800</pubDate>
+      
+      <guid>http://yanlinlin82.github.io/ARTS-Weekly/week-008/</guid>
+      <description>Algorithm LeetCode题库
+ 两两交换链表中的节点 K 个一组翻转链表 删除排序数组中的重复项  Review 《Working With Numerical Lists in Functional Languages》
+这篇文章介绍了Haskell语言中的列表类型，这是该语言中的一种基本类型，也体现了该语言作为函数式编程语言的特点之一。
+不同于C++等语言的基本语法，Haskell的列表，竟然能够定义无限集合：
+numbers = [1..10] -- Creates a list of numbers from 1 to 10 numbers = [1..] -- Creates a infinit list of numbers from 1 to beyond take 10 numbers -- Get the top ten elements from the list length numbers -- Get the size of the list numbers !! n -- Get the Nth element out of a list numbers = [(x ^2) | x &amp;lt;- [1.</description>
+    </item>
+    
+    <item>
+      <title>ARTS第七周（2019年11月4日~10日）</title>
+      <link>http://yanlinlin82.github.io/ARTS-Weekly/week-007/</link>
+      <pubDate>Sun, 10 Nov 2019 23:43:41 +0800</pubDate>
+      
+      <guid>http://yanlinlin82.github.io/ARTS-Weekly/week-007/</guid>
+      <description>Algorithm LeetCode题库
+ 合并K个排序链表  Review Cache consistency and the C++ memory model: Writing code for real hardware
+这是Core C++ Octoberfest活动中分享的一个幻灯片：《Cache Consistency and the C++ Memory Model: Writing Code to Real Hardware》（演讲者：Yossi Moalem）
+从这个幻灯片中，我更加深入地学习到计算机高级语言的命令，其先后顺序并不总是与源码完全一致的，这是充分利用计算机CPU流水线等特性，来提升运行效率的实践。然而这却为并行化的代码带来了更多难度和麻烦。C++语言标准本身为解决这些冲突问题，让代码能够按照预期的行为执行，是需要从底层给予支持的。
+Tip 在R语言中，如何比较优雅地载入很多个包？
+方法1：
+摘自：https://jozef.io/r204-spark-r-invoke-scala/
+suppressPackageStartupMessages({ library(sparklyr) library(dplyr) library(nycflights13) }) 方法2：
+摘自：https://heads0rtai1s.github.io/2019/11/07/tidy-curly-pivot-leaflet/
+libs &amp;lt;- c(&#39;dplyr&#39;, &#39;tidyr&#39;, # wrangling &#39;readr&#39;, &#39;stringr&#39;, # wrangling &#39;knitr&#39;,&#39;kableExtra&#39;, # table styling &#39;ggplot2&#39;,&#39;gridExtra&#39;, # plots &#39;leaflet&#39;) # interactive maps invisible(lapply(libs, library, character.only = TRUE)) Share How C program stored in RAM memory?</description>
+    </item>
+    
+    <item>
+      <title>ARTS第六周（2019年10月28日~11月3日）</title>
+      <link>http://yanlinlin82.github.io/ARTS-Weekly/week-006/</link>
+      <pubDate>Mon, 04 Nov 2019 00:47:52 +0800</pubDate>
+      
+      <guid>http://yanlinlin82.github.io/ARTS-Weekly/week-006/</guid>
+      <description>Algorithm LeetCode题库
+ 合并两个有序链表 括号生成  Review The Case for C++
+这篇文章快速介绍了现代C++（即C++11以来的新标准）的一些新特性，并提供了一些社区、工具等资源。
+其中让我比较惊艳的是管道的实现（我之前尝试自己做做，但没能成功，后面还打算深入学习下其原理）：
+auto genYNames = people | filter(younger_than(39)) | filter(older_than(19)) | transform(names) | sort() | unique(); for_each(genYNames, [](auto name) { cout &amp;lt;&amp;lt; name &amp;lt;&amp;lt; &amp;#34;\n&amp;#34;; }); 这篇文章，让我重拾对现代C++的信心。因为C++在表现得更加现代的同时，也依然能够几乎完全兼容旧语言规范，从而使这门语言能够应用在跨度更大的范围。
+Tip 如何在bash里读取csv文件
+过去，我在bash里用read命令读取csv文件时，总需要先用tr或awk做转换，例如：
+$ echo -e &amp;quot;a,b\n1,2&amp;quot; | tr &#39;,&#39; &#39;\t&#39; | while read a b; do echo &amp;quot;($a) ($b)&amp;quot;; done (a) (b) (1) (2) 通过这篇文章，了解到可以直接设置IFS变量来实现同样效果：
+$ echo -e &amp;quot;a,b\n1,2&amp;quot; | while IFS=&#39;,&#39; read a b; do echo &amp;quot;($a) ($b)&amp;quot;; done (a) (b) (1) (2) 参考：https://www.</description>
+    </item>
+    
+    <item>
+      <title>ARTS第五周（2019年10月21日~27日）</title>
+      <link>http://yanlinlin82.github.io/ARTS-Weekly/week-005/</link>
+      <pubDate>Sun, 27 Oct 2019 14:10:13 +0800</pubDate>
+      
+      <guid>http://yanlinlin82.github.io/ARTS-Weekly/week-005/</guid>
+      <description>返回目录
+Algorithm LeetCode题库
+ 有效的括号  Review Ten simple rules to aid in achieving a vision
+来源：PLOS Computational Biology
+这是一篇正经科研杂志发表出来的论文，内容却有点像成功学的内容。但考虑到作者是弗吉尼亚大学的教授，且是计算生物学和生物信息学发展早期的前辈，也是该杂志的联合创始人，于是仔细读下来，觉得该总结还是比较有意义的。
+达成愿景的十条法则：
+ Be realistic，务实 Truly believe in your vision，自己真正相信 Have a plan to fulfill the vision and expect both to change，制定计划并接受变化 Be in the right place at the right time and seize the opportunity，天时地利人和 Be able to finance your vision，有财务支持 Be able to communicate the vision effectively，应高效地与他人交流该愿景 Be willing to share ownership，愿意与他人分享（以合作） Be patient and don’t expect rewards，耐住性子 Know when to stop，知道何时该喊停 Take time to enjoy the experience，花时间参与活动的庆祝  Tip 如何让Linux命令history能显示运行时间？</description>
+    </item>
+    
+    <item>
+      <title>ARTS第四周（2019年10月14日~20日）</title>
+      <link>http://yanlinlin82.github.io/ARTS-Weekly/week-004/</link>
+      <pubDate>Sat, 19 Oct 2019 23:35:51 +0800</pubDate>
+      
+      <guid>http://yanlinlin82.github.io/ARTS-Weekly/week-004/</guid>
+      <description>Algorithm LeetCode题库
+ 电话号码的字母组合 四数之和 删除链表的倒数第N个节点  Review The Cost of Waiting for Feedback in Software Development
+来源：CodeProject
+这篇文章重点在讲述及时反馈的重要性。对于某个问题，由于并行处理大量问题，导致原本可以即时反馈的信息，拖延数周才反馈，其效率损失，将会达到二十多倍。
+文章以一个写邮件的简单工作场景，进行了细致的描述，刻画了各个环节上面临的问题，以及导致效率低下的原因。并给出了可能的解决方案。重点就是减少各种沟通环节和成本，让反馈更加及时。
+此外，这是个系列文章中的一篇，相应的整个系列，其实也值得一读： http://www.hadermann.be/blog/category/nontech/
+Tip 这里提及一个如何实现组合穷举的技巧，算是自己在解一个算法题时遇到并尝试实现的。
+题目在这里，是个涂色问题：https://yanlinlin82.github.io/191017a_Color-Filling/
+解法详细过程在这里：https://yanlinlin82.github.io/191017a_Color-Filling/analysis.v3.html
+重点是其中穷举所有组合的部分，由于需要把每个组合都以一个数据框（data.frame）结构列出，所以使用了递归函数，逐级去追加新的房间（方块）号进来：
+all_comb &amp;lt;- function(n) { if (n &amp;lt;= 1) { lapply(1:max_color, function(x) tibble(house = 1, fill = x)) } else { l &amp;lt;- all_comb(n - 1) lapply(1:max_color, function(x) { lapply(l, function(d) rbind(d, tibble(house = n, fill = x))) }) %&amp;gt;% do.call(&amp;#34;c&amp;#34;, .) } } 递归函数实现，能够有效避免繁琐的回溯式遍历的写法，让程序的逻辑更加容易读懂。</description>
+    </item>
+    
+    <item>
+      <title>ARTS第三周（2019年10月7日~13日）</title>
+      <link>http://yanlinlin82.github.io/ARTS-Weekly/week-003/</link>
+      <pubDate>Fri, 11 Oct 2019 23:15:59 +0800</pubDate>
+      
+      <guid>http://yanlinlin82.github.io/ARTS-Weekly/week-003/</guid>
+      <description>Algorithm 链接： https://leetcode-cn.com/problems/regular-expression-matching/
+题目： 正则表达式匹配
+给你一个字符串 s 和一个字符规律 p，请你来实现一个支持 . 和 * 的正则表达式匹配。
+&#39;.&#39; 匹配任意单个字符 &#39;*&#39; 匹配零个或多个前面的那一个元素 所谓匹配，是要涵盖 整个 字符串 s的，而不是部分字符串。 说明：
+s 可能为空，且只包含从 a-z 的小写字母。 p 可能为空，且只包含从 a-z 的小写字母，以及字符 . 和 *。 示例1:
+**输入:** s = &amp;quot;aa&amp;quot; p = &amp;quot;a&amp;quot; **输出:** false **解释:** &amp;quot;a&amp;quot; 无法匹配 &amp;quot;aa&amp;quot; 整个字符串。 示例2:
+**输入:** s = &amp;quot;aa&amp;quot; p = &amp;quot;a*&amp;quot; **输出:** true **解释:** 因为 &#39;*&#39; 代表可以匹配零个或多个前面的那一个元素, 在这里前面的元素就是 &#39;a&#39;。因此，字符串 &amp;quot;aa&amp;quot; 可被视为 &#39;a&#39; 重复了一次。 示例3:
+**输入:** s = &amp;quot;ab&amp;quot; p = &amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title>ARTS第二周（2019年9月30日~10月6日）</title>
+      <link>http://yanlinlin82.github.io/ARTS-Weekly/week-002/</link>
+      <pubDate>Sat, 05 Oct 2019 21:56:04 +0800</pubDate>
+      
+      <guid>http://yanlinlin82.github.io/ARTS-Weekly/week-002/</guid>
+      <description>Algorithm 链接： https://leetcode-cn.com/problems/longest-consecutive-sequence
+题目： 最长连续序列
+给定一个未排序的整数数组，找出最长连续序列的长度。
+要求算法的时间复杂度为O(n)。
+示例:
+ **输入: ** [100, 4, 200, 1, 3, 2]
+**输出: ** 4
+**解释: ** 最长连续序列是 [1, 2, 3, 4]。它的长度为 4。
+ 解答：
+class Solution { public: int longestConsecutive(vector&amp;lt;int&amp;gt;&amp;amp; nums) { int n = nums.size(); if (n == 0) return 0; unordered_map&amp;lt;int, pair&amp;lt;int, int&amp;gt;&amp;gt; r; int longest = 1; for (int i = 0; i &amp;lt; n; ++i) { int v = nums[i]; auto p = r.</description>
+    </item>
+    
+    <item>
+      <title>ARTS第一周（2019年9月23日~29日）</title>
+      <link>http://yanlinlin82.github.io/ARTS-Weekly/week-001/</link>
+      <pubDate>Sun, 29 Sep 2019 22:11:09 +0800</pubDate>
+      
+      <guid>http://yanlinlin82.github.io/ARTS-Weekly/week-001/</guid>
+      <description>Algorithm 链接： https://leetcode-cn.com/problems/add-two-numbers
+题目： 两数相加
+给出两个非空的链表用来表示两个非负的整数。其中，它们各自的位数是按照 逆序 的方式存储的，并且它们的每个节点只能存储一位数字。
+如果，我们将这两个数相加起来，则会返回一个新的链表来表示它们的和。
+您可以假设除了数字0之外，这两个数都不会以0开头。
+示例：
+ 输入： (2 -&amp;gt; 4 -&amp;gt; 3) + (5 -&amp;gt; 6 -&amp;gt; 4)
+输出： 7 -&amp;gt; 0 -&amp;gt; 8
+原因： 342 + 465 = 807
+ 解答：
+/** * Definition for singly-linked list. * struct ListNode { * int val; * ListNode *next; * ListNode(int x) : val(x), next(NULL) {} * }; */ class Solution { public: ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) { ListNode* r = new ListNode(0); ListNode* p = r; bool carry = false; while (l1 || l2) { int value = (l1 ?</description>
+    </item>
+    
+  </channel>
+</rss>

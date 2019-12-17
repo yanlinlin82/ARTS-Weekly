@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARTS第十三周（2019年12月16日~22日） - 颜林林的“左耳听风ARTS”打卡记录</title>
+<style type="text/css">
+body{margin:16px auto;max-width:677px;padding:0 10px;color:#333;line-height:1.6}
+h1,h2,h3{line-height:1.2}
+h1{font-size:160%}
+h2{font-size:120%}
+h3,h4,h5,h6{font-size:100%}
+header{margin:0;padding:0;border-bottom:1px solid #999;line-height:1}
+footer{margin:0;padding:10px 0;border-top:1px solid #999;line-height:1;text-align:center}
+p,div,table,ul,ol{margin:10px 0}
+img{margin:10px auto;width:90%;max-width:600px;padding:0 10px;height:auto;display:block}
+hr{border:none;border-top:1px dashed #999;color:#fff;background-color:#fff;height:1px}
+a{color:#00f}
+a:visited{color:#009}
+a:hover{color:#f00}
+header a,header a:visited,footer a,footer a:visited,h1 a,h1 a:visited,h2 a,h2 a:visited{text-decoration:none;color:#333}
+header a:hover,footer a:hover,h1 a:hover,h2 a:hover{text-decoration:none;color:#f00}
+nav{padding:10px 0;text-align:right}
+nav a{padding-left:15px}
+table{border-collapse:collapse}
+th,td{border:1px solid gray;padding:2px 5px}
+code{border:1px solid #999;background-color:#f0f0f0;padding:1px 2px}
+pre{border:1px solid #999;background-color:#f0f0f0;padding:5px;overflow:auto;max-height:500px}
+pre code{border:0;background:none;padding:0}
+ul.pagination{list-style-type:none;text-align:center}
+li.page-item{display:inline;padding-right:15px}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1><a href="http://yanlinlin82.github.io/ARTS-Weekly/">颜林林的“左耳听风ARTS”打卡记录</a></h1>
+  </div>
+  <nav><a href="/ARTS-Weekly/">目录</a><a href="/ARTS-Weekly/about/">关于</a></nav>
+</header>
+<main>
+  <article class="content">
+    <div>
+  <h1>ARTS第十三周（2019年12月16日~22日）</h1>
+</div>
+<div>
+  <div>2019-12-17 22:36</span>
+  </div>
+<div>
+  <h2 id="algorithm">Algorithm</h2>
+<ul>
+<li><a href="https://leetcode-cn.com/problemset/all/">LeetCode题库</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">编号</th>
+<th align="center">难度</th>
+<th align="left">题目</th>
+<th align="left">我的解答</th>
+<th align="right">执行用时</th>
+<th align="right">内存消耗</th>
+<th align="right">排名</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">42</td>
+<td align="center">困难</td>
+<td align="left"><a href="https://leetcode-cn.com/problems/trapping-rain-water/">接雨水</a></td>
+<td align="left"><a href="https://github.com/yanlinlin82/leetcode/blob/master/00042_trapping-rain-water/191216-1.cpp">191216-1.cpp</a></td>
+<td align="right">496 ms</td>
+<td align="right">10.1 MB</td>
+<td align="right"><a href="https://leetcode-cn.com/submissions/detail/40112534/">5.05%</a></td>
+</tr>
+<tr>
+<td align="center">43</td>
+<td align="center">中等</td>
+<td align="left"><a href="https://leetcode-cn.com/problems/multiply-strings/">字符串相乘</a></td>
+<td align="left"><a href="https://github.com/yanlinlin82/leetcode/blob/master/00043_multiply-strings/191217-1.cpp">191217-1.cpp</a></td>
+<td align="right">8 ms</td>
+<td align="right">9.7 MB</td>
+<td align="right"><a href="https://leetcode-cn.com/submissions/detail/40348646/">80.75%</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="review">Review</h2>
+<h3 id="1-7-advanced-c-concepts-you-should-knowhttpsdevtovisheshpatel7-advanced-c-concepts-you-should-know-4gog">(1) <a href="https://dev.to/visheshpatel/7-advanced-c-concepts-you-should-know-4gog">7 Advanced C++ Concepts You Should Know</a></h3>
+<p>这篇文章介绍了C++中的七个高级概念：</p>
+<ol>
+<li>RAII（Resource Acquisition Is Initialization，资源获取即初始化）：这种方法利用变量生存期来管理资源，在变量销毁时，通过其类型的析构函数进行资源释放，从而有效避免资源泄露。</li>
+<li>Return Type Resolver（返回类型的识别）：通常对函数的重载，是不允许两个函数只有返回类型有差别的，然而通过将函数封装成为某个类的构造函数，同时为该类提供一个模板化的类型转换运算符（templatized conversion operator），可以实现相应效果。详见文中示例。</li>
+<li>Type Erasure（类型清除）：对于C++这种强类型语言，想要实现一些弱类型语言的效果（诸如新标准提供的<code>std::any</code>、<code>std::variant</code>和<code>std::function</code>等），就需要用到这项技术，可以通过模板、多态重载、联合（union）类型等方式来实现。</li>
+<li>CRTP（Curiously Recurring Template Pattern，奇异递归模板模式）：这是为了实现静态（即编译期）多态性，通过将类型依赖的代码单独提出来实现，而将类型独立的代码，放到模板类或模板函数中实现，从而实现不用类继承方式的多态性，避免增加虚指针带来的额外运行时开销。</li>
+<li>Virtual Constructor（虚构造函数）：设计模式中的工厂方法，根据一个已经实例化出来的对象，去构造（或克隆）一个同类型的新实例对象出来。</li>
+<li>SFINAE and <code>std::enable_if</code>（Substitution Failure Is Not An Error，替换失败不是错误）：这是一个现代C++编译器提供的特性，通过这个特性，可以实现各种模板偏特化效果，在编译期完成更多逻辑判断。</li>
+<li>Proxy（代理）：这是应用中间类的方法，来实现面向对象的二维数组，所以也可能被看成仅仅是<code>operator []</code>的一种技巧。详细描述可参见文中示例。</li>
+</ol>
+<h3 id="2-php-a-fractal-of-bad-designhttpseeveeblog20120409php-a-fractal-of-bad-design">(2) <a href="https://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/">PHP: a fractal of bad design</a></h3>
+<p>这是一篇2012年的吐槽PHP语言的文章。文中从诸如核心语言理念、运算符、变量、数据结构、错误处理、函数、面向对象、标准库、文本处理等方面，翔实地罗列了这门语言存在的问题，并给出了相应的示例，以及解释为什么这种设计是不好的。</p>
+<p>这种有理有据的吐槽，比起很多站在道德制高点的骂战，要有价值得多。真正想要放弃或劝人放弃PHP语言的，可以仔细阅读本文，并用这里提到的理由，去说服他人。而对于仍然想继续使用PHP语言的，在这些反面示例的帮助下，也能尽可能让自己的代码变得更加可被预期、易于维护。毕竟，没有任何一门语言是完美的（即使像C++这样的“神圣”语言，也专门有一本《Impefect C++》的大部头书籍，来吐槽该语言的各种设计不足之处）。比起语言的影响，坏代码更多其实是与作者的能力水平和态度有关。</p>
+<h2 id="tip">Tip</h2>
+<h3 id="1-linux">(1) 如何列出Linux系统过去的重启时间</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ last reboot
+</code></pre></div><p>来源：<a href="https://www.cyberciti.biz/tips/linux-last-reboot-time-and-date-find-out.html">Linux Find Out Last System Reboot Time and Date Command</a></p>
+<h3 id="2-">(2) 如何去掉文件扩展名</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ basename -a -z a b c d
+</code></pre></div><p>来源：<a href="https://www.cyberciti.biz/faq/bash-get-filename-from-given-path-on-linux-or-unix/">Bash get filename from given path on Linux or Unix</a></p>
+<h3 id="3-">(3) 如何检查用户的密码有效期</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">chage -l &lt;用户名&gt;
+</code></pre></div><p>来源：<a href="https://www.cyberciti.biz/faq/linux-howto-check-user-password-expiration-date-and-time/">Linux Check User Password Expiration Date and Time</a></p>
+<h3 id="4-git">(4) 如何按照文件修改时间，提交git</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git commit some-file -m<span style="color:#e6db74">&#34;description&#34;</span> --date<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>stat --format <span style="color:#e6db74">&#34;%y&#34;</span> some-file<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</code></pre></div><p>来源：<a href="https://git-scm.com/docs/git-commit">Git - git-commit Documentation</a></p>
+<h3 id="5-shell">(5) shell中检查文件是否可写</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ test -w &lt;文件名&gt;
+$ echo $?
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> -w <span style="color:#e6db74">&#34;</span>$FILE<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">]</span>
+<span style="color:#66d9ef">then</span>
+   echo <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Write permission is granted on </span>$FILE<span style="color:#e6db74">&#34;</span>
+<span style="color:#66d9ef">else</span>
+   echo <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Write permission is NOT granted on </span>$FILE<span style="color:#e6db74">&#34;</span>
+<span style="color:#66d9ef">fi</span>
+</code></pre></div><p>来源：<a href="https://www.cyberciti.biz/faq/unix-linux-shell-scripting-test-if-filewritable/">BASH Shell Test If a File Is Writable or Not</a></p>
+<h3 id="6-dnsttltime-to-live">(6) 检查DNS记录的TTL（Time-To-Live）</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ dig A &lt;网址&gt;
+</code></pre></div><p>来源：<a href="https://www.cyberciti.biz/faq/how-to-see-time-to-live-ttl-for-a-dns-record/">How to see Time-To-Live (TTL) for a DNS record</a></p>
+<h3 id="7-coverride">(7) C++关键字'override'的作用</h3>
+<p>两个目的：</p>
+<ol>
+<li>方便读者阅读，知道这是一个虚函数，重载了基类的对应虚函数。</li>
+<li>告诉编译器，这是重载，应检查跟基类的函数定义一致，避免错误改变了函数，变成不是重载了。</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cpp" data-lang="cpp"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">base</span>
+{
+<span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
+    <span style="color:#66d9ef">virtual</span> <span style="color:#66d9ef">int</span> foo(<span style="color:#66d9ef">float</span> x) <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+};
+
+
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">derived</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">public</span> base
+{
+<span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
+    <span style="color:#66d9ef">int</span> foo(<span style="color:#66d9ef">float</span> x) <span style="color:#66d9ef">override</span> { ... <span style="color:#66d9ef">do</span> stuff with x and such ... }
+}
+
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">derived2</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">public</span> base
+{
+<span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
+    <span style="color:#66d9ef">int</span> foo(<span style="color:#66d9ef">int</span> x) <span style="color:#66d9ef">override</span> { ... } <span style="color:#75715e">// 若无‘override’关键字，则不会报错，从而被当作“类型变更”（虚机制将不会成立）
+</span><span style="color:#75715e"></span>};
+</code></pre></div><p>来源：<a href="https://stackoverflow.com/questions/18198314/what-is-the-override-keyword-in-c-used-for">What is the &lsquo;override&rsquo; keyword in C++ used for?</a></p>
+<h2 id="share">Share</h2>
+<h3 id="learning-basic-math-used-in-3d-graphics-engineshttpswwwcodeprojectcomarticles1247960learning-basic-math-used-in-3d-graphics-engines"><a href="https://www.codeproject.com/Articles/1247960/Learning-Basic-Math-Used-In-3D-Graphics-Engines">Learning Basic Math Used In 3D Graphics Engines</a></h3>
+<p>在做游戏等相关编程时，三维物体在屏幕上的展示，是重要的环节。要实现一个三维图像引擎，需要具备一些基本的数学知识，这就是这篇文章所包含的内容。</p>
+<p>所有的图像，最终都是由点、线、面构成。两点连线构成线段，所有的曲线都可以用切分的方法，采用多个线段组成。相应地，所有的曲面，也都可以用多个三角形来组成。最终，三维物体的移动、缩放、旋转、呈现，都会归结为点在空间坐标系中的定位。</p>
+<p>点的平移是比较容易实现的，用加减法即可。线段的缩放，其实就是相应的乘除法。最复杂的旋转，也可用两个三角函数的公式来表示：</p>
+<pre><code>x' = x.cos(90) - y.sin(90)
+y' = x.sin(90) + y.cos(90)
+</code></pre><p>用这三种运算，就可以解决所有的点的运动的问题了。</p>
+</div>
+
+  </article>
+</main>
+<footer>
+  <div>
+    <div>
+      &copy; 2019 Linlin Yan. <a href="https://creativecommons.org/licenses/by/4.0/deed.zh">CC-BY-4.0</a></div>
+  </div>
+</footer>
+</body>
+</html>

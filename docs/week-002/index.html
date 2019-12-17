@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARTS第二周（2019年9月30日~10月6日） - 颜林林的“左耳听风ARTS”打卡记录</title>
+<style type="text/css">
+body{margin:16px auto;max-width:677px;padding:0 10px;color:#333;line-height:1.6}
+h1,h2,h3{line-height:1.2}
+h1{font-size:160%}
+h2{font-size:120%}
+h3,h4,h5,h6{font-size:100%}
+header{margin:0;padding:0;border-bottom:1px solid #999;line-height:1}
+footer{margin:0;padding:10px 0;border-top:1px solid #999;line-height:1;text-align:center}
+p,div,table,ul,ol{margin:10px 0}
+img{margin:10px auto;width:90%;max-width:600px;padding:0 10px;height:auto;display:block}
+hr{border:none;border-top:1px dashed #999;color:#fff;background-color:#fff;height:1px}
+a{color:#00f}
+a:visited{color:#009}
+a:hover{color:#f00}
+header a,header a:visited,footer a,footer a:visited,h1 a,h1 a:visited,h2 a,h2 a:visited{text-decoration:none;color:#333}
+header a:hover,footer a:hover,h1 a:hover,h2 a:hover{text-decoration:none;color:#f00}
+nav{padding:10px 0;text-align:right}
+nav a{padding-left:15px}
+table{border-collapse:collapse}
+th,td{border:1px solid gray;padding:2px 5px}
+code{border:1px solid #999;background-color:#f0f0f0;padding:1px 2px}
+pre{border:1px solid #999;background-color:#f0f0f0;padding:5px;overflow:auto;max-height:500px}
+pre code{border:0;background:none;padding:0}
+ul.pagination{list-style-type:none;text-align:center}
+li.page-item{display:inline;padding-right:15px}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1><a href="http://yanlinlin82.github.io/ARTS-Weekly/">颜林林的“左耳听风ARTS”打卡记录</a></h1>
+  </div>
+  <nav><a href="/ARTS-Weekly/">目录</a><a href="/ARTS-Weekly/about/">关于</a></nav>
+</header>
+<main>
+  <article class="content">
+    <div>
+  <h1>ARTS第二周（2019年9月30日~10月6日）</h1>
+</div>
+<div>
+  <div>2019-10-05 21:56</span>
+  </div>
+<div>
+  <h2 id="algorithm">Algorithm</h2>
+<p><strong>链接：</strong> <a href="https://leetcode-cn.com/problems/longest-consecutive-sequence">https://leetcode-cn.com/problems/longest-consecutive-sequence</a></p>
+<p><strong>题目：</strong> 最长连续序列</p>
+<p>给定一个未排序的整数数组，找出最长连续序列的长度。</p>
+<p>要求算法的时间复杂度为<strong>O(n)</strong>。</p>
+<p><strong>示例:</strong></p>
+<blockquote>
+<p>**输入: ** [100, 4, 200, 1, 3, 2]<br>
+**输出: ** 4<br>
+**解释: ** 最长连续序列是 [1, 2, 3, 4]。它的长度为 4。</p>
+</blockquote>
+<p><strong>解答：</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cpp" data-lang="cpp"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
+<span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
+    <span style="color:#66d9ef">int</span> longestConsecutive(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span><span style="color:#f92672">&amp;</span> nums) {
+        <span style="color:#66d9ef">int</span> n <span style="color:#f92672">=</span> nums.size();
+        <span style="color:#66d9ef">if</span> (n <span style="color:#f92672">=</span><span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>) <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+        unordered_map<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span>, pair<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span>, <span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span><span style="color:#f92672">&gt;</span> r;
+        <span style="color:#66d9ef">int</span> longest <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> n; <span style="color:#f92672">+</span><span style="color:#f92672">+</span>i) {
+            <span style="color:#66d9ef">int</span> v <span style="color:#f92672">=</span> nums[i];
+            <span style="color:#66d9ef">auto</span> p <span style="color:#f92672">=</span> r.find(v);
+            <span style="color:#66d9ef">if</span> (p <span style="color:#f92672">!</span><span style="color:#f92672">=</span> r.end()) <span style="color:#66d9ef">continue</span>; <span style="color:#75715e">// skip if existed
+</span><span style="color:#75715e"></span>
+            <span style="color:#66d9ef">auto</span> p1 <span style="color:#f92672">=</span> r.find(v <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>);
+            <span style="color:#66d9ef">int</span> min <span style="color:#f92672">=</span> (p1 <span style="color:#f92672">=</span><span style="color:#f92672">=</span> r.end() <span style="color:#f92672">?</span> v : p1<span style="color:#f92672">-</span><span style="color:#f92672">&gt;</span>second.first);
+
+            <span style="color:#66d9ef">auto</span> p2 <span style="color:#f92672">=</span> r.find(v <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>);
+            <span style="color:#66d9ef">int</span> max <span style="color:#f92672">=</span> (p2 <span style="color:#f92672">=</span><span style="color:#f92672">=</span> r.end() <span style="color:#f92672">?</span> v : p2<span style="color:#f92672">-</span><span style="color:#f92672">&gt;</span>second.second);
+
+            r[v] <span style="color:#f92672">=</span> make_pair(min, max);
+            <span style="color:#66d9ef">if</span> (min <span style="color:#f92672">&lt;</span> v) r[min] <span style="color:#f92672">=</span> r[v];
+            <span style="color:#66d9ef">if</span> (max <span style="color:#f92672">&gt;</span> v) r[max] <span style="color:#f92672">=</span> r[v];
+
+            <span style="color:#66d9ef">int</span> range <span style="color:#f92672">=</span> max <span style="color:#f92672">-</span> min <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>;
+            <span style="color:#66d9ef">if</span> (longest <span style="color:#f92672">&lt;</span> range) {
+                longest <span style="color:#f92672">=</span> range;
+            }
+        }
+        <span style="color:#66d9ef">return</span> longest;
+    }
+};
+</code></pre></div><p>本周其他解题：</p>
+<ul>
+<li><a href="https://github.com/yanlinlin82/leetcode/blob/master/00002_add-two-numbers/190930-2.cpp">两数相加</a></li>
+<li><a href="https://github.com/yanlinlin82/leetcode/blob/master/00003_longest-substring-without-repeating-characters/191001-1.cpp">无重复字符的最长子串</a></li>
+<li><a href="https://github.com/yanlinlin82/leetcode/blob/master/00004_median-of-two-sorted-arrays/191003-2.cpp">寻找两个有序数组的中位数</a></li>
+<li><a href="https://github.com/yanlinlin82/leetcode/blob/master/00005_longest-palindromic-substring/191003-2.cpp">最长回文子串</a></li>
+<li><a href="https://github.com/yanlinlin82/leetcode/blob/master/00006_zigzag-conversion/191004-1.cpp">Z 字形变换</a></li>
+<li><a href="https://github.com/yanlinlin82/leetcode/blob/master/00007_reverse-integer/191005-1.cpp">整数反转</a></li>
+<li><a href="https://github.com/yanlinlin82/leetcode/blob/master/00008_string-to-integer-atoi/191005-1.cpp">字符串转换整数 (atoi)</a></li>
+</ul>
+<p><a href="https://github.com/yanlinlin82/leetcode">https://github.com/yanlinlin82/leetcode</a></p>
+<h2 id="review">Review</h2>
+<p><a href="https://www.codeproject.com/Articles/1044042/Cryptographic-Hashes-What-They-Are-and-Why-You-Sho">[CodeProject] Cryptographic Hashes: What They Are, and Why You Should be Friends</a></p>
+<p>本文展示了什么是密码学哈希函数（cryptographic hash function），以及相应的一些应用场景。</p>
+<p>哈希函数能将不定长的原始数据映射到定长的数据空间。密码学哈希函数则是一种特定的哈希函数，具有不可逆（non-invertible）的特性，即无法单纯从输出结果（也称为“信息摘要(message digest)”），还原出原始数据内容（也称为“信息(message)”）。除此之外，密码学哈希函数通常还具有如下特征：</p>
+<ol>
+<li>易计算（computationally easy）：从信息计算信息摘要是容易的。</li>
+<li>信息完整（message integrity）：信息的变动必然引发信息摘要的变动。</li>
+<li>耐碰撞（collision resistance）：很难找到同一信息摘要所对应的多个不同信息。</li>
+</ol>
+<p>常见的密码学哈希函数包括：</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/MD5">MD5</a></li>
+<li><a href="https://en.wikipedia.org/wiki/SHA-1">SHA-1</a></li>
+<li><a href="https://en.wikipedia.org/wiki/SHA-2">SHA-2</a></li>
+<li><a href="https://en.wikipedia.org/wiki/SHA-3">SHA-3</a></li>
+</ul>
+<p>常见应用：</p>
+<ul>
+<li>文件的校验，尤其是经过网络传输、或一些易损坏的存储介质的文件。</li>
+<li>区块链技术，用于标记一个区块、标识某个比特币地址，以及工作量证明（<a href="https://en.bitcoin.it/wiki/Proof_of_work">Proof-of-Work</a>）等。</li>
+</ul>
+<p>本文还展示了如下实例：</p>
+<ul>
+<li>SHA1碰撞，从而证实了该函数的确已经不安全。</li>
+<li>命令行或C/C++代码实现常见密码学哈希函数的计算。</li>
+</ul>
+<h2 id="tip">Tip</h2>
+<p>本地目录的快速搜索利器：ag <a href="https://geoff.greer.fm/ag/">https://geoff.greer.fm/ag/</a></p>
+<p>平常阅读和修改源码时，经常需要在全目录搜索某些关键词，过去通常的做法是使用grep配合一系列的shell循环，遇到文件较多的情况，就奇慢无比。这个工具的确非常有优势，能够节省大量时间。</p>
+<h2 id="share">Share</h2>
+<p>关注CppCon：</p>
+<p>以C++为常用语言的程序员，应该关注C++新标准（C++11/14/17/20）的发展，并尽量利用这些新特性，来提高自己代码的开发维护效率和质量。<a href="http://cppcon.org/">CppCon</a>是一个每年举办的会议，并且公开相应的视频和幻灯片等内容，值得逐一学习。</p>
+<p>相应链接：</p>
+<ul>
+<li><a href="http://cppcon.org/">CppCon</a></li>
+<li><a href="https://cppcon.org/cppcon-2019-program/">CppCon2019</a></li>
+<li><a href="https://github.com/CppCon/CppCon2019">CppCon2019的相关共享资料</a></li>
+</ul>
+</div>
+
+  </article>
+</main>
+<footer>
+  <div>
+    <div>
+      &copy; 2019 Linlin Yan. <a href="https://creativecommons.org/licenses/by/4.0/deed.zh">CC-BY-4.0</a></div>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARTS第三周（2019年10月7日~13日） - 颜林林的“左耳听风ARTS”打卡记录</title>
+<style type="text/css">
+body{margin:16px auto;max-width:677px;padding:0 10px;color:#333;line-height:1.6}
+h1,h2,h3{line-height:1.2}
+h1{font-size:160%}
+h2{font-size:120%}
+h3,h4,h5,h6{font-size:100%}
+header{margin:0;padding:0;border-bottom:1px solid #999;line-height:1}
+footer{margin:0;padding:10px 0;border-top:1px solid #999;line-height:1;text-align:center}
+p,div,table,ul,ol{margin:10px 0}
+img{margin:10px auto;width:90%;max-width:600px;padding:0 10px;height:auto;display:block}
+hr{border:none;border-top:1px dashed #999;color:#fff;background-color:#fff;height:1px}
+a{color:#00f}
+a:visited{color:#009}
+a:hover{color:#f00}
+header a,header a:visited,footer a,footer a:visited,h1 a,h1 a:visited,h2 a,h2 a:visited{text-decoration:none;color:#333}
+header a:hover,footer a:hover,h1 a:hover,h2 a:hover{text-decoration:none;color:#f00}
+nav{padding:10px 0;text-align:right}
+nav a{padding-left:15px}
+table{border-collapse:collapse}
+th,td{border:1px solid gray;padding:2px 5px}
+code{border:1px solid #999;background-color:#f0f0f0;padding:1px 2px}
+pre{border:1px solid #999;background-color:#f0f0f0;padding:5px;overflow:auto;max-height:500px}
+pre code{border:0;background:none;padding:0}
+ul.pagination{list-style-type:none;text-align:center}
+li.page-item{display:inline;padding-right:15px}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1><a href="http://yanlinlin82.github.io/ARTS-Weekly/">颜林林的“左耳听风ARTS”打卡记录</a></h1>
+  </div>
+  <nav><a href="/ARTS-Weekly/">目录</a><a href="/ARTS-Weekly/about/">关于</a></nav>
+</header>
+<main>
+  <article class="content">
+    <div>
+  <h1>ARTS第三周（2019年10月7日~13日）</h1>
+</div>
+<div>
+  <div>2019-10-11 23:15</span>
+  </div>
+<div>
+  <h2 id="algorithm">Algorithm</h2>
+<p><strong>链接：</strong> <a href="https://leetcode-cn.com/problems/regular-expression-matching/">https://leetcode-cn.com/problems/regular-expression-matching/</a></p>
+<p><strong>题目：</strong> 正则表达式匹配</p>
+<p>给你一个字符串 s 和一个字符规律 p，请你来实现一个支持 <code>.</code> 和 <code>*</code> 的正则表达式匹配。</p>
+<pre><code>'.' 匹配任意单个字符
+'*' 匹配零个或多个前面的那一个元素
+所谓匹配，是要涵盖 整个 字符串 s的，而不是部分字符串。
+</code></pre><p><strong>说明：</strong></p>
+<pre><code>s 可能为空，且只包含从 a-z 的小写字母。
+p 可能为空，且只包含从 a-z 的小写字母，以及字符 . 和 *。
+</code></pre><p><strong>示例1:</strong></p>
+<pre><code>**输入:**
+s = &quot;aa&quot;
+p = &quot;a&quot;
+**输出:** false
+**解释:** &quot;a&quot; 无法匹配 &quot;aa&quot; 整个字符串。
+</code></pre><p><strong>示例2:</strong></p>
+<pre><code>**输入:**
+s = &quot;aa&quot;
+p = &quot;a*&quot;
+**输出:** true
+**解释:** 因为 '*' 代表可以匹配零个或多个前面的那一个元素, 在这里前面的元素就是 'a'。因此，字符串 &quot;aa&quot; 可被视为 'a' 重复了一次。
+</code></pre><p><strong>示例3:</strong></p>
+<pre><code>**输入:**
+s = &quot;ab&quot;
+p = &quot;.*&quot;
+**输出:** true
+**解释:** &quot;.*&quot; 表示可匹配零个或多个（'*'）任意字符（'.'）。
+</code></pre><p>示例 4:</p>
+<pre><code>**输入:**
+s = &quot;aab&quot;
+p = &quot;c*a*b&quot;
+**输出:** true
+**解释:** 因为 '*' 表示零个或多个，这里 'c' 为 0 个, 'a' 被重复一次。因此可以匹配字符串 &quot;aab&quot;。
+</code></pre><p>示例 5:</p>
+<pre><code>**输入:**
+s = &quot;mississippi&quot;
+p = &quot;mis*is*p*.&quot;
+**输出:** false
+</code></pre><p><strong>解答：</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cpp" data-lang="cpp"><span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">PatternNode</span> {
+    <span style="color:#66d9ef">char</span> c;
+    <span style="color:#66d9ef">bool</span> star;
+    PatternNode(<span style="color:#66d9ef">char</span> ch, <span style="color:#66d9ef">bool</span> is_star) <span style="color:#f92672">:</span> c(ch), star(is_star) { }
+};
+<span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">MatchResult</span> {
+    <span style="color:#66d9ef">int</span> pos;
+    <span style="color:#66d9ef">int</span> size;
+};
+
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
+<span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
+    <span style="color:#66d9ef">bool</span> isMatch(string s, string p) {
+        vector<span style="color:#f92672">&lt;</span>PatternNode<span style="color:#f92672">&gt;</span> e;
+        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">const</span> <span style="color:#66d9ef">char</span><span style="color:#f92672">*</span> t <span style="color:#f92672">=</span> p.c_str(); <span style="color:#f92672">*</span>t; <span style="color:#f92672">+</span><span style="color:#f92672">+</span>t) {
+            <span style="color:#66d9ef">bool</span> star <span style="color:#f92672">=</span> (<span style="color:#f92672">*</span>(t <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">=</span><span style="color:#f92672">=</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">*</span><span style="color:#e6db74">&#39;</span>);
+            e.push_back(PatternNode(<span style="color:#f92672">*</span>t, star));
+            <span style="color:#66d9ef">if</span> (star) <span style="color:#f92672">+</span><span style="color:#f92672">+</span>t;
+        }
+        vector<span style="color:#f92672">&lt;</span>MatchResult<span style="color:#f92672">&gt;</span> m(e.size()); <span style="color:#75715e">// [ { start, size }, ... ]
+</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> pos <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;;) {
+            <span style="color:#75715e">// match forward
+</span><span style="color:#75715e"></span>            <span style="color:#66d9ef">for</span> (; i <span style="color:#f92672">&lt;</span> e.size(); <span style="color:#f92672">+</span><span style="color:#f92672">+</span>i) {
+                <span style="color:#66d9ef">if</span> (e[i].c <span style="color:#f92672">=</span><span style="color:#f92672">=</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">.</span><span style="color:#e6db74">&#39;</span>) {
+                    <span style="color:#66d9ef">if</span> (e[i].star) {
+                        m[i].pos <span style="color:#f92672">=</span> pos;
+                        m[i].size <span style="color:#f92672">=</span> s.size() <span style="color:#f92672">-</span> pos;
+                        pos <span style="color:#f92672">=</span> s.size();
+                    } <span style="color:#66d9ef">else</span> <span style="color:#a6e22e">if</span> (pos <span style="color:#f92672">&lt;</span> s.size()) {
+                        m[i].pos <span style="color:#f92672">=</span> pos;
+                        m[i].size <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+                        <span style="color:#f92672">+</span><span style="color:#f92672">+</span>pos;
+                    } <span style="color:#66d9ef">else</span> {
+                        <span style="color:#66d9ef">break</span>;
+                    }
+                } <span style="color:#66d9ef">else</span> {
+                    <span style="color:#66d9ef">if</span> (e[i].star) {
+                        <span style="color:#66d9ef">int</span> k <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+                        <span style="color:#66d9ef">while</span> (pos <span style="color:#f92672">+</span> k <span style="color:#f92672">&lt;</span> s.size() <span style="color:#f92672">&amp;</span><span style="color:#f92672">&amp;</span> s[pos <span style="color:#f92672">+</span> k] <span style="color:#f92672">=</span><span style="color:#f92672">=</span> e[i].c) {
+                            <span style="color:#f92672">+</span><span style="color:#f92672">+</span>k;
+                        }
+                        m[i].pos <span style="color:#f92672">=</span> pos;
+                        m[i].size <span style="color:#f92672">=</span> k;
+                        pos <span style="color:#f92672">+</span><span style="color:#f92672">=</span> k;
+                    } <span style="color:#66d9ef">else</span> <span style="color:#a6e22e">if</span> (pos <span style="color:#f92672">&lt;</span> s.size() <span style="color:#f92672">&amp;</span><span style="color:#f92672">&amp;</span> s[pos] <span style="color:#f92672">=</span><span style="color:#f92672">=</span> e[i].c) {
+                        m[i].pos <span style="color:#f92672">=</span> pos;
+                        m[i].size <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+                        <span style="color:#f92672">+</span><span style="color:#f92672">+</span>pos;
+                    } <span style="color:#66d9ef">else</span> {
+                        <span style="color:#66d9ef">break</span>;
+                    }
+                }
+            }
+            <span style="color:#66d9ef">if</span> (pos <span style="color:#f92672">&gt;</span><span style="color:#f92672">=</span> s.size() <span style="color:#f92672">&amp;</span><span style="color:#f92672">&amp;</span> i <span style="color:#f92672">&gt;</span><span style="color:#f92672">=</span> e.size()) <span style="color:#66d9ef">return</span> true;
+            <span style="color:#75715e">// backtrace
+</span><span style="color:#75715e"></span>            <span style="color:#66d9ef">for</span> (;;) {
+                <span style="color:#66d9ef">if</span> (i <span style="color:#f92672">&lt;</span><span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>) <span style="color:#66d9ef">return</span> false; <span style="color:#75715e">// backtrace failure
+</span><span style="color:#75715e"></span>                <span style="color:#66d9ef">if</span> (e[i <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>].star <span style="color:#f92672">&amp;</span><span style="color:#f92672">&amp;</span> m[i <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>].size <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>) {
+                    <span style="color:#f92672">-</span><span style="color:#f92672">-</span>m[i <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>].size;
+                    pos <span style="color:#f92672">=</span> m[i <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>].pos <span style="color:#f92672">+</span> m[i <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>].size;
+                    <span style="color:#66d9ef">break</span>;
+                }   
+                <span style="color:#f92672">-</span><span style="color:#f92672">-</span>i;
+            }
+        }
+        <span style="color:#66d9ef">return</span> false;
+    }
+};
+</code></pre></div><p>本周其他解题：</p>
+<ul>
+<li><a href="https://github.com/yanlinlin82/leetcode/blob/master/00009_palindrome-number/191006-1.cpp">回文数</a></li>
+<li><a href="https://github.com/yanlinlin82/leetcode/blob/master/00010_regular-expression-matching/191006-2.cpp">正则表达式匹配</a></li>
+<li><a href="https://github.com/yanlinlin82/leetcode/blob/master/00011_container-with-most-water/191007-2.cpp">盛最多水的容器</a></li>
+<li><a href="https://github.com/yanlinlin82/leetcode/blob/master/00012_integer-to-roman/191008-1.cpp">整数转罗马数字</a></li>
+<li><a href="https://github.com/yanlinlin82/leetcode/blob/master/00013_roman-to-integer/191008-1.cpp">罗马数字转整数</a></li>
+<li><a href="https://github.com/yanlinlin82/leetcode/blob/master/00014_longest-common-prefix/191009-1.cpp">最长公共前缀</a></li>
+<li><a href="https://github.com/yanlinlin82/leetcode/blob/master/00015_3sum/191010-2.cpp">三数之和</a></li>
+<li><a href="https://github.com/yanlinlin82/leetcode/blob/master/00016_3sum-closest/191011-1.cpp">最接近的三数之和</a></li>
+</ul>
+<h2 id="review">Review</h2>
+<p><a href="https://www.cyberciti.biz/tips/check-unix-linux-configuration-file-for-syntax-errors.html">21 Examples To Make Sure Unix / Linux Configuration Files Are Free From Syntax Errors</a></p>
+<p>这篇文章介绍了21种Linux配置文件的语法检查方法。这些配置文件对应的命令，通常都有相应的参数，用于校验该配置文件是否存在语法错误。</p>
+<p>在Linux系统中，文本形式的配置文件，人工修改很容易出现错误，而错误的配置会造成服务无法成功重启，尤其在远程操作中，很可能会造成无法恢复的巨大麻烦。因此，在重启之前，养成良好的配置文件语法检查习惯，对于运维是很重要的。</p>
+<p>相应地，作为开发者，也应该提供此类参数和方法，帮助运维尽量避免骑虎南下的境地。</p>
+<h2 id="tip">Tip</h2>
+<p>如何控制ggplot的图例顺序？</p>
+<p>参考如下代码实现：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">library</span>(tidyverse)
+g <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">tibble</span>(x <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#ae81ff">5</span>, y <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#ae81ff">5</span>, c <span style="color:#f92672">=</span> <span style="color:#a6e22e">head</span>(<span style="color:#66d9ef">letters</span>, <span style="color:#ae81ff">5</span>), d <span style="color:#f92672">=</span> <span style="color:#a6e22e">head</span>(<span style="color:#66d9ef">letters</span>, <span style="color:#ae81ff">5</span>)) <span style="color:#f92672">%&gt;%</span>
+  <span style="color:#a6e22e">ggplot</span>(<span style="color:#a6e22e">aes</span>(x, y)) <span style="color:#f92672">+</span> <span style="color:#a6e22e">geom_point</span>(<span style="color:#a6e22e">aes</span>(shape <span style="color:#f92672">=</span> d, color <span style="color:#f92672">=</span> c), size <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>)
+<span style="color:#a6e22e">print</span>(g <span style="color:#f92672">+</span> <span style="color:#a6e22e">guides</span>(color <span style="color:#f92672">=</span> <span style="color:#a6e22e">guide_legend</span>(order <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>), shape <span style="color:#f92672">=</span> <span style="color:#a6e22e">guide_legend</span>(order <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>)))
+<span style="color:#a6e22e">print</span>(g <span style="color:#f92672">+</span> <span style="color:#a6e22e">guides</span>(color <span style="color:#f92672">=</span> <span style="color:#a6e22e">guide_legend</span>(order <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>), shape <span style="color:#f92672">=</span> <span style="color:#a6e22e">guide_legend</span>(order <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>)))
+</code></pre></div><h2 id="share">Share</h2>
+<p><a href="https://www.codeproject.com/Articles/5183771/Ultimate-Guide-to-Become-a-REAL-Programmer">[CodeProject] Ultimate Guide to Become a REAL Programmer</a></p>
+<p>这是一篇关于程序员职业生涯发展的文章。虽然文章并不直接介绍技术，但对于做技术的我们，这篇文章能够帮助我们调整好正确的心态，从而更好地做好技术。</p>
+<p>文章介绍了程序员在职业生涯中所面临的“冒充者综合症（impostor syndrome，也称自我能力否定倾向）”，表现如何，在哪些情况下容易表现出来，以及该如何应对。</p>
+<p>容易表现的场景：</p>
+<ol>
+<li>别人提问时（When Someone Asked you a Question）</li>
+<li>与别人在社交软件上比较时（Comparing Yourself With Others on Linkedin）</li>
+<li>开始一个新项目时（Start of a New Project）</li>
+<li>开始学一门新技术时（When There is a new Technology to Learn）</li>
+<li>孤身奋战时（Because You Are Alone）</li>
+<li>无法复制别人成功经验时（Seniors Are Not Helpful）</li>
+<li>疲于繁琐的零工（Grunt Work is For Juniors）</li>
+<li>推倒重来（When Rework）</li>
+<li>难以估计工作量时（Giving estimates is difficult）</li>
+<li>提交代码时（When Committing Your Code）</li>
+<li>职业生涯变道时（Change of Routine）</li>
+</ol>
+<p>应对方法：</p>
+<ol>
+<li>用语言把感受表达出来（Express Feelings in Words）</li>
+<li>包括大神在内的每个人都有这个问题（Everybody has it even the ‘Rockstar’ Developers）</li>
+<li>保持动力（Keep up the Motivation）</li>
+<li>停止做比较（Stop Comparing）</li>
+<li>让自己坦然接受成功（Accept you have Role in the Success）</li>
+<li>与他人多讨论（Discussing With Others）</li>
+<li>与之共舞（Advance Solution: Dance with it）</li>
+</ol>
+</div>
+
+  </article>
+</main>
+<footer>
+  <div>
+    <div>
+      &copy; 2019 Linlin Yan. <a href="https://creativecommons.org/licenses/by/4.0/deed.zh">CC-BY-4.0</a></div>
+  </div>
+</footer>
+</body>
+</html>

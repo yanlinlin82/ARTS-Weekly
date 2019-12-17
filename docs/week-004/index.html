@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARTS第四周（2019年10月14日~20日） - 颜林林的“左耳听风ARTS”打卡记录</title>
+<style type="text/css">
+body{margin:16px auto;max-width:677px;padding:0 10px;color:#333;line-height:1.6}
+h1,h2,h3{line-height:1.2}
+h1{font-size:160%}
+h2{font-size:120%}
+h3,h4,h5,h6{font-size:100%}
+header{margin:0;padding:0;border-bottom:1px solid #999;line-height:1}
+footer{margin:0;padding:10px 0;border-top:1px solid #999;line-height:1;text-align:center}
+p,div,table,ul,ol{margin:10px 0}
+img{margin:10px auto;width:90%;max-width:600px;padding:0 10px;height:auto;display:block}
+hr{border:none;border-top:1px dashed #999;color:#fff;background-color:#fff;height:1px}
+a{color:#00f}
+a:visited{color:#009}
+a:hover{color:#f00}
+header a,header a:visited,footer a,footer a:visited,h1 a,h1 a:visited,h2 a,h2 a:visited{text-decoration:none;color:#333}
+header a:hover,footer a:hover,h1 a:hover,h2 a:hover{text-decoration:none;color:#f00}
+nav{padding:10px 0;text-align:right}
+nav a{padding-left:15px}
+table{border-collapse:collapse}
+th,td{border:1px solid gray;padding:2px 5px}
+code{border:1px solid #999;background-color:#f0f0f0;padding:1px 2px}
+pre{border:1px solid #999;background-color:#f0f0f0;padding:5px;overflow:auto;max-height:500px}
+pre code{border:0;background:none;padding:0}
+ul.pagination{list-style-type:none;text-align:center}
+li.page-item{display:inline;padding-right:15px}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1><a href="http://yanlinlin82.github.io/ARTS-Weekly/">颜林林的“左耳听风ARTS”打卡记录</a></h1>
+  </div>
+  <nav><a href="/ARTS-Weekly/">目录</a><a href="/ARTS-Weekly/about/">关于</a></nav>
+</header>
+<main>
+  <article class="content">
+    <div>
+  <h1>ARTS第四周（2019年10月14日~20日）</h1>
+</div>
+<div>
+  <div>2019-10-19 23:35</span>
+  </div>
+<div>
+  <h2 id="algorithm">Algorithm</h2>
+<p><a href="https://leetcode-cn.com/problemset/all/">LeetCode题库</a></p>
+<ul>
+<li><a href="https://github.com/yanlinlin82/leetcode/blob/master/00017_letter-combinations-of-a-phone-number/191014-1.cpp">电话号码的字母组合</a></li>
+<li><a href="https://github.com/yanlinlin82/leetcode/blob/master/00018_4sum/191018-1.cpp">四数之和</a></li>
+<li><a href="https://github.com/yanlinlin82/leetcode/blob/master/00019_remove-nth-node-from-end-of-list/191019-1.cpp">删除链表的倒数第N个节点</a></li>
+</ul>
+<h2 id="review">Review</h2>
+<p><a href="https://www.codeproject.com/Articles/5247782/The-Cost-of-Waiting-for-Feedback-in-Software-Devel">The Cost of Waiting for Feedback in Software Development</a></p>
+<p>来源：CodeProject</p>
+<p>这篇文章重点在讲述及时反馈的重要性。对于某个问题，由于并行处理大量问题，导致原本可以即时反馈的信息，拖延数周才反馈，其效率损失，将会达到二十多倍。</p>
+<p>文章以一个写邮件的简单工作场景，进行了细致的描述，刻画了各个环节上面临的问题，以及导致效率低下的原因。并给出了可能的解决方案。重点就是减少各种沟通环节和成本，让反馈更加及时。</p>
+<p>此外，这是个系列文章中的一篇，相应的整个系列，其实也值得一读： <a href="http://www.hadermann.be/blog/category/nontech/">http://www.hadermann.be/blog/category/nontech/</a></p>
+<h2 id="tip">Tip</h2>
+<p>这里提及一个如何实现组合穷举的技巧，算是自己在解一个算法题时遇到并尝试实现的。</p>
+<p>题目在这里，是个涂色问题：<a href="https://yanlinlin82.github.io/191017a_Color-Filling/">https://yanlinlin82.github.io/191017a_Color-Filling/</a></p>
+<p><img src="https://yanlinlin82.github.io/191017a_Color-Filling/problem.jpg" alt=""></p>
+<p>解法详细过程在这里：<a href="https://yanlinlin82.github.io/191017a_Color-Filling/analysis.v3.html">https://yanlinlin82.github.io/191017a_Color-Filling/analysis.v3.html</a></p>
+<p>重点是其中穷举所有组合的部分，由于需要把每个组合都以一个数据框（data.frame）结构列出，所以使用了递归函数，逐级去追加新的房间（方块）号进来：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">all_comb <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">function</span>(n) {
+  <span style="color:#a6e22e">if </span>(n <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">1</span>) {
+    <span style="color:#a6e22e">lapply</span>(<span style="color:#ae81ff">1</span><span style="color:#f92672">:</span>max_color, <span style="color:#a6e22e">function</span>(x) <span style="color:#a6e22e">tibble</span>(house <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>, fill <span style="color:#f92672">=</span> x))
+  } else {
+    l <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">all_comb</span>(n <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>)
+    <span style="color:#a6e22e">lapply</span>(<span style="color:#ae81ff">1</span><span style="color:#f92672">:</span>max_color, <span style="color:#a6e22e">function</span>(x) {
+      <span style="color:#a6e22e">lapply</span>(l, <span style="color:#a6e22e">function</span>(d) <span style="color:#a6e22e">rbind</span>(d, <span style="color:#a6e22e">tibble</span>(house <span style="color:#f92672">=</span> n, fill <span style="color:#f92672">=</span> x)))
+    }) <span style="color:#f92672">%&gt;%</span> <span style="color:#a6e22e">do.call</span>(<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">c&#34;</span>, .)
+  }
+}
+</code></pre></div><p>递归函数实现，能够有效避免繁琐的回溯式遍历的写法，让程序的逻辑更加容易读懂。</p>
+<h2 id="share">Share</h2>
+<p>这里，我分享一篇自己新写的技术随笔（新开公号的第一篇，准备开始持续原创），我相信还算是“有观点和思考的”：</p>
+<p><a href="https://github.com/yanlinlin82/bukaopuyanlun/blob/master/articles/191017-first.md">数据统治世界</a></p>
+</div>
+
+  </article>
+</main>
+<footer>
+  <div>
+    <div>
+      &copy; 2019 Linlin Yan. <a href="https://creativecommons.org/licenses/by/4.0/deed.zh">CC-BY-4.0</a></div>
+  </div>
+</footer>
+</body>
+</html>

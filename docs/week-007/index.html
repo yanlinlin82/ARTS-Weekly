@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARTS第七周（2019年11月4日~10日） - 颜林林的“左耳听风ARTS”打卡记录</title>
+<style type="text/css">
+body{margin:16px auto;max-width:677px;padding:0 10px;color:#333;line-height:1.6}
+h1,h2,h3{line-height:1.2}
+h1{font-size:160%}
+h2{font-size:120%}
+h3,h4,h5,h6{font-size:100%}
+header{margin:0;padding:0;border-bottom:1px solid #999;line-height:1}
+footer{margin:0;padding:10px 0;border-top:1px solid #999;line-height:1;text-align:center}
+p,div,table,ul,ol{margin:10px 0}
+img{margin:10px auto;width:90%;max-width:600px;padding:0 10px;height:auto;display:block}
+hr{border:none;border-top:1px dashed #999;color:#fff;background-color:#fff;height:1px}
+a{color:#00f}
+a:visited{color:#009}
+a:hover{color:#f00}
+header a,header a:visited,footer a,footer a:visited,h1 a,h1 a:visited,h2 a,h2 a:visited{text-decoration:none;color:#333}
+header a:hover,footer a:hover,h1 a:hover,h2 a:hover{text-decoration:none;color:#f00}
+nav{padding:10px 0;text-align:right}
+nav a{padding-left:15px}
+table{border-collapse:collapse}
+th,td{border:1px solid gray;padding:2px 5px}
+code{border:1px solid #999;background-color:#f0f0f0;padding:1px 2px}
+pre{border:1px solid #999;background-color:#f0f0f0;padding:5px;overflow:auto;max-height:500px}
+pre code{border:0;background:none;padding:0}
+ul.pagination{list-style-type:none;text-align:center}
+li.page-item{display:inline;padding-right:15px}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1><a href="http://yanlinlin82.github.io/ARTS-Weekly/">颜林林的“左耳听风ARTS”打卡记录</a></h1>
+  </div>
+  <nav><a href="/ARTS-Weekly/">目录</a><a href="/ARTS-Weekly/about/">关于</a></nav>
+</header>
+<main>
+  <article class="content">
+    <div>
+  <h1>ARTS第七周（2019年11月4日~10日）</h1>
+</div>
+<div>
+  <div>2019-11-10 23:43</span>
+  </div>
+<div>
+  <h2 id="algorithm">Algorithm</h2>
+<p><a href="https://leetcode-cn.com/problemset/all/">LeetCode题库</a></p>
+<ul>
+<li><a href="https://github.com/yanlinlin82/leetcode/blob/master/00023_merge-k-sorted-lists/191106-1.cpp">合并K个排序链表</a></li>
+</ul>
+<h2 id="review">Review</h2>
+<p><a href="https://corecppil.github.io/Meetups/2019-10-24_Core_C++_Octoberfest/Memory_Model_Code-dive.pdf">Cache consistency and the C++ memory model: Writing code for real hardware</a></p>
+<p>这是<a href="https://corecppil.github.io/Meetups/">Core C++ Octoberfest</a>活动中分享的一个幻灯片：《<a href="https://corecppil.github.io/Meetups/2019-10-24_Core_C++_Octoberfest/Memory_Model_Code-dive.pdf">Cache Consistency and the C++ Memory Model: Writing Code to Real Hardware</a>》（演讲者：Yossi Moalem）</p>
+<p>从这个幻灯片中，我更加深入地学习到计算机高级语言的命令，其先后顺序并不总是与源码完全一致的，这是充分利用计算机CPU流水线等特性，来提升运行效率的实践。然而这却为并行化的代码带来了更多难度和麻烦。C++语言标准本身为解决这些冲突问题，让代码能够按照预期的行为执行，是需要从底层给予支持的。</p>
+<h2 id="tip">Tip</h2>
+<p>在R语言中，如何比较优雅地载入很多个包？</p>
+<p>方法1：</p>
+<p>摘自：<a href="https://jozef.io/r204-spark-r-invoke-scala/">https://jozef.io/r204-spark-r-invoke-scala/</a></p>
+<pre><code>suppressPackageStartupMessages({
+  library(sparklyr)
+  library(dplyr)
+  library(nycflights13)
+})
+</code></pre><p>方法2：</p>
+<p>摘自：<a href="https://heads0rtai1s.github.io/2019/11/07/tidy-curly-pivot-leaflet/">https://heads0rtai1s.github.io/2019/11/07/tidy-curly-pivot-leaflet/</a></p>
+<pre><code>libs &lt;- c('dplyr', 'tidyr',          # wrangling
+          'readr', 'stringr',        # wrangling
+          'knitr','kableExtra',      # table styling
+          'ggplot2','gridExtra',     # plots
+          'leaflet')                 # interactive maps
+invisible(lapply(libs, library, character.only = TRUE))
+</code></pre><h2 id="share">Share</h2>
+<p><a href="https://dev.to/visheshpatel/how-c-program-stored-in-ram-memory-3773">How C program stored in RAM memory?</a></p>
+<p>这篇文章比较基础，介绍了一个普通的C程序的基本结构，以及它在运行过程中，是如何被存放到内存中的。详细介绍了代码段、数据段、堆（heap）段、栈（stack）段的内容与特点，同时，还以一个简单的实际例子，使用<code>readelf</code>和<code>objdump</code>工具进行了展示。</p>
+</div>
+
+  </article>
+</main>
+<footer>
+  <div>
+    <div>
+      &copy; 2019 Linlin Yan. <a href="https://creativecommons.org/licenses/by/4.0/deed.zh">CC-BY-4.0</a></div>
+  </div>
+</footer>
+</body>
+</html>
