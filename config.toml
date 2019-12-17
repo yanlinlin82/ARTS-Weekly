@@ -1,0 +1,18 @@
+baseURL = "http://yanlinlin82.github.io/ARTS-Weekly/"
+title = "颜林林的“左耳听风ARTS”打卡记录"
+theme = "simple-style"
+paginate = 20
+
+[permalinks]
+post = "/:slug/"
+page = "/:slug/"
+
+[[menu.main]]
+weight = 10
+name = "目录"
+url = "/"
+
+[[menu.main]]
+weight = 90
+name = "关于"
+url = "/about/"
