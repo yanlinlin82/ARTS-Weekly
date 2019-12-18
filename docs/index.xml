@@ -223,5 +223,14 @@ ARTS是以下四项内容的简称：
 读者故事：http://stuq.com/a/100mT</description>
     </item>
     
+    <item>
+      <title>快速索引</title>
+      <link>http://yanlinlin82.github.io/ARTS-Weekly/quick/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://yanlinlin82.github.io/ARTS-Weekly/quick/</guid>
+      <description>Algorithm  week-001: week-002: week-003: week-004: week-005: week-006: week-007: week-008: week-009: week-010: week-011: week-012: 36 ~ 41 week-013: 42 ~ 44  Review  week-013  7 Advanced C++ Concepts You Should Know PHP: a fractal of bad design    Tip  week-013  如何列出Linux系统过去的重启时间 如何去掉文件扩展名 如何检查用户的密码有效期 如何按照文件修改时间，提交git shell中检查文件是否可写 检查DNS记录的TTL（Time-To-Live） C++关键字&#39;override&#39;的作用 R语言中matrix选取特定规律的元素    Share  week-013  Learning Basic Math Used In 3D Graphics Engines    </description>
+    </item>
+    
   </channel>
 </rss>
