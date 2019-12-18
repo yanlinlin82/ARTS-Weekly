@@ -3,6 +3,9 @@ title = "颜林林的“左耳听风ARTS”打卡记录"
 theme = "simple-style"
 paginate = 20
 
+[params]
+githubURL = "https://github.com/yanlinlin82/ARTS-Weekly/"
+
 [permalinks]
 post = "/:slug/"
 page = "/:slug/"
@@ -21,3 +24,8 @@ url = "/about/"
 weight = 90
 name = "GitHub"
 url = "https://github.com/yanlinlin82/ARTS-Weekly/"
+
+[markup.highlight]
+codeFences = true
+lineNos = true
+style = "monokailight"
