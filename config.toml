@@ -26,6 +26,11 @@ weight = 90
 name = "关于"
 url = "/about/"
 
+[[menu.main]]
+weight = 99
+name = "个人网站"
+url = "http://yanlinlin.cn/"
+
 [markup.highlight]
 codeFences = true
 lineNos = true
