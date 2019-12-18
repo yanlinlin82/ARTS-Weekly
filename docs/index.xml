@@ -16,7 +16,7 @@
       <pubDate>Tue, 17 Dec 2019 22:36:42 +0800</pubDate>
       
       <guid>http://yanlinlin82.github.io/ARTS-Weekly/week-013/</guid>
-      <description>Algorithm  LeetCode题库     编号 难度 题目 我的解答 执行用时 内存消耗 排名     42 困难 接雨水 191216-1.cpp 496 ms 10.1 MB 5.05%   43 中等 字符串相乘 191217-1.cpp 8 ms 9.7 MB 80.75%    Review (1) 7 Advanced C++ Concepts You Should Know 这篇文章介绍了C++中的七个高级概念：
+      <description>Algorithm  LeetCode题库     编号 难度 题目 我的解答 执行用时 内存消耗 排名     42 困难 接雨水 191216-1.cpp 496 ms 10.1 MB 5.05%   43 中等 字符串相乘 191217-1.cpp 8 ms 9.7 MB 80.75%   44 困难 通配符匹配 191218-1.cpp 56 ms 10.2 MB 64.90%    Review (1) 7 Advanced C++ Concepts You Should Know 这篇文章介绍了C++中的七个高级概念：
  RAII（Resource Acquisition Is Initialization，资源获取即初始化）：这种方法利用变量生存期来管理资源，在变量销毁时，通过其类型的析构函数进行资源释放，从而有效避免资源泄露。 Return Type Resolver（返回类型的识别）：通常对函数的重载，是不允许两个函数只有返回类型有差别的，然而通过将函数封装成为某个类的构造函数，同时为该类提供一个模板化的类型转换运算符（templatized conversion operator），可以实现相应效果。详见文中示例。 Type Erasure（类型清除）：对于C++这种强类型语言，想要实现一些弱类型语言的效果（诸如新标准提供的std::any、std::variant和std::function等），就需要用到这项技术，可以通过模板、多态重载、联合（union）类型等方式来实现。 CRTP（Curiously Recurring Template Pattern，奇异递归模板模式）：这是为了实现静态（即编译期）多态性，通过将类型依赖的代码单独提出来实现，而将类型独立的代码，放到模板类或模板函数中实现，从而实现不用类继承方式的多态性，避免增加虚指针带来的额外运行时开销。 Virtual Constructor（虚构造函数）：设计模式中的工厂方法，根据一个已经实例化出来的对象，去构造（或克隆）一个同类型的新实例对象出来。 SFINAE and std::enable_if（Substitution Failure Is Not An Error，替换失败不是错误）：这是一个现代C++编译器提供的特性，通过这个特性，可以实现各种模板偏特化效果，在编译期完成更多逻辑判断。 Proxy（代理）：这是应用中间类的方法，来实现面向对象的二维数组，所以也可能被看成仅仅是operator []的一种技巧。详细描述可参见文中示例。  (2) PHP: a fractal of bad design 这是一篇2012年的吐槽PHP语言的文章。文中从诸如核心语言理念、运算符、变量、数据结构、错误处理、函数、面向对象、标准库、文本处理等方面，翔实地罗列了这门语言存在的问题，并给出了相应的示例，以及解释为什么这种设计是不好的。</description>
     </item>
     
@@ -73,10 +73,8 @@ Share html提供的几种空格实体
 不过遗憾的是，这篇文档并未更新完成，所列举的诸如“索引”、“列表”等内容，至今仍处于“To come?”状态。
 所幸，文档提及的推荐“tidyverse”软件包和“Bioconductor”生态，倒是一直欣欣向荣，对R语言的易用和能力扩展，起到了重要作用。
 Tip 如何在用vim打开文件时，自动定位到特定行
-vim +行号 文件名 # 根据行号指定跳转位置 vim +/关键词 文件名 # 根据内容指定跳转位置 参考：https://www.cyberciti.biz/faq/linux-unix-command-open-file-linenumber-function/
-Share 5 Ways Using Braces Can Make Your C++ Code More Expressive
-本文分享了使用花括号改善C++代码的几种方法。这些内容大多都依赖于C++新标准。
- 填充各类容器（Filling all sorts of containers）  std::vector&amp;lt;std::string&amp;gt; words = {&amp;#34;the&amp;#34;, &amp;#34;mortar&amp;#34;, &amp;#34;holding&amp;#34;, &amp;#34;code&amp;#34;, &amp;#34;together&amp;#34;}; std::pair answer = {&amp;#34;forty-two&amp;#34;, 42}; std::tuple cue = {3, 2, 1, &amp;#34;go!</description>
+1 2  vim +行号 文件名 # 根据行号指定跳转位置 vim +/关键词 文件名 # 根据内容指定跳转位置   参考：https://www.cyberciti.biz/faq/linux-unix-command-open-file-linenumber-function/
+Share 5 Ways Using Braces Can Make Your C++ Code More Expressive</description>
     </item>
     
     <item>
@@ -120,11 +118,10 @@ libs &amp;lt;- c(&#39;dplyr&#39;, &#39;tidyr&#39;, # wrangling &#39;readr&#39;, 
  合并两个有序链表 括号生成  Review The Case for C++
 这篇文章快速介绍了现代C++（即C++11以来的新标准）的一些新特性，并提供了一些社区、工具等资源。
 其中让我比较惊艳的是管道的实现（我之前尝试自己做做，但没能成功，后面还打算深入学习下其原理）：
-auto genYNames = people | filter(younger_than(39)) | filter(older_than(19)) | transform(names) | sort() | unique(); for_each(genYNames, [](auto name) { cout &amp;lt;&amp;lt; name &amp;lt;&amp;lt; &amp;#34;\n&amp;#34;; }); 这篇文章，让我重拾对现代C++的信心。因为C++在表现得更加现代的同时，也依然能够几乎完全兼容旧语言规范，从而使这门语言能够应用在跨度更大的范围。
+1 2 3 4 5 6 7 8  auto genYNames = people | filter(younger_than(39)) | filter(older_than(19)) | transform(names) | sort() | unique(); for_each(genYNames, [](auto name) { cout &amp;lt;&amp;lt; name &amp;lt;&amp;lt; &amp;#34;\n&amp;#34;; });   这篇文章，让我重拾对现代C++的信心。因为C++在表现得更加现代的同时，也依然能够几乎完全兼容旧语言规范，从而使这门语言能够应用在跨度更大的范围。
 Tip 如何在bash里读取csv文件
 过去，我在bash里用read命令读取csv文件时，总需要先用tr或awk做转换，例如：
-$ echo -e &amp;quot;a,b\n1,2&amp;quot; | tr &#39;,&#39; &#39;\t&#39; | while read a b; do echo &amp;quot;($a) ($b)&amp;quot;; done (a) (b) (1) (2) 通过这篇文章，了解到可以直接设置IFS变量来实现同样效果：
-$ echo -e &amp;quot;a,b\n1,2&amp;quot; | while IFS=&#39;,&#39; read a b; do echo &amp;quot;($a) ($b)&amp;quot;; done (a) (b) (1) (2) 参考：https://www.</description>
+$ echo -e &amp;quot;a,b\n1,2&amp;quot; | tr &#39;,&#39; &#39;\t&#39; | while read a b; do echo &amp;quot;($a) ($b)&amp;quot;; done (a) (b) (1) (2) 通过这篇文章，了解到可以直接设置IFS变量来实现同样效果：</description>
     </item>
     
     <item>
@@ -158,7 +155,7 @@ Tip 这里提及一个如何实现组合穷举的技巧，算是自己在解一�
 题目在这里，是个涂色问题：https://yanlinlin82.github.io/191017a_Color-Filling/
 解法详细过程在这里：https://yanlinlin82.github.io/191017a_Color-Filling/analysis.v3.html
 重点是其中穷举所有组合的部分，由于需要把每个组合都以一个数据框（data.frame）结构列出，所以使用了递归函数，逐级去追加新的房间（方块）号进来：
-all_comb &amp;lt;- function(n) { if (n &amp;lt;= 1) { lapply(1:max_color, function(x) tibble(house = 1, fill = x)) } else { l &amp;lt;- all_comb(n - 1) lapply(1:max_color, function(x) { lapply(l, function(d) rbind(d, tibble(house = n, fill = x))) }) %&amp;gt;% do.call(&amp;#34;c&amp;#34;, .) } } 递归函数实现，能够有效避免繁琐的回溯式遍历的写法，让程序的逻辑更加容易读懂。</description>
+1 2 3 4 5 6 7 8 9 10  all_comb &amp;lt;- function(n) { if (n &amp;lt;= 1) { lapply(1:max_color, function(x) tibble(house = 1, fill = x)) } else { l &amp;lt;- all_comb(n - 1) lapply(1:max_color, function(x) { lapply(l, function(d) rbind(d, tibble(house = n, fill = x))) }) %&amp;gt;% do.</description>
     </item>
     
     <item>
@@ -192,7 +189,7 @@ s 可能为空，且只包含从 a-z 的小写字母。 p 可能为空，且
 **输出: ** 4
 **解释: ** 最长连续序列是 [1, 2, 3, 4]。它的长度为 4。
  解答：
-class Solution { public: int longestConsecutive(vector&amp;lt;int&amp;gt;&amp;amp; nums) { int n = nums.size(); if (n == 0) return 0; unordered_map&amp;lt;int, pair&amp;lt;int, int&amp;gt;&amp;gt; r; int longest = 1; for (int i = 0; i &amp;lt; n; ++i) { int v = nums[i]; auto p = r.</description>
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30  class Solution { public: int longestConsecutive(vector&amp;lt;int&amp;gt;&amp;amp; nums) { int n = nums.</description>
     </item>
     
     <item>
@@ -211,7 +208,7 @@ class Solution { public: int longestConsecutive(vector&amp;lt;int&amp;gt;&amp;am
 输出： 7 -&amp;gt; 0 -&amp;gt; 8
 原因： 342 + 465 = 807
  解答：
-/** * Definition for singly-linked list. * struct ListNode { * int val; * ListNode *next; * ListNode(int x) : val(x), next(NULL) {} * }; */ class Solution { public: ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) { ListNode* r = new ListNode(0); ListNode* p = r; bool carry = false; while (l1 || l2) { int value = (l1 ?</description>
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31  /** * Definition for singly-linked list.</description>
     </item>
     
     <item>

@@ -15,7 +15,7 @@ footer{margin:0;padding:10px 0;border-top:1px solid #999;line-height:1;text-alig
 p,div,table,ul,ol{margin:10px 0}
 img{margin:10px auto;width:90%;max-width:600px;padding:0 10px;height:auto;display:block}
 hr{border:none;border-top:1px dashed #999;color:#fff;background-color:#fff;height:1px}
-a{color:#00f}
+a{color:#00f;word-wrap:break-word}
 a:visited{color:#009}
 a:hover{color:#f00}
 header a,header a:visited,footer a,footer a:visited,h1 a,h1 a:visited,h2 a,h2 a:visited{text-decoration:none;color:#333}
@@ -82,6 +82,15 @@ li.page-item{display:inline;padding-right:15px}
 <td align="right">9.7 MB</td>
 <td align="right"><a href="https://leetcode-cn.com/submissions/detail/40348646/">80.75%</a></td>
 </tr>
+<tr>
+<td align="center">44</td>
+<td align="center">困难</td>
+<td align="left"><a href="https://leetcode-cn.com/problems/wildcard-matching/">通配符匹配</a></td>
+<td align="left"><a href="https://github.com/yanlinlin82/leetcode/blob/master/00044_wildcard-matching/191218-1.cpp">191218-1.cpp</a></td>
+<td align="right">56 ms</td>
+<td align="right">10.2 MB</td>
+<td align="right"><a href="https://leetcode-cn.com/submissions/detail/40476946/">64.90%</a></td>
+</tr>
 </tbody>
 </table>
 <h2 id="review">Review</h2>
@@ -101,55 +110,156 @@ li.page-item{display:inline;padding-right:15px}
 <p>这种有理有据的吐槽，比起很多站在道德制高点的骂战，要有价值得多。真正想要放弃或劝人放弃PHP语言的，可以仔细阅读本文，并用这里提到的理由，去说服他人。而对于仍然想继续使用PHP语言的，在这些反面示例的帮助下，也能尽可能让自己的代码变得更加可被预期、易于维护。毕竟，没有任何一门语言是完美的（即使像C++这样的“神圣”语言，也专门有一本《Impefect C++》的大部头书籍，来吐槽该语言的各种设计不足之处）。比起语言的影响，坏代码更多其实是与作者的能力水平和态度有关。</p>
 <h2 id="tip">Tip</h2>
 <h3 id="1-linux">(1) 如何列出Linux系统过去的重启时间</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ last reboot
-</code></pre></div><p>来源：<a href="https://www.cyberciti.biz/tips/linux-last-reboot-time-and-date-find-out.html">Linux Find Out Last System Reboot Time and Date Command</a></p>
+<div class="highlight"><div style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ last reboot
+</code></pre></td></tr></table>
+</div>
+</div><p>来源：<a href="https://www.cyberciti.biz/tips/linux-last-reboot-time-and-date-find-out.html">Linux Find Out Last System Reboot Time and Date Command</a></p>
 <h3 id="2-">(2) 如何去掉文件扩展名</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ basename -a -z a b c d
-</code></pre></div><p>来源：<a href="https://www.cyberciti.biz/faq/bash-get-filename-from-given-path-on-linux-or-unix/">Bash get filename from given path on Linux or Unix</a></p>
+<div class="highlight"><div style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ basename -a -z a b c d
+</code></pre></td></tr></table>
+</div>
+</div><p>来源：<a href="https://www.cyberciti.biz/faq/bash-get-filename-from-given-path-on-linux-or-unix/">Bash get filename from given path on Linux or Unix</a></p>
 <h3 id="3-">(3) 如何检查用户的密码有效期</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">chage -l &lt;用户名&gt;
-</code></pre></div><p>来源：<a href="https://www.cyberciti.biz/faq/linux-howto-check-user-password-expiration-date-and-time/">Linux Check User Password Expiration Date and Time</a></p>
+<div class="highlight"><div style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">chage -l &lt;用户名&gt;
+</code></pre></td></tr></table>
+</div>
+</div><p>来源：<a href="https://www.cyberciti.biz/faq/linux-howto-check-user-password-expiration-date-and-time/">Linux Check User Password Expiration Date and Time</a></p>
 <h3 id="4-git">(4) 如何按照文件修改时间，提交git</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git commit some-file -m<span style="color:#e6db74">&#34;description&#34;</span> --date<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>stat --format <span style="color:#e6db74">&#34;%y&#34;</span> some-file<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
-</code></pre></div><p>来源：<a href="https://git-scm.com/docs/git-commit">Git - git-commit Documentation</a></p>
+<div class="highlight"><div style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git commit some-file -m<span style="color:#d88200">&#34;description&#34;</span> --date<span style="color:#f92672">=</span><span style="color:#d88200">&#34;</span><span style="color:#00a8c8">$(</span>stat --format <span style="color:#d88200">&#34;%y&#34;</span> some-file<span style="color:#00a8c8">)</span><span style="color:#d88200">&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>来源：<a href="https://git-scm.com/docs/git-commit">Git - git-commit Documentation</a></p>
 <h3 id="5-shell">(5) shell中检查文件是否可写</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ test -w &lt;文件名&gt;
-$ echo $?
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> -w <span style="color:#e6db74">&#34;</span>$FILE<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">]</span>
-<span style="color:#66d9ef">then</span>
-   echo <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Write permission is granted on </span>$FILE<span style="color:#e6db74">&#34;</span>
-<span style="color:#66d9ef">else</span>
-   echo <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Write permission is NOT granted on </span>$FILE<span style="color:#e6db74">&#34;</span>
-<span style="color:#66d9ef">fi</span>
-</code></pre></div><p>来源：<a href="https://www.cyberciti.biz/faq/unix-linux-shell-scripting-test-if-filewritable/">BASH Shell Test If a File Is Writable or Not</a></p>
+<div class="highlight"><div style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ <span style="color:#111">test</span> -w &lt;文件名&gt;
+$ <span style="color:#111">echo</span> <span style="color:#111">$?</span>
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#00a8c8">if</span> <span style="color:#f92672">[</span> -w <span style="color:#d88200">&#34;</span><span style="color:#111">$FILE</span><span style="color:#d88200">&#34;</span> <span style="color:#f92672">]</span>
+<span style="color:#00a8c8">then</span>
+   <span style="color:#111">echo</span> <span style="color:#d88200">&#34;</span><span style="color:#d88200">Write permission is granted on </span><span style="color:#111">$FILE</span><span style="color:#d88200">&#34;</span>
+<span style="color:#00a8c8">else</span>
+   <span style="color:#111">echo</span> <span style="color:#d88200">&#34;</span><span style="color:#d88200">Write permission is NOT granted on </span><span style="color:#111">$FILE</span><span style="color:#d88200">&#34;</span>
+<span style="color:#00a8c8">fi</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>来源：<a href="https://www.cyberciti.biz/faq/unix-linux-shell-scripting-test-if-filewritable/">BASH Shell Test If a File Is Writable or Not</a></p>
 <h3 id="6-dnsttltime-to-live">(6) 检查DNS记录的TTL（Time-To-Live）</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ dig A &lt;网址&gt;
-</code></pre></div><p>来源：<a href="https://www.cyberciti.biz/faq/how-to-see-time-to-live-ttl-for-a-dns-record/">How to see Time-To-Live (TTL) for a DNS record</a></p>
+<div class="highlight"><div style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ dig A &lt;网址&gt;
+</code></pre></td></tr></table>
+</div>
+</div><p>来源：<a href="https://www.cyberciti.biz/faq/how-to-see-time-to-live-ttl-for-a-dns-record/">How to see Time-To-Live (TTL) for a DNS record</a></p>
 <h3 id="7-coverride">(7) C++关键字'override'的作用</h3>
 <p>两个目的：</p>
 <ol>
 <li>方便读者阅读，知道这是一个虚函数，重载了基类的对应虚函数。</li>
 <li>告诉编译器，这是重载，应检查跟基类的函数定义一致，避免错误改变了函数，变成不是重载了。</li>
 </ol>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cpp" data-lang="cpp"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">base</span>
-{
-<span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-    <span style="color:#66d9ef">virtual</span> <span style="color:#66d9ef">int</span> foo(<span style="color:#66d9ef">float</span> x) <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-};
+<div class="highlight"><div style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cpp" data-lang="cpp"><span style="color:#00a8c8">class</span> <span style="color:#75af00">base</span>
+<span style="color:#111">{</span>
+<span style="color:#00a8c8">public</span><span style="color:#f92672">:</span>
+    <span style="color:#00a8c8">virtual</span> <span style="color:#00a8c8">int</span> <span style="color:#111">foo</span><span style="color:#111">(</span><span style="color:#00a8c8">float</span> <span style="color:#111">x</span><span style="color:#111">)</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span><span style="color:#111">;</span>
+<span style="color:#111">}</span><span style="color:#111">;</span>
 
 
-<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">derived</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">public</span> base
-{
-<span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-    <span style="color:#66d9ef">int</span> foo(<span style="color:#66d9ef">float</span> x) <span style="color:#66d9ef">override</span> { ... <span style="color:#66d9ef">do</span> stuff with x and such ... }
-}
+<span style="color:#00a8c8">class</span> <span style="color:#75af00">derived</span><span style="color:#f92672">:</span> <span style="color:#00a8c8">public</span> <span style="color:#111">base</span>
+<span style="color:#111">{</span>
+<span style="color:#00a8c8">public</span><span style="color:#f92672">:</span>
+    <span style="color:#00a8c8">int</span> <span style="color:#111">foo</span><span style="color:#111">(</span><span style="color:#00a8c8">float</span> <span style="color:#111">x</span><span style="color:#111">)</span> <span style="color:#00a8c8">override</span> <span style="color:#111">{</span> <span style="color:#111">.</span><span style="color:#111">.</span><span style="color:#111">.</span> <span style="color:#00a8c8">do</span> <span style="color:#111">stuff</span> <span style="color:#111">with</span> <span style="color:#111">x</span> <span style="color:#111">and</span> <span style="color:#111">such</span> <span style="color:#111">.</span><span style="color:#111">.</span><span style="color:#111">.</span> <span style="color:#111">}</span>
+<span style="color:#111">}</span>
 
-<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">derived2</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">public</span> base
-{
-<span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-    <span style="color:#66d9ef">int</span> foo(<span style="color:#66d9ef">int</span> x) <span style="color:#66d9ef">override</span> { ... } <span style="color:#75715e">// 若无‘override’关键字，则不会报错，从而被当作“类型变更”（虚机制将不会成立）
-</span><span style="color:#75715e"></span>};
-</code></pre></div><p>来源：<a href="https://stackoverflow.com/questions/18198314/what-is-the-override-keyword-in-c-used-for">What is the &lsquo;override&rsquo; keyword in C++ used for?</a></p>
+<span style="color:#00a8c8">class</span> <span style="color:#75af00">derived2</span><span style="color:#f92672">:</span> <span style="color:#00a8c8">public</span> <span style="color:#111">base</span>
+<span style="color:#111">{</span>
+<span style="color:#00a8c8">public</span><span style="color:#f92672">:</span>
+    <span style="color:#00a8c8">int</span> <span style="color:#111">foo</span><span style="color:#111">(</span><span style="color:#00a8c8">int</span> <span style="color:#111">x</span><span style="color:#111">)</span> <span style="color:#00a8c8">override</span> <span style="color:#111">{</span> <span style="color:#111">.</span><span style="color:#111">.</span><span style="color:#111">.</span> <span style="color:#111">}</span> <span style="color:#75715e">// 若无‘override’关键字，则不会报错，从而被当作“类型变更”（虚机制将不会成立）
+</span><span style="color:#75715e"></span><span style="color:#111">}</span><span style="color:#111">;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>来源：<a href="https://stackoverflow.com/questions/18198314/what-is-the-override-keyword-in-c-used-for">What is the &lsquo;override&rsquo; keyword in C++ used for?</a></p>
+<h3 id="8-rmatrix">(8) R语言中matrix选取特定规律的元素</h3>
+<div class="highlight"><div style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#111">m</span> <span style="color:#f92672">&lt;-</span> <span style="color:#75af00">matrix</span><span style="color:#111">(</span><span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#ae81ff">9</span><span style="color:#111">,</span> <span style="color:#ae81ff">3</span><span style="color:#111">)</span>
+<span style="color:#111">m</span><span style="color:#75af00">[row</span><span style="color:#111">(</span><span style="color:#111">m</span><span style="color:#111">)</span><span style="color:#f92672">==</span><span style="color:#75af00">col</span><span style="color:#111">(</span><span style="color:#111">m</span><span style="color:#111">)</span><span style="color:#111">]</span>  <span style="color:#75715e"># 等价于diag(m)</span>
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#111">m</span><span style="color:#75af00">[row</span><span style="color:#111">(</span><span style="color:#111">m</span><span style="color:#111">)</span><span style="color:#f92672">%%</span><span style="color:#ae81ff">2</span><span style="color:#f92672">==</span><span style="color:#ae81ff">1</span><span style="color:#111">]</span> <span style="color:#75715e"># 选取奇数行</span>
+<span style="color:#111">m</span><span style="color:#75af00">[col</span><span style="color:#111">(</span><span style="color:#111">m</span><span style="color:#111">)</span><span style="color:#f92672">%%</span><span style="color:#ae81ff">2</span><span style="color:#f92672">==</span><span style="color:#ae81ff">0</span><span style="color:#111">]</span> <span style="color:#75715e"># 选取偶数列</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>参考：<a href="https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/row">https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/row</a></p>
 <h2 id="share">Share</h2>
 <h3 id="learning-basic-math-used-in-3d-graphics-engineshttpswwwcodeprojectcomarticles1247960learning-basic-math-used-in-3d-graphics-engines"><a href="https://www.codeproject.com/Articles/1247960/Learning-Basic-Math-Used-In-3D-Graphics-Engines">Learning Basic Math Used In 3D Graphics Engines</a></h3>
 <p>在做游戏等相关编程时，三维物体在屏幕上的展示，是重要的环节。要实现一个三维图像引擎，需要具备一些基本的数学知识，这就是这篇文章所包含的内容。</p>
@@ -168,5 +278,5 @@ y' = x.sin(90) + y.cos(90)
       &copy; 2019 Linlin Yan. <a href="https://creativecommons.org/licenses/by/4.0/deed.zh">CC-BY-4.0</a></div>
   </div>
 </footer>
-</body>
+<a href="https://github.com/yanlinlin82/ARTS-Weekly/" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style></body>
 </html>
