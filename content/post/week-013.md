@@ -16,7 +16,7 @@ slug: week-013
 
 ## Review
 
-### (1) [7 Advanced C++ Concepts You Should Know](https://dev.to/visheshpatel/7-advanced-c-concepts-you-should-know-4gog)
+### (1) [7 Advanced C++ Concepts You Should Know](https://dev.to/visheshpatel/7-advanced-c-concepts-you-should-know-4gog) {#review-1}
 
 这篇文章介绍了C++中的七个高级概念：
 
@@ -28,7 +28,7 @@ slug: week-013
 6. SFINAE and `std::enable_if`（Substitution Failure Is Not An Error，替换失败不是错误）：这是一个现代C++编译器提供的特性，通过这个特性，可以实现各种模板偏特化效果，在编译期完成更多逻辑判断。
 7. Proxy（代理）：这是应用中间类的方法，来实现面向对象的二维数组，所以也可能被看成仅仅是`operator []`的一种技巧。详细描述可参见文中示例。
 
-### (2) [PHP: a fractal of bad design](https://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/)
+### (2) [PHP: a fractal of bad design](https://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/) {#review-2}
 
 这是一篇2012年的吐槽PHP语言的文章。文中从诸如核心语言理念、运算符、变量、数据结构、错误处理、函数、面向对象、标准库、文本处理等方面，翔实地罗列了这门语言存在的问题，并给出了相应的示例，以及解释为什么这种设计是不好的。
 
@@ -36,7 +36,7 @@ slug: week-013
 
 ## Tip
 
-### (1) 如何列出Linux系统过去的重启时间
+### (1) 如何列出Linux系统过去的重启时间 {#tip-1}
 
 ```sh
 $ last reboot
@@ -44,7 +44,7 @@ $ last reboot
 
 来源：[Linux Find Out Last System Reboot Time and Date Command](https://www.cyberciti.biz/tips/linux-last-reboot-time-and-date-find-out.html)
 
-### (2) 如何去掉文件扩展名
+### (2) 如何去掉文件扩展名 {#tip-2}
 
 ```sh
 $ basename -a -z a b c d
@@ -52,7 +52,7 @@ $ basename -a -z a b c d
 
 来源：[Bash get filename from given path on Linux or Unix](https://www.cyberciti.biz/faq/bash-get-filename-from-given-path-on-linux-or-unix/)
 
-### (3) 如何检查用户的密码有效期
+### (3) 如何检查用户的密码有效期 {#tip-3}
 
 ```sh
 chage -l <用户名>
@@ -60,7 +60,7 @@ chage -l <用户名>
 
 来源：[Linux Check User Password Expiration Date and Time](https://www.cyberciti.biz/faq/linux-howto-check-user-password-expiration-date-and-time/)
 
-### (4) 如何按照文件修改时间，提交git
+### (4) 如何按照文件修改时间，提交git {#tip-4}
 
 ```sh
 $ git commit some-file -m"description" --date="$(stat --format "%y" some-file)"
@@ -68,7 +68,7 @@ $ git commit some-file -m"description" --date="$(stat --format "%y" some-file)"
 
 来源：[Git - git-commit Documentation](https://git-scm.com/docs/git-commit)
 
-### (5) shell中检查文件是否可写
+### (5) shell中检查文件是否可写 {#tip-5}
 
 ```sh
 $ test -w <文件名>
@@ -86,7 +86,7 @@ fi
 
 来源：[BASH Shell Test If a File Is Writable or Not](https://www.cyberciti.biz/faq/unix-linux-shell-scripting-test-if-filewritable/)
 
-### (6) 检查DNS记录的TTL（Time-To-Live）
+### (6) 检查DNS记录的TTL（Time-To-Live） {#tip-6}
 
 ```sh
 $ dig A <网址>
@@ -94,7 +94,7 @@ $ dig A <网址>
 
 来源：[How to see Time-To-Live (TTL) for a DNS record](https://www.cyberciti.biz/faq/how-to-see-time-to-live-ttl-for-a-dns-record/)
 
-### (7) C++关键字'override'的作用
+### (7) C++关键字'override'的作用 {#tip-7}
 
 两个目的：
 
@@ -124,7 +124,7 @@ public:
 
 来源：[What is the 'override' keyword in C++ used for?](https://stackoverflow.com/questions/18198314/what-is-the-override-keyword-in-c-used-for)
 
-### (8) R语言中matrix选取特定规律的元素
+### (8) R语言中matrix选取特定规律的元素 {#tip-8}
 
 ```r
 m <- matrix(1:9, 3)
@@ -140,7 +140,7 @@ m[col(m)%%2==0] # 选取偶数列
 
 ## Share
 
-### [Learning Basic Math Used In 3D Graphics Engines](https://www.codeproject.com/Articles/1247960/Learning-Basic-Math-Used-In-3D-Graphics-Engines)
+### (1) [Learning Basic Math Used In 3D Graphics Engines](https://www.codeproject.com/Articles/1247960/Learning-Basic-Math-Used-In-3D-Graphics-Engines) {#share-1}
 
 在做游戏等相关编程时，三维物体在屏幕上的展示，是重要的环节。要实现一个三维图像引擎，需要具备一些基本的数学知识，这就是这篇文章所包含的内容。
 
