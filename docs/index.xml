@@ -220,7 +220,8 @@ s 可能为空，且只包含从 a-z 的小写字母。 p 可能为空，且
       <description>这是极客时间《左耳听风》专栏中发起的学习活动，要求自发每周完成一个ARTS。
 ARTS是以下四项内容的简称：
  Algorithm - 至少做一个leetcode的算法题 Review - 阅读并点评至少一篇英文技术文章 Tip - 学习至少一个技术技巧 Share - 分享一篇有观点和思考的技术文章  打卡地址（知乎）：https://www.zhihu.com/question/301150832
-读者故事：http://stuq.com/a/100mT</description>
+读者故事：http://stuq.com/a/100mT
+补充说明： 本网站使用Hugo生成，采用simple-style风格，并使用GitHub Pages进行发布。详细操作过程参见我博客上的文章《使用Hugo将GitHub仓库快速改造成内容网站》</description>
     </item>
     
     <item>
