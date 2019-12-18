@@ -2,6 +2,7 @@ baseURL = "http://yanlinlin82.github.io/ARTS-Weekly/"
 title = "颜林林的“左耳听风ARTS”打卡记录"
 theme = "simple-style"
 paginate = 20
+googleAnalytics = "UA-74397492-2"
 
 [params]
 githubURL = "https://github.com/yanlinlin82/ARTS-Weekly/"
