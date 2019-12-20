@@ -1,3 +1,3 @@
 #!/bin/bash
 
-hugo && rsync -avP public/ docs/
+hugo && rsync -avP public/ docs/ --delete

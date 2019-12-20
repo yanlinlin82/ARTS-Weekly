@@ -90,7 +90,19 @@
   </url>
   
   <url>
-    <loc>http://yanlinlin82.github.io/ARTS-Weekly/quick/</loc>
+    <loc>http://yanlinlin82.github.io/ARTS-Weekly/share/</loc>
+  </url>
+  
+  <url>
+    <loc>http://yanlinlin82.github.io/ARTS-Weekly/tip/</loc>
+  </url>
+  
+  <url>
+    <loc>http://yanlinlin82.github.io/ARTS-Weekly/algorithm/</loc>
+  </url>
+  
+  <url>
+    <loc>http://yanlinlin82.github.io/ARTS-Weekly/review/</loc>
   </url>
   
 </urlset>
