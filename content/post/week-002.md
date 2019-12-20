@@ -6,6 +6,23 @@ slug: week-002
 
 ## Algorithm
 
+* [leetcode题库](https://leetcode-cn.com/problemset/all/)
+
+### 成绩表
+
+| 编号 | 难度 | 题目 | 我的解答 | 执行用时 | 内存消耗 | 排名 |
+|:----:|:----:|:-----|:---------|---------:|---------:|-----:|
+| 3 | 中等 | [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | [191001-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00003_longest-substring-without-repeating-characters/191001-1.cpp) | 12 ms | 9 MB | [87.97%](https://leetcode-cn.com/submissions/detail/31776630/) |
+| 4 | 困难 | [寻找两个有序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) | [191003-2.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00004_median-of-two-sorted-arrays/191003-2.cpp) | 20 ms | 9.4 MB | [91.87%](https://leetcode-cn.com/submissions/detail/31918248/) |
+| 5 | 中等 | [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [191003-2.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00005_longest-palindromic-substring/191003-2.cpp) | 16 ms | 8.8 MB | [91.45%](https://leetcode-cn.com/submissions/detail/31956790/) |
+| 6 | 中等 | [Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion/) | [191004-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00006_zigzag-conversion/191004-1.cpp) | 8 ms | 9.9 MB | [97.93%](https://leetcode-cn.com/submissions/detail/32021439/) |
+| 7 | 简单 | [整数反转](https://leetcode-cn.com/problems/reverse-integer/) | [191005-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00007_reverse-integer/191005-1.cpp) | 4 ms | 8.2 MB | [86.49%](https://leetcode-cn.com/submissions/detail/32049490/) |
+| 8 | 中等 | [字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/) | [191005-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00008_string-to-integer-atoi/191005-1.cpp) | 4 ms | 8.3 MB | [93.74%](https://leetcode-cn.com/submissions/detail/32077883/) |
+| 9 | 简单 | [回文数](https://leetcode-cn.com/problems/palindrome-number/) | [191006-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00009_palindrome-number/191006-1.cpp) | 8 ms | 8.1 MB | [96.62%](https://leetcode-cn.com/submissions/detail/32113548/) |
+| 10 | 困难 | [正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/) | [191006-2.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00010_regular-expression-matching/191006-2.cpp) | 40 ms | 8.5 MB | [45.02%](https://leetcode-cn.com/submissions/detail/32115466/) |
+
+### 解答详情
+
 **链接：** <https://leetcode-cn.com/problems/longest-consecutive-sequence>
 
 **题目：** 最长连续序列
@@ -54,18 +71,6 @@ public:
     }
 };
 ```
-
-本周其他解题：
-
-* [两数相加](https://github.com/yanlinlin82/leetcode/blob/master/00002_add-two-numbers/190930-2.cpp)
-* [无重复字符的最长子串](https://github.com/yanlinlin82/leetcode/blob/master/00003_longest-substring-without-repeating-characters/191001-1.cpp)
-* [寻找两个有序数组的中位数](https://github.com/yanlinlin82/leetcode/blob/master/00004_median-of-two-sorted-arrays/191003-2.cpp)
-* [最长回文子串](https://github.com/yanlinlin82/leetcode/blob/master/00005_longest-palindromic-substring/191003-2.cpp)
-* [Z 字形变换](https://github.com/yanlinlin82/leetcode/blob/master/00006_zigzag-conversion/191004-1.cpp)
-* [整数反转](https://github.com/yanlinlin82/leetcode/blob/master/00007_reverse-integer/191005-1.cpp)
-* [字符串转换整数 (atoi)](https://github.com/yanlinlin82/leetcode/blob/master/00008_string-to-integer-atoi/191005-1.cpp)
-
-<https://github.com/yanlinlin82/leetcode>
 
 ## Review
 

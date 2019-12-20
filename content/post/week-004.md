@@ -6,11 +6,15 @@ slug: week-004
 
 ## Algorithm
 
-[LeetCode题库](https://leetcode-cn.com/problemset/all/)
+* [leetcode题库](https://leetcode-cn.com/problemset/all/)
 
-* [电话号码的字母组合](https://github.com/yanlinlin82/leetcode/blob/master/00017_letter-combinations-of-a-phone-number/191014-1.cpp)
-* [四数之和](https://github.com/yanlinlin82/leetcode/blob/master/00018_4sum/191018-1.cpp)
-* [删除链表的倒数第N个节点](https://github.com/yanlinlin82/leetcode/blob/master/00019_remove-nth-node-from-end-of-list/191019-1.cpp)
+### 成绩表
+
+| 编号 | 难度 | 题目 | 我的解答 | 执行用时 | 内存消耗 | 排名 |
+|:----:|:----:|:-----|:---------|---------:|---------:|-----:|
+| 17 | 中等 | [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | [191014-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00017_letter-combinations-of-a-phone-number/191014-1.cpp) | 4 ms | 8.4 MB | [79.17%](https://leetcode-cn.com/submissions/detail/33090732/) |
+| 18 | 中等 | [四数之和](https://leetcode-cn.com/problems/4sum/) | [191018-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00018_4sum/191018-1.cpp) | 1252 ms | 9.2 MB | [5.00%](https://leetcode-cn.com/submissions/detail/33476930/) |
+| 19 | 中等 | [删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [191019-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00019_remove-nth-node-from-end-of-list/191019-1.cpp) | 4 ms | 8.5 MB | [97.28%](https://leetcode-cn.com/submissions/detail/33601770/) |
 
 ## Review
 

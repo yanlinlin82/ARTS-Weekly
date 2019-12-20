@@ -6,10 +6,10 @@ slug: week-013
 
 ## Algorithm
 
-* [LeetCode题库](https://leetcode-cn.com/problemset/all/)
+* [leetcode题库](https://leetcode-cn.com/problemset/all/)
 
 | 编号 | 难度 | 题目 | 我的解答 | 执行用时 | 内存消耗 | 排名 |
-|:----:|:----:|:-----|:-----|---------:|---------:|-----:|
+|:----:|:----:|:-----|:---------|---------:|---------:|-----:|
 | 42 | 困难 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | [191216-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00042_trapping-rain-water/191216-1.cpp) | 496 ms | 10.1 MB | [5.05%](https://leetcode-cn.com/submissions/detail/40112534/) |
 | 43 | 中等 | [字符串相乘](https://leetcode-cn.com/problems/multiply-strings/) | [191217-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00043_multiply-strings/191217-1.cpp) | 8 ms | 9.7 MB | [80.75%](https://leetcode-cn.com/submissions/detail/40348646/) |
 | 44 | 困难 | [通配符匹配](https://leetcode-cn.com/problems/wildcard-matching/) | [191218-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00044_wildcard-matching/191218-1.cpp) | 56 ms | 10.2 MB | [64.90%](https://leetcode-cn.com/submissions/detail/40476946/) |

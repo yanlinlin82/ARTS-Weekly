@@ -6,10 +6,13 @@ slug: week-006
 
 ## Algorithm
 
-[LeetCode题库](https://leetcode-cn.com/problemset/all/)
+* [leetcode题库](https://leetcode-cn.com/problemset/all/)
 
-* [合并两个有序链表](https://github.com/yanlinlin82/leetcode/blob/master/00021_merge-two-sorted-lists/191028-1.cpp)
-* [括号生成](https://github.com/yanlinlin82/leetcode/blob/master/00022_generate-parentheses/191104-1.cpp)
+### 成绩表
+
+| 编号 | 难度 | 题目 | 我的解答 | 执行用时 | 内存消耗 | 排名 |
+|:----:|:----:|:-----|:---------|---------:|---------:|-----:|
+| 21 | 简单 | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [191028-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00021_merge-two-sorted-lists/191028-1.cpp) | 8 ms | 8.8 MB | [96.63%](https://leetcode-cn.com/submissions/detail/34686113/) |
 
 ## Review
 

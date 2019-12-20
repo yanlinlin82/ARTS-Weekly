@@ -48,12 +48,61 @@ li.page-item{display:inline;padding-right:15px}
   </div>
 <div>
   <h2 id="algorithm">Algorithm</h2>
-<p><a href="https://leetcode-cn.com/problemset/all/">LeetCode题库</a></p>
 <ul>
-<li><a href="https://leetcode-cn.com/problems/search-in-rotated-sorted-array/">搜索旋转排序数组</a>：<a href="https://github.com/yanlinlin82/leetcode/blob/master/00033_search-in-rotated-sorted-array/191129-1.cpp">我的解答</a></li>
-<li><a href="https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/">在排序数组中查找元素的第一个和最后一个位置</a>：<a href="https://github.com/yanlinlin82/leetcode/blob/master/00034_find-first-and-last-position-of-element-in-sorted-array/191202-1.cpp">我的解答</a></li>
-<li><a href="https://leetcode-cn.com/problems/search-insert-position/">搜索插入位置</a>：<a href="https://github.com/yanlinlin82/leetcode/blob/master/00035_search-insert-position/191203-1.cpp">我的解答</a></li>
+<li><a href="https://leetcode-cn.com/problemset/all/">leetcode题库</a></li>
 </ul>
+<h3 id="heading">成绩表</h3>
+<table>
+<thead>
+<tr>
+<th align="center">编号</th>
+<th align="center">难度</th>
+<th align="left">题目</th>
+<th align="left">我的解答</th>
+<th align="right">执行用时</th>
+<th align="right">内存消耗</th>
+<th align="right">排名</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">34</td>
+<td align="center">中等</td>
+<td align="left"><a href="https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/">在排序数组中查找元素的第一个和最后一个位置</a></td>
+<td align="left"><a href="https://github.com/yanlinlin82/leetcode/blob/master/00034_find-first-and-last-position-of-element-in-sorted-array/191202-1.cpp">191202-1.cpp</a></td>
+<td align="right">12 ms</td>
+<td align="right">10.5 MB</td>
+<td align="right"><a href="https://leetcode-cn.com/submissions/detail/38686320/">59.57%</a></td>
+</tr>
+<tr>
+<td align="center">35</td>
+<td align="center">简单</td>
+<td align="left"><a href="https://leetcode-cn.com/problems/search-insert-position/">搜索插入位置</a></td>
+<td align="left"><a href="https://github.com/yanlinlin82/leetcode/blob/master/00035_search-insert-position/191203-1.cpp">191203-1.cpp</a></td>
+<td align="right">8 ms</td>
+<td align="right">8.7 MB</td>
+<td align="right"><a href="https://leetcode-cn.com/submissions/detail/38687381/">70.69%</a></td>
+</tr>
+<tr>
+<td align="center">36</td>
+<td align="center">中等</td>
+<td align="left"><a href="https://leetcode-cn.com/problems/valid-sudoku/">有效的数独</a></td>
+<td align="left"><a href="https://github.com/yanlinlin82/leetcode/blob/master/00036_valid-sudoku/191208-1.cpp">191208-1.cpp</a></td>
+<td align="right">4 ms</td>
+<td align="right">9.4 MB</td>
+<td align="right"><a href="https://leetcode-cn.com/submissions/detail/39343183/">99.97%</a></td>
+</tr>
+<tr>
+<td align="center">37</td>
+<td align="center">困难</td>
+<td align="left"><a href="https://leetcode-cn.com/problems/sudoku-solver/">解数独</a></td>
+<td align="left"><a href="https://github.com/yanlinlin82/leetcode/blob/master/00037_sudoku-solver/191208-1.cpp">191208-1.cpp</a></td>
+<td align="right">40 ms</td>
+<td align="right">8.6 MB</td>
+<td align="right"><a href="https://leetcode-cn.com/submissions/detail/39348102/">23.66%</a></td>
+</tr>
+</tbody>
+</table>
 <h2 id="review">Review</h2>
 <p><a href="https://www.codeproject.com/Articles/5250544/Implementation-of-Resizable-Multidimensional-Array">Implementation of Resizable Multidimensional Arrays in C++17</a></p>
 <p>这是一篇技术文章，在C++中从头构建多维数组类型，并支持其数组大小可变。C++本身只支持一维数组（vector类型），而不支持多维数组。虽然可以使用嵌套的vector来实现类似效果，但这种方式每个层级不同元素之间的数组长度互相独立，其效果与科学计算中的矩阵和张量并不一致。这篇文章充分使用了恰当的内存布局和指针寻址方式，配合C++新标准的操作符重载与模板封装方法，来实现了所需的多维数组效果。其最终表现性能胜过vector的方式。且文章在介绍各个实现细节重点时，也讲解清楚，值得仔细阅读学习。</p>

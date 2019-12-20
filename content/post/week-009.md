@@ -6,11 +6,18 @@ slug: week-009
 
 ## Algorithm
 
-[LeetCode题库](https://leetcode-cn.com/problemset/all/)
+* [leetcode题库](https://leetcode-cn.com/problemset/all/)
 
-* [移除元素](https://leetcode-cn.com/problems/remove-element/)：[我的解答](https://github.com/yanlinlin82/leetcode/blob/master/00027_remove-element/191118-1.cpp)
-* [实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)：[我的解答](https://github.com/yanlinlin82/leetcode/blob/master/00028_implement-strstr/191118-1.cpp)
-* [两数相除](https://leetcode-cn.com/problems/divide-two-integers/)：[我的解答](https://github.com/yanlinlin82/leetcode/blob/master/00029_divide-two-integers/191118-1.cpp)
+### 成绩表
+
+| 编号 | 难度 | 题目 | 我的解答 | 执行用时 | 内存消耗 | 排名 |
+|:----:|:----:|:-----|:---------|---------:|---------:|-----:|
+| 27 | 简单 | [移除元素](https://leetcode-cn.com/problems/remove-element/) | [191118-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00027_remove-element/191118-1.cpp) | 0 ms | 8.4 MB | [100.00%](https://leetcode-cn.com/submissions/detail/36942276/) |
+| 28 | 简单 | [实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/) | [191118-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00028_implement-strstr/191118-1.cpp) | 8 ms | 8.8 MB | [65.58%](https://leetcode-cn.com/submissions/detail/36942358/) |
+| 29 | 中等 | [两数相除](https://leetcode-cn.com/problems/divide-two-integers/) | [191118-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00029_divide-two-integers/191118-1.cpp) | 4 ms | 8.1 MB | [87.18%](https://leetcode-cn.com/submissions/detail/37054861/) |
+| 30 | 困难 | [串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/) | [191119-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00030_substring-with-concatenation-of-all-words/191119-1.cpp) | 1904 ms | 30 MB | [6.38%](https://leetcode-cn.com/submissions/detail/37175940/) |
+| 31 | 中等 | [下一个排列](https://leetcode-cn.com/problems/next-permutation/) | [191120-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00031_next-permutation/191120-1.cpp) | 12 ms | 8.7 MB | [73.28%](https://leetcode-cn.com/submissions/detail/37327890/) |
+| 32 | 困难 | [最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) | [191121-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00032_longest-valid-parentheses/191121-1.cpp) | 12 ms | 9.4 MB | [42.79%](https://leetcode-cn.com/submissions/detail/37457502/) |
 
 ## Review
 

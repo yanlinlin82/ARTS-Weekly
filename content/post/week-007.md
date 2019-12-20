@@ -6,9 +6,14 @@ slug: week-007
 
 ## Algorithm
 
-[LeetCode题库](https://leetcode-cn.com/problemset/all/)
+* [leetcode题库](https://leetcode-cn.com/problemset/all/)
 
-* [合并K个排序链表](https://github.com/yanlinlin82/leetcode/blob/master/00023_merge-k-sorted-lists/191106-1.cpp)
+### 成绩表
+
+| 编号 | 难度 | 题目 | 我的解答 | 执行用时 | 内存消耗 | 排名 |
+|:----:|:----:|:-----|:---------|---------:|---------:|-----:|
+| 22 | 中等 | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/) | [191104-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00022_generate-parentheses/191104-1.cpp) | 8 ms | 17.1 MB | [82.69%](https://leetcode-cn.com/submissions/detail/35362589/) |
+| 23 | 困难 | [合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | [191106-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00023_merge-k-sorted-lists/191106-1.cpp) | 304 ms | 10.6 MB | [19.33%](https://leetcode-cn.com/submissions/detail/36130466/) |
 
 ## Review
 

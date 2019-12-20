@@ -6,11 +6,16 @@ slug: week-011
 
 ## Algorithm
 
-[LeetCode题库](https://leetcode-cn.com/problemset/all/)
+* [leetcode题库](https://leetcode-cn.com/problemset/all/)
 
-* [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)：[我的解答](https://github.com/yanlinlin82/leetcode/blob/master/00033_search-in-rotated-sorted-array/191129-1.cpp)
-* [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)：[我的解答](https://github.com/yanlinlin82/leetcode/blob/master/00034_find-first-and-last-position-of-element-in-sorted-array/191202-1.cpp)
-* [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)：[我的解答](https://github.com/yanlinlin82/leetcode/blob/master/00035_search-insert-position/191203-1.cpp)
+### 成绩表
+
+| 编号 | 难度 | 题目 | 我的解答 | 执行用时 | 内存消耗 | 排名 |
+|:----:|:----:|:-----|:---------|---------:|---------:|-----:|
+| 34 | 中等 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [191202-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00034_find-first-and-last-position-of-element-in-sorted-array/191202-1.cpp) | 12 ms | 10.5 MB | [59.57%](https://leetcode-cn.com/submissions/detail/38686320/) |
+| 35 | 简单 | [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | [191203-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00035_search-insert-position/191203-1.cpp) | 8 ms | 8.7 MB | [70.69%](https://leetcode-cn.com/submissions/detail/38687381/) |
+| 36 | 中等 | [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/) | [191208-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00036_valid-sudoku/191208-1.cpp) | 4 ms | 9.4 MB | [99.97%](https://leetcode-cn.com/submissions/detail/39343183/) |
+| 37 | 困难 | [解数独](https://leetcode-cn.com/problems/sudoku-solver/) | [191208-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00037_sudoku-solver/191208-1.cpp) | 40 ms | 8.6 MB | [23.66%](https://leetcode-cn.com/submissions/detail/39348102/) |
 
 ## Review
 

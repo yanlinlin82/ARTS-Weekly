@@ -4,13 +4,15 @@ date: 2019-10-27T14:10:13+0800
 slug: week-005
 ---
 
-[返回目录](README.md#打卡记录)
-
 ## Algorithm
 
-[LeetCode题库](https://leetcode-cn.com/problemset/all/)
+* [leetcode题库](https://leetcode-cn.com/problemset/all/)
 
-* [有效的括号](https://github.com/yanlinlin82/leetcode/blob/master/00020_valid-parentheses/191025-1.cpp)
+### 成绩表
+
+| 编号 | 难度 | 题目 | 我的解答 | 执行用时 | 内存消耗 | 排名 |
+|:----:|:----:|:-----|:---------|---------:|---------:|-----:|
+| 20 | 简单 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [191025-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00020_valid-parentheses/191025-1.cpp) | 4 ms | 8.3 MB | [76.70%](https://leetcode-cn.com/submissions/detail/34283286/) |
 
 ## Review
 

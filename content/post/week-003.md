@@ -6,6 +6,21 @@ slug: week-003
 
 ## Algorithm
 
+* [leetcode题库](https://leetcode-cn.com/problemset/all/)
+
+### 成绩表
+
+| 编号 | 难度 | 题目 | 我的解答 | 执行用时 | 内存消耗 | 排名 |
+|:----:|:----:|:-----|:---------|---------:|---------:|-----:|
+| 11 | 中等 | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | [191007-2.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00011_container-with-most-water/191007-2.cpp) | 8 ms | 9.7 MB | [99.99%](https://leetcode-cn.com/submissions/detail/32215802/) |
+| 12 | 中等 | [整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/) | [191008-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00012_integer-to-roman/191008-1.cpp) | 4 ms | 8.3 MB | [98.39%](https://leetcode-cn.com/submissions/detail/32280527/) |
+| 13 | 简单 | [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/) | [191008-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00013_roman-to-integer/191008-1.cpp) | 8 ms | 8.4 MB | [98.44%](https://leetcode-cn.com/submissions/detail/32384658/) |
+| 14 | 简单 | [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/) | [191009-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00014_longest-common-prefix/191009-1.cpp) | 4 ms | 8.8 MB | [96.42%](https://leetcode-cn.com/submissions/detail/32528898/) |
+| 15 | 中等 | [三数之和](https://leetcode-cn.com/problems/3sum/) | [191010-2.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00015_3sum/191010-2.cpp) | 224 ms | 15.7 MB | [36.61%](https://leetcode-cn.com/submissions/detail/32642478/) |
+| 16 | 中等 | [最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/) | [191011-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00016_3sum-closest/191011-1.cpp) | 416 ms | 8.4 MB | [7.61%](https://leetcode-cn.com/submissions/detail/32758877/) |
+
+### 解答详情
+
 **链接：** <https://leetcode-cn.com/problems/regular-expression-matching/>
 
 **题目：** 正则表达式匹配
@@ -146,17 +161,6 @@ public:
     }
 };
 ```
-
-本周其他解题：
-
-* [回文数](https://github.com/yanlinlin82/leetcode/blob/master/00009_palindrome-number/191006-1.cpp)
-* [正则表达式匹配](https://github.com/yanlinlin82/leetcode/blob/master/00010_regular-expression-matching/191006-2.cpp)
-* [盛最多水的容器](https://github.com/yanlinlin82/leetcode/blob/master/00011_container-with-most-water/191007-2.cpp)
-* [整数转罗马数字](https://github.com/yanlinlin82/leetcode/blob/master/00012_integer-to-roman/191008-1.cpp)
-* [罗马数字转整数](https://github.com/yanlinlin82/leetcode/blob/master/00013_roman-to-integer/191008-1.cpp)
-* [最长公共前缀](https://github.com/yanlinlin82/leetcode/blob/master/00014_longest-common-prefix/191009-1.cpp)
-* [三数之和](https://github.com/yanlinlin82/leetcode/blob/master/00015_3sum/191010-2.cpp)
-* [最接近的三数之和](https://github.com/yanlinlin82/leetcode/blob/master/00016_3sum-closest/191011-1.cpp)
 
 ## Review
 

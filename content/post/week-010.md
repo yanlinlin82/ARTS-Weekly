@@ -6,11 +6,13 @@ slug: week-010
 
 ## Algorithm
 
-[LeetCode题库](https://leetcode-cn.com/problemset/all/)
+* [leetcode题库](https://leetcode-cn.com/problemset/all/)
 
-* [串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)：[我的解答](https://github.com/yanlinlin82/leetcode/blob/master/00030_substring-with-concatenation-of-all-words/191119-1.cpp)
-* [下一个排列](https://leetcode-cn.com/problems/next-permutation/)：[我的解答](https://github.com/yanlinlin82/leetcode/blob/master/00031_next-permutation/191120-1.cpp)
-* [最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/)：[我的解答](https://github.com/yanlinlin82/leetcode/blob/master/00032_longest-valid-parentheses/191121-1.cpp)
+### 成绩表
+
+| 编号 | 难度 | 题目 | 我的解答 | 执行用时 | 内存消耗 | 排名 |
+|:----:|:----:|:-----|:---------|---------:|---------:|-----:|
+| 33 | 中等 | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [191129-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00033_search-in-rotated-sorted-array/191129-1.cpp) | 4 ms | 9 MB | [91.02%](https://leetcode-cn.com/submissions/detail/38357319/) |
 
 ## Review
 
