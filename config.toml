@@ -7,6 +7,11 @@ googleAnalytics = "UA-74397492-2"
 [params]
 githubURL = "https://github.com/yanlinlin82/ARTS-Weekly/"
 
+[markup.highlight]
+codeFences = true
+lineNos = true
+style = "monokailight"
+
 [permalinks]
 post = "/:slug/"
 page = "/:slug/"
@@ -18,8 +23,23 @@ url = "/"
 
 [[menu.main]]
 weight = 20
-name = "索引"
-url = "/quick/"
+name = "算法(A)"
+url = "/algorithm/"
+
+[[menu.main]]
+weight = 30
+name = "调研(R)"
+url = "/review/"
+
+[[menu.main]]
+weight = 40
+name = "技巧(T)"
+url = "/tip/"
+
+[[menu.main]]
+weight = 50
+name = "分享(S)"
+url = "/share/"
 
 [[menu.main]]
 weight = 90
@@ -29,9 +49,4 @@ url = "/about/"
 [[menu.main]]
 weight = 99
 name = "个人网站"
-url = "http://yanlinlin.cn/"
-
-[markup.highlight]
-codeFences = true
-lineNos = true
-style = "monokailight"
+url = "https://yanlinlin.cn/"
