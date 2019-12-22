@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARTS第十四周（2019年12月23日~29日） - 颜林林的“左耳听风ARTS”打卡记录</title>
+<style type="text/css">
+body{margin:16px auto;max-width:677px;padding:0 10px;color:#333;line-height:1.6}
+h1,h2,h3{line-height:1.2}
+h1{font-size:160%}
+h2{font-size:120%}
+h3,h4,h5,h6{font-size:100%}
+header{margin:0;padding:0;border-bottom:1px solid #999;line-height:1}
+footer{margin:0;padding:10px 0;border-top:1px solid #999;line-height:1;text-align:center}
+p,div,table,ul,ol{margin:10px 0}
+img{margin:10px auto;width:90%;max-width:600px;padding:0 10px;height:auto;display:block}
+hr{border:none;border-top:1px dashed #999;color:#fff;background-color:#fff;height:1px}
+a{color:#00f;word-wrap:break-word}
+a:visited{color:#009}
+a:hover{color:#f00}
+header a,header a:visited,footer a,footer a:visited,h1 a,h1 a:visited,h2 a,h2 a:visited{text-decoration:none;color:#333}
+header a:hover,footer a:hover,h1 a:hover,h2 a:hover{text-decoration:none;color:#f00}
+nav{padding:10px 0;text-align:right}
+nav a{padding-left:15px}
+table{border-collapse:collapse}
+th,td{border:1px solid gray;padding:2px 5px}
+code{border:1px solid #999;background-color:#f0f0f0;padding:1px 2px}
+pre{border:1px solid #999;background-color:#f0f0f0;padding:5px;overflow:auto;max-height:500px}
+pre code{border:0;background:none;padding:0}
+ul.pagination{list-style-type:none;text-align:center}
+li.page-item{display:inline;padding-right:15px}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1><a href="http://yanlinlin82.github.io/ARTS-Weekly/">颜林林的“左耳听风ARTS”打卡记录</a></h1>
+  </div>
+  <nav><a href="/ARTS-Weekly/">目录</a><a href="/ARTS-Weekly/algorithm/">算法(A)</a><a href="/ARTS-Weekly/review/">调研(R)</a><a href="/ARTS-Weekly/tip/">技巧(T)</a><a href="/ARTS-Weekly/share/">分享(S)</a><a href="/ARTS-Weekly/about/">关于</a><a href="https://yanlinlin.cn/">个人网站</a></nav>
+</header>
+<main>
+  <article class="content">
+    <div>
+  <h1>ARTS第十四周（2019年12月23日~29日）</h1>
+</div>
+<div>
+  <div>2019-12-23 01:23</span>
+  </div>
+<div>
+  <h2 id="algorithm">Algorithm</h2>
+<p><a href="https://leetcode-cn.com/problemset/all/">LeetCode题库</a></p>
+<table>
+<thead>
+<tr>
+<th align="center">编号</th>
+<th align="center">难度</th>
+<th align="left">题目</th>
+<th align="left">我的解答</th>
+<th align="right">执行用时</th>
+<th align="right">内存消耗</th>
+<th align="right">排名</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">45</td>
+<td align="center">困难</td>
+<td align="left"><a href="https://leetcode-cn.com/problems/jump-game-ii/">跳跃游戏 II</a></td>
+<td align="left"><a href="https://github.com/yanlinlin82/leetcode/blob/master/00045_jump-game-ii/191223-1.cpp">191223-1.cpp</a></td>
+<td align="right">1568 ms</td>
+<td align="right">10.1 MB</td>
+<td align="right"><a href="https://leetcode-cn.com/submissions/detail/40905412/">5.05%</a></td>
+</tr>
+<tr>
+<td align="center">46</td>
+<td align="center">中等</td>
+<td align="left"><a href="https://leetcode-cn.com/problems/permutations/">全排列</a></td>
+<td align="left"><a href="https://github.com/yanlinlin82/leetcode/blob/master/00046_permutations/191223-1.cpp">191223-1.cpp</a></td>
+<td align="right">24 ms</td>
+<td align="right">11.8 MB</td>
+<td align="right"><a href="https://leetcode-cn.com/submissions/detail/40905629/">20.64%</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="review">Review</h2>
+<h2 id="tip">Tip</h2>
+<h3 id="tip-1">在ps命令结果中进行grep时，如何去除grep本身</h3>
+<p>使用<code>ps -ef | grep XXX</code>查看某个命令是否正在运行时，常见的问题之一就是，该“grep XXX”也会出现在结果列表中。</p>
+<p>过去我通常使用的方法是再接上一个“grep -v grep”将这条结果去除掉，例如：</p>
+<div class="highlight"><div style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ ps -ef <span style="color:#111">|</span> grep chrome <span style="color:#111">|</span> grep -v grep
+</code></pre></td></tr></table>
+</div>
+</div><p>今天学习到另外一个方法，使用正则表达式，把该关键字分隔开，从而使该grep命令不会被grep出来：</p>
+<div class="highlight"><div style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ ps -ef <span style="color:#111">|</span> grep <span style="color:#d88200">&#39;[c]hrom&#39;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>而更好的方式是使用<code>pgrep</code>命令：</p>
+<div class="highlight"><div style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ pgrep -a chrome
+</code></pre></td></tr></table>
+</div>
+</div><p><strong>参考</strong>： <a href="https://www.cyberciti.biz/tips/grepping-ps-output-without-getting-grep.html">Remove grep command while grepping using ps command</a></p>
+<h2 id="share">Share</h2>
+</div>
+
+  </article>
+</main>
+<footer>
+  <div>
+    <div>
+      &copy; 2019 Linlin Yan. <a href="https://creativecommons.org/licenses/by/4.0/deed.zh">CC-BY-4.0</a></div>
+  </div>
+</footer>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-74397492-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<a href="https://github.com/yanlinlin82/ARTS-Weekly/" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style></body>
+</html>

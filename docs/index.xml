@@ -5,10 +5,23 @@
     <link>http://yanlinlin82.github.io/ARTS-Weekly/</link>
     <description>Recent content on 颜林林的“左耳听风ARTS”打卡记录</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 17 Dec 2019 22:36:42 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 23 Dec 2019 01:23:55 +0800</lastBuildDate>
     
 	<atom:link href="http://yanlinlin82.github.io/ARTS-Weekly/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ARTS第十四周（2019年12月23日~29日）</title>
+      <link>http://yanlinlin82.github.io/ARTS-Weekly/week-014/</link>
+      <pubDate>Mon, 23 Dec 2019 01:23:55 +0800</pubDate>
+      
+      <guid>http://yanlinlin82.github.io/ARTS-Weekly/week-014/</guid>
+      <description>Algorithm LeetCode题库
+   编号 难度 题目 我的解答 执行用时 内存消耗 排名     45 困难 跳跃游戏 II 191223-1.cpp 1568 ms 10.1 MB 5.05%   46 中等 全排列 191223-1.cpp 24 ms 11.8 MB 20.64%    Review Tip 在ps命令结果中进行grep时，如何去除grep本身 使用ps -ef | grep XXX查看某个命令是否正在运行时，常见的问题之一就是，该“grep XXX”也会出现在结果列表中。
+过去我通常使用的方法是再接上一个“grep -v grep”将这条结果去除掉，例如：
+1  $ ps -ef | grep chrome | grep -v grep   今天学习到另外一个方法，使用正则表达式，把该关键字分隔开，从而使该grep命令不会被grep出来：
+1  $ ps -ef | grep &amp;#39;[c]hrom&amp;#39;   而更好的方式是使用pgrep命令：</description>
+    </item>
     
     <item>
       <title>ARTS第十三周（2019年12月16日~22日）</title>
@@ -181,7 +194,7 @@ ARTS是以下四项内容的简称：
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://yanlinlin82.github.io/ARTS-Weekly/tip/</guid>
-      <description>week-001  How to expand * on Bash command line  week-002  本地目录的快速搜索利器：ag  week-003  如何控制ggplot的图例顺序？  week-004  一个涂色算法题的解法  week-005  如何让Linux命令history能显示运行时间？  week-006  如何在bash里读取csv文件  week-007  在R语言中，如何比较优雅地载入很多个包？  week-008  R语言一句话实现圣诞节（或其他某特定日期）倒计时  week-009  如何在用vim打开文件时，自动定位到特定行  week-010  如何在Linux下正常解压缩来自Windows系统的zip压缩包  week-011  如何在Linux下对PDF文件进行减肥  week-012  在命令标识符中，添加当前日期和时间  week-013  如何列出Linux系统过去的重启时间 如何去掉文件扩展名 如何检查用户的密码有效期 如何按照文件修改时间，提交git shell中检查文件是否可写 检查DNS记录的TTL（Time-To-Live） C++关键字&#39;override&#39;的作用 R语言中matrix选取特定规律的元素  </description>
+      <description>week-001  How to expand * on Bash command line  week-002  本地目录的快速搜索利器：ag  week-003  如何控制ggplot的图例顺序？  week-004  一个涂色算法题的解法  week-005  如何让Linux命令history能显示运行时间？  week-006  如何在bash里读取csv文件  week-007  在R语言中，如何比较优雅地载入很多个包？  week-008  R语言一句话实现圣诞节（或其他某特定日期）倒计时  week-009  如何在用vim打开文件时，自动定位到特定行  week-010  如何在Linux下正常解压缩来自Windows系统的zip压缩包  week-011  如何在Linux下对PDF文件进行减肥  week-012  在命令标识符中，添加当前日期和时间  week-013  如何列出Linux系统过去的重启时间 如何去掉文件扩展名 如何检查用户的密码有效期 如何按照文件修改时间，提交git shell中检查文件是否可写 检查DNS记录的TTL（Time-To-Live） C++关键字&#39;override&#39;的作用 R语言中matrix选取特定规律的元素  week-014  在ps命令结果中进行grep时，如何去除grep本身  </description>
     </item>
     
     <item>
@@ -192,7 +205,7 @@ ARTS是以下四项内容的简称：
       <guid>http://yanlinlin82.github.io/ARTS-Weekly/algorithm/</guid>
       <description>本打卡笔记，仅记录完成时间和成绩排名。原题可点击相应链接后，在leetcode官网上查看；而我完成的解答代码，可在我的“刷leetcode算法题库”仓库中相应查看。
 以下列出的题号为leetcode上的编号：
- week-001: 1, 2, 128 week-002: 3 ~ 10 week-003: 11 ~ 16 week-004: 17 ~ 19 week-005: 20 week-006: 21 week-007: 22, 23 week-008: 24 ~ 26 week-009: 27 ~ 32 week-010: 33 week-011: 34 ~ 37 week-012: 38 ~ 41 week-013: 42 ~ 44  </description>
+ week-001: 1, 2, 128 week-002: 3 ~ 10 week-003: 11 ~ 16 week-004: 17 ~ 19 week-005: 20 week-006: 21 week-007: 22, 23 week-008: 24 ~ 26 week-009: 27 ~ 32 week-010: 33 week-011: 34 ~ 37 week-012: 38 ~ 41 week-013: 42 ~ 44 week-014: 45 ~ 46  </description>
     </item>
     
     <item>
