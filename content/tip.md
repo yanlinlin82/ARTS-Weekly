@@ -60,3 +60,7 @@ title: 技巧（Tip）
 * [检查DNS记录的TTL（Time-To-Live）](../week-013/#tip-6)
 * [C++关键字'override'的作用](../week-013/#tip-7)
 * [R语言中matrix选取特定规律的元素](../week-013/#tip-8)
+
+## week-014
+
+* [在ps命令结果中进行grep时，如何去除grep本身](../week-014/#tip-1)
