@@ -18,13 +18,13 @@ hr{border:none;border-top:1px dashed #999;color:#fff;background-color:#fff;heigh
 a{color:#00f;word-wrap:break-word}
 a:visited{color:#009}
 a:hover{color:#f00}
-header a,header a:visited,footer a,footer a:visited,h1 a,h1 a:visited,h2 a,h2 a:visited{text-decoration:none;color:#333}
-header a:hover,footer a:hover,h1 a:hover,h2 a:hover{text-decoration:none;color:#f00}
+header a,header a:visited,footer a,footer a:visited,h1 a,h1 a:visited,h2 a,h2 a:visited,h3 a,h3 a:visited,h4 a,h4 a:visited,h5 a,h5 a:visited,h6 a,h6 a:visited{text-decoration:none;color:#333}
+header a:hover,footer a:hover,h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover{text-decoration:none;color:#f00}
 nav{padding:10px 0;text-align:right}
 nav a{padding-left:15px}
 table{border-collapse:collapse}
 th,td{border:1px solid gray;padding:2px 5px}
-code{border:1px solid #999;background-color:#f0f0f0;padding:1px 2px}
+code{border:1px dotted #999;background-color:#f0f0f0;padding:1px 2px;line-height:200%}
 pre{border:1px solid #999;background-color:#f0f0f0;padding:5px;overflow:auto;max-height:500px}
 pre code{border:0;background:none;padding:0}
 ul.pagination{list-style-type:none;text-align:center}
@@ -36,7 +36,7 @@ li.page-item{display:inline;padding-right:15px}
   <div>
     <h1><a href="http://yanlinlin82.github.io/ARTS-Weekly/">颜林林的“左耳听风ARTS”打卡记录</a></h1>
   </div>
-  <nav><a href="/ARTS-Weekly/">目录</a><a href="/ARTS-Weekly/algorithm/">算法(A)</a><a href="/ARTS-Weekly/review/">调研(R)</a><a href="/ARTS-Weekly/tip/">技巧(T)</a><a href="/ARTS-Weekly/share/">分享(S)</a><a href="/ARTS-Weekly/about/">关于</a><a href="https://yanlinlin.cn/">个人网站</a></nav>
+  <nav><a href="/ARTS-Weekly/">目录</a><a href="/ARTS-Weekly/algorithm/">算法(A)</a><a href="/ARTS-Weekly/review/">调研(R)</a><a href="/ARTS-Weekly/tip/">技巧(T)</a><a href="/ARTS-Weekly/share/">分享(S)</a><a href="/ARTS-Weekly/about/">关于</a><a href="https://yanlinlin.cn/">&gt;&gt;个人网站</a></nav>
 </header>
 <main>
   <article class="content">
@@ -98,9 +98,30 @@ li.page-item{display:inline;padding-right:15px}
 <td align="right">8.9 MB</td>
 <td align="right"><a href="https://leetcode-cn.com/submissions/detail/41023784/">59.36%</a></td>
 </tr>
+<tr>
+<td align="center">49</td>
+<td align="center">中等</td>
+<td align="left"><a href="https://leetcode-cn.com/problems/group-anagrams/">字母异位词分组</a></td>
+<td align="left"><a href="https://github.com/yanlinlin82/leetcode/blob/master/00049_group-anagrams/191225-1.cpp">191225-1.cpp</a></td>
+<td align="right">36 ms</td>
+<td align="right">17.6 MB</td>
+<td align="right"><a href="https://leetcode-cn.com/submissions/detail/41132632/">99.34%</a></td>
+</tr>
+<tr>
+<td align="center">50</td>
+<td align="center">中等</td>
+<td align="left"><a href="https://leetcode-cn.com/problems/powx-n/">Pow(x, n)  </a></td>
+<td align="left"><a href="https://github.com/yanlinlin82/leetcode/blob/master/00050_powx-n/191225-1.cpp">191225-1.cpp</a></td>
+<td align="right">0 ms</td>
+<td align="right">9.2 MB</td>
+<td align="right"><a href="https://leetcode-cn.com/submissions/detail/41133624/">100.00%</a></td>
+</tr>
 </tbody>
 </table>
 <h2 id="review">Review</h2>
+<h3 id="review-1">(1) <a href="https://www.codeproject.com/Articles/5246833/A-Static-Analysis-Tool-for-Cplusplus">A Static Analysis Tool for C++</a></h3>
+<p>这篇文章介绍了作者在其<a href="https://github.com/GregUtas/robust-services-core">Robust Services Core (RSC)</a>项目中，关于C++静态分析工具的使用。</p>
+<p>C++是一门很“庞大”的静态语言，以至于很多语言特性被滥用甚至误用。有很多书籍和博客文章，比如Scott Meyers写的《Effective C++》，会提供一些实践上建议遵循的原则，用以改善相应的代码编写。然而，这些原则也很多很零散，经常会被遗忘，所以，这里提到的“静态分析工具”，就能够帮助自动检查甚至更正操作。这对于越来越多、越来越大的C++项目，是很有价值的。</p>
 <h2 id="tip">Tip</h2>
 <h3 id="tip-1">在ps命令结果中进行grep时，如何去除grep本身</h3>
 <p>使用<code>ps -ef | grep XXX</code>查看某个命令是否正在运行时，常见的问题之一就是，该“grep XXX”也会出现在结果列表中。</p>
@@ -133,6 +154,9 @@ li.page-item{display:inline;padding-right:15px}
 </div>
 </div><p><strong>参考</strong>： <a href="https://www.cyberciti.biz/tips/grepping-ps-output-without-getting-grep.html">Remove grep command while grepping using ps command</a></p>
 <h2 id="share">Share</h2>
+<h3 id="share-1">(1) <a href="https://mp.weixin.qq.com/s/HlWxu6kEIZA8OA9WQ275eg">MacTalk: 没必要互相 diss，聊聊面试礼仪</a></h3>
+<p>这是来自“MacTalk”（也称作“卖桃者说”）公众号，池建强老师最新的一篇文章。</p>
+<p>讲述了在公司面试过程中，应该遵循的一些基本礼仪。其中有些问题，是做技术的人容易犯的，因为技术做得好，多少会存在一些傲气。这篇文章对这方面的建议和提醒，是值得学习的。</p>
 </div>
 
   </article>
