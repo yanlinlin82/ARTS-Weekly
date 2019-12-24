@@ -17,10 +17,7 @@
       
       <guid>http://yanlinlin82.github.io/ARTS-Weekly/week-014/</guid>
       <description>Algorithm LeetCode题库
-   编号 难度 题目 我的解答 执行用时 内存消耗 排名     45 困难 跳跃游戏 II 191223-1.cpp 1568 ms 10.1 MB 5.05%   46 中等 全排列 191223-1.cpp 24 ms 11.8 MB 20.64%    Review Tip 在ps命令结果中进行grep时，如何去除grep本身 使用ps -ef | grep XXX查看某个命令是否正在运行时，常见的问题之一就是，该“grep XXX”也会出现在结果列表中。
-过去我通常使用的方法是再接上一个“grep -v grep”将这条结果去除掉，例如：
-1  $ ps -ef | grep chrome | grep -v grep   今天学习到另外一个方法，使用正则表达式，把该关键字分隔开，从而使该grep命令不会被grep出来：
-1  $ ps -ef | grep &amp;#39;[c]hrom&amp;#39;   而更好的方式是使用pgrep命令：</description>
+   编号 难度 题目 我的解答 执行用时 内存消耗 排名     45 困难 跳跃游戏 II 191223-1.cpp 1568 ms 10.1 MB 5.05%   46 中等 全排列 191223-1.cpp 24 ms 11.8 MB 20.64%   47 中等 全排列 II 191224-1.cpp 944 ms 151.2 MB 5.05%   48 中等 旋转图像 191224-1.cpp 8 ms 8.9 MB 59.36%    Review Tip 在ps命令结果中进行grep时，如何去除grep本身 使用ps -ef | grep XXX查看某个命令是否正在运行时，常见的问题之一就是，该“grep XXX”也会出现在结果列表中。</description>
     </item>
     
     <item>
@@ -205,7 +202,7 @@ ARTS是以下四项内容的简称：
       <guid>http://yanlinlin82.github.io/ARTS-Weekly/algorithm/</guid>
       <description>本打卡笔记，仅记录完成时间和成绩排名。原题可点击相应链接后，在leetcode官网上查看；而我完成的解答代码，可在我的“刷leetcode算法题库”仓库中相应查看。
 以下列出的题号为leetcode上的编号：
- week-001: 1, 2, 128 week-002: 3 ~ 10 week-003: 11 ~ 16 week-004: 17 ~ 19 week-005: 20 week-006: 21 week-007: 22, 23 week-008: 24 ~ 26 week-009: 27 ~ 32 week-010: 33 week-011: 34 ~ 37 week-012: 38 ~ 41 week-013: 42 ~ 44 week-014: 45 ~ 46  </description>
+ week-001: 1, 2, 128 week-002: 3 ~ 10 week-003: 11 ~ 16 week-004: 17 ~ 19 week-005: 20 week-006: 21 week-007: 22, 23 week-008: 24 ~ 26 week-009: 27 ~ 32 week-010: 33 week-011: 34 ~ 37 week-012: 38 ~ 41 week-013: 42 ~ 44 week-014: 45 ~ 48  </description>
     </item>
     
     <item>
