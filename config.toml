@@ -48,5 +48,5 @@ url = "/about/"
 
 [[menu.main]]
 weight = 99
-name = "个人网站"
+name = ">>个人网站"
 url = "https://yanlinlin.cn/"

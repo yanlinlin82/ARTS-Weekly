@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## [week-014](#week-014) {#week-014}
+
+* [MacTalk: 没必要互相 diss，聊聊面试礼仪](../week-014/#share-1)
+
 ## [week-013](#week-013) {#week-013}
 
 * [Learning Basic Math Used In 3D Graphics Engines](../week-013/#share-1)

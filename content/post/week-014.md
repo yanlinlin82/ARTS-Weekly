@@ -14,6 +14,8 @@ slug: week-014
 | 46 | 中等 | [全排列](https://leetcode-cn.com/problems/permutations/) | [191223-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00046_permutations/191223-1.cpp) | 24 ms | 11.8 MB | [20.64%](https://leetcode-cn.com/submissions/detail/40905629/) |
 | 47 | 中等 | [全排列 II](https://leetcode-cn.com/problems/permutations-ii/) | [191224-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00047_permutations-ii/191224-1.cpp) | 944 ms | 151.2 MB | [5.05%](https://leetcode-cn.com/submissions/detail/41023428/) |
 | 48 | 中等 | [旋转图像](https://leetcode-cn.com/problems/rotate-image/) | [191224-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00048_rotate-image/191224-1.cpp) | 8 ms | 8.9 MB | [59.36%](https://leetcode-cn.com/submissions/detail/41023784/) |
+| 49 | 中等 | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) | [191225-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00049_group-anagrams/191225-1.cpp) | 36 ms | 17.6 MB | [99.34%](https://leetcode-cn.com/submissions/detail/41132632/) |
+| 50 | 中等 | [Pow(x, n)  ](https://leetcode-cn.com/problems/powx-n/) | [191225-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00050_powx-n/191225-1.cpp) | 0 ms | 9.2 MB | [100.00%](https://leetcode-cn.com/submissions/detail/41133624/) |
 
 ## Review
 
@@ -51,4 +53,8 @@ $ pgrep -a chrome
 
 ## Share
 
+### (1) [MacTalk: 没必要互相 diss，聊聊面试礼仪](https://mp.weixin.qq.com/s/HlWxu6kEIZA8OA9WQ275eg) {#share-1}
 
+这是来自“MacTalk”（也称作“卖桃者说”）公众号，池建强老师最新的一篇文章。
+
+讲述了在公司面试过程中，应该遵循的一些基本礼仪。其中有些问题，是做技术的人容易犯的，因为技术做得好，多少会存在一些傲气。这篇文章对这方面的建议和提醒，是值得学习的。
