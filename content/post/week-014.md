@@ -17,6 +17,11 @@ slug: week-014
 
 ## Review
 
+### (1) [A Static Analysis Tool for C++](https://www.codeproject.com/Articles/5246833/A-Static-Analysis-Tool-for-Cplusplus) {#review-1}
+
+这篇文章介绍了作者在其[Robust Services Core (RSC)](https://github.com/GregUtas/robust-services-core)项目中，关于C++静态分析工具的使用。
+
+C++是一门很“庞大”的静态语言，以至于很多语言特性被滥用甚至误用。有很多书籍和博客文章，比如Scott Meyers写的《Effective C++》，会提供一些实践上建议遵循的原则，用以改善相应的代码编写。然而，这些原则也很多很零散，经常会被遗忘，所以，这里提到的“静态分析工具”，就能够帮助自动检查甚至更正操作。这对于越来越多、越来越大的C++项目，是很有价值的。
 
 ## Tip
 
