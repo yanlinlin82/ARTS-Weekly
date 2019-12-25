@@ -46,7 +46,6 @@ weight = 90
 name = "关于"
 url = "/about/"
 
-[[menu.main]]
-weight = 99
+[[menu.parent]]
 name = ">>个人网站"
 url = "https://yanlinlin.cn/"
