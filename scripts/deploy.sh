@@ -1,3 +1,3 @@
 #!/bin/bash
 
-hugo && rsync -avP public/ docs/ --delete
+hugo && rsync -avP --delete public/ yanlinlin.cn:/var/www/blog/ARTS-Weekly/
