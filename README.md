@@ -16,4 +16,4 @@ ARTS是以下四项内容的简称：
 
 **点击如下链接浏览我的打卡记录**：
 
-<https://yanlinlin82.github.io/ARTS-Weekly/>
+<https://yanlinlin.cn/ARTS-Weekly/>
