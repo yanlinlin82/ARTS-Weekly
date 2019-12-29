@@ -4,6 +4,8 @@ title: 技巧（Tip）
 
 ## [week-015](#week-015) {#week-015}
 
+* [5行代码实现一个js的打字效果](../week-015/#tip-1)
+
 ## [week-014](#week-014) {#week-014}
 
 * [在ps命令结果中进行grep时，如何去除grep本身](../week-014/#tip-1)

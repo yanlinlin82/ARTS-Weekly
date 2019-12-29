@@ -4,6 +4,8 @@ title: 分享（Share）
 
 ## [week-015](#week-015) {#week-015}
 
+* [步履蹒跚六十年：中文编程史话](../week-015/#share-1)
+
 ## [week-014](#week-014) {#week-014}
 
 * [MacTalk: 没必要互相 diss，聊聊面试礼仪](../week-014/#share-1)
