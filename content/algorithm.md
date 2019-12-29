@@ -6,7 +6,7 @@ title: 算法（Algoritm）
 
 以下列出的题号为[leetcode](https://leetcode-cn.com/problemset/all/)上的编号：
 
-* week-015: [51 ~ 53](../week-015/#algorithm}
+* week-015: [51 ~ 53](../week-015/#algorithm)
 * week-014: [45 ~ 50](../week-014/#algorithm)
 * week-013: [42 ~ 44](../week-013/#algorithm)
 * week-012: [38 ~ 41](../week-012/#algorithm)
