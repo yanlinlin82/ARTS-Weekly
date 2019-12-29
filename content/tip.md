@@ -2,6 +2,8 @@
 title: 技巧（Tip）
 ---
 
+## [week-015](#week-015) {#week-015}
+
 ## [week-014](#week-014) {#week-014}
 
 * [在ps命令结果中进行grep时，如何去除grep本身](../week-014/#tip-1)
