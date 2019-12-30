@@ -4,6 +4,8 @@ title: 调研（Review）
 
 ## [week-015](#week-015) {#week-015}
 
+* [使用Python在GDB中帮助调试](../week-015/#review-1)
+
 ## [week-014](#week-014) {#week-014}
 
 * [A Static Analysis Tool for C++](../week-014/#review-1)

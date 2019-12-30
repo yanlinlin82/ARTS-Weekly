@@ -5,6 +5,7 @@ title: 技巧（Tip）
 ## [week-015](#week-015) {#week-015}
 
 * [5行代码实现一个js的打字效果](../week-015/#tip-1)
+* [GNU screen命令的分屏功能](../week-015/#tip-2)
 
 ## [week-014](#week-014) {#week-014}
 
