@@ -3,6 +3,7 @@ title = "颜林林的“左耳听风ARTS”打卡记录"
 theme = "simple-style"
 paginate = 20
 googleAnalytics = "UA-74397492-1"
+copyright = "&copy; 2019-2020 Linlin Yan. [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.zh)"
 
 [params]
 githubURL = "https://github.com/yanlinlin82/ARTS-Weekly/"
