@@ -14,4 +14,4 @@ ARTS是以下四项内容的简称：
 
 读者故事：<http://stuq.com/a/100mT>
 
-**补充说明：** 本网站使用[Hugo](https://gohugo.io/)生成，采用[simple-style](https://github.com/yanlinlin82/simple-style/)风格，并使用[GitHub Pages](https://pages.github.com/)进行发布。详细操作过程参见我博客上的文章《[使用Hugo将GitHub仓库快速改造成内容网站](http://yanlinlin.cn/2019/12/hugo-create-website-on-github/)》
+**补充说明：** 本网站使用[Hugo](https://gohugo.io/)生成，采用[simple-style](https://github.com/yanlinlin82/simple-style/)风格。之前使用[GitHub Pages](https://pages.github.com/)进行发布，其详细操作过程参见我博客上的文章《[使用Hugo将GitHub仓库快速改造成内容网站](http://yanlinlin.cn/2019/12/hugo-create-website-on-github/)》。为更灵活方便，现已改为使用rsync方式直接部署到我的个人网站。
