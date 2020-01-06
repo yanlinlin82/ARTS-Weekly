@@ -32,3 +32,9 @@ slug: week-016
 这篇文章介绍了常用了Linux命令行，大多数都是我平时经常在使用的，对于很多数据清洗过程，的确很方便。
 
 此外，为了扩展上述命令，更简便地处理TSV（TAB separated values）格式文件，以及对Excel的输入输出等功能，我还开发了一个[tsv](https://github.com/yanlinlin82/tsv)工具，并在实践过程中，不断完善其功能。
+
+### 高效Linux命令行 {#share-2}
+
+分享公众号文章：[15个相见恨晚的 Linux 神器，你可能一个都没见过](https://mp.weixin.qq.com/s/Rg0C1B5rQ39G_92UGo9MFw)
+
+这些Linux工具的确对已有被替代工具，在效率和易用性上，做了大量的优化，值得尝试并引入日常使用。

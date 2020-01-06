@@ -5,6 +5,7 @@ title: 分享（Share）
 ## [week-016](#week-016) {#week-016}
 
 * [命令行下的数据分析工具](../week-016/#share-1)
+* [高效Linux命令行](../week-017/#share-2)
 
 ## [week-015](#week-015) {#week-015}
 
