@@ -12,7 +12,10 @@ slug: week-016
 |:----:|:----:|:-----|:---------|---------:|---------:|-----:|
 | 59 | 中等 | [螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii/) | [200106-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00059_spiral-matrix-ii/200106-1.cpp) | 4 ms | 8.7 MB | [92.79%](https://leetcode-cn.com/submissions/detail/42396567/) |
 | 60 | 中等 | [第k个排列](https://leetcode-cn.com/problems/permutation-sequence/) | [200106-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00060_permutation-sequence/200106-1.cpp) | 100 ms | 8.2 MB | [21.30%](https://leetcode-cn.com/submissions/detail/42397982/) |
-| 61 | 中等 | [旋转链表](https://leetcode-cn.com/problems/rotate-list/) | [200106-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00061_rotate-list/200106-1.cpp) |  ms |  MB | [](https://leetcode-cn.com/submissions/detail//) |
+| 61 | 中等 | [旋转链表](https://leetcode-cn.com/problems/rotate-list/) | [200106-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00061_rotate-list/200106-1.cpp) | 12 ms | 9 MB | [63.86%](https://leetcode-cn.com/submissions/detail/42398520/) |
+| 62 | 中等 | [不同路径](https://leetcode-cn.com/problems/unique-paths/) | [200107-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00062_unique-paths/200107-1.cpp) | 0 ms | 8.2 MB | [100.00%](https://leetcode-cn.com/submissions/detail/42531909/) |
+| 63 | 中等 | [不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii/) | [200107-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00063_unique-paths-ii/200107-1.cpp) | 8 ms | 9.1 MB | [45.88%](https://leetcode-cn.com/submissions/detail/42532712/) |
+| 64 | 中等 | [最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) | [200107-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00064_minimum-path-sum/200107-1.cpp) | 8 ms | 10.4 MB | [89.43%](https://leetcode-cn.com/submissions/detail/42533083/) |
 
 ## Review
 
