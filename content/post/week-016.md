@@ -19,6 +19,7 @@ slug: week-016
 | 65 | 困难 | [有效数字](https://leetcode-cn.com/problems/valid-number/) | [200108-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00065_valid-number/200108-1.cpp) | 4 ms | 8.2 MB | [87.72%](https://leetcode-cn.com/submissions/detail/42667621/) |
 | 66 | 简单 | [加一](https://leetcode-cn.com/problems/plus-one/) | [200108-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00066_plus-one/200108-1.cpp) | 0 ms | 8.6 MB | [100.00%](https://leetcode-cn.com/submissions/detail/42668177/) |
 | 67 | 简单 | [二进制求和](https://leetcode-cn.com/problems/add-binary/) | [200108-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00067_add-binary/200108-1.cpp) | 0 ms | 8.7 MB | [100.00%](https://leetcode-cn.com/submissions/detail/42668665/) |
+| 68 | 困难 | [文本左右对齐](https://leetcode-cn.com/problems/text-justification/) | [200108-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00068_text-justification/200108-1.cpp) | 8 ms | 9.1 MB | [22.76%](https://leetcode-cn.com/submissions/detail/42775068/) |
 
 ## Review
 
