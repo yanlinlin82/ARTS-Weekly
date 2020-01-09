@@ -23,9 +23,67 @@ slug: week-016
 
 ## Review
 
+### CMake使用技巧 {#review-1}
+
+链接文章： [Funky CMake](https://philippegroarke.com/posts/2019/funky_cmake/)
+
+这一篇文章里，给出了作者从实践中得来的一些关于CMake的非正统使用技巧。主要是利用CMake提供的一些基础支持，用于方便地做第三方支持库的获取、编译、部署应用。
+
+CMake定义了自己的一套语法，用来在不同操作系统平台下，生成对应的make，从而实现跨平台的编译环境构建。相关的一些参考学习文章链接：
+
+* [CSDN: cmake 学习笔记](https://blog.csdn.net/dbzhang800/article/details/6314073)
+* [IBM DeveloperWorks: 在 linux 下使用 CMake 构建应用程序](https://www.ibm.com/developerworks/cn/linux/l-cn-cmake/)
+* [知乎：如何用cmake编译](https://zhuanlan.zhihu.com/p/59161370)
+* [知乎：VS Code与CMake真乃天作之合](https://zhuanlan.zhihu.com/p/52874931)
 
 ## Tip
 
+### shell命令的并行执行 {#tip-1}
+
+* 方式1 - 后台执行
+
+    ```sh
+    $ command-1 &  # 后台执行第一个命令
+    $ command-2 &  # 后台执行第二个命令
+    $ jobs  # 查看后台命令列表
+    $ wait  # 等待后台命令结束
+    ```
+
+* 方式2 - 开多个终端
+
+    可选工具：
+
+    * [GNU screen](https://www.gnu.org/software/screen/)
+    * [tmux](http://tmux.github.io/)
+
+* 方式3 - GNU parallel
+
+    这是本次技巧总结的重点，它提供了非常灵活的运行方式，来帮助用户组合出多个命令，并且并行执行它们：
+
+    ```sh
+    $ cat > commands.txt     # 通过各种方式生成一系列命令，每行一个命令
+    $ parallel commands.txt  # 并行执行这些命令
+    ```
+
+    输入的也可以是参数，然后被追加到同一个命令后面，例如：
+
+    ```sh
+    $ find . -name '*.html' | parallel gzip --best
+    ```
+
+    或者，也可以命令行直接指定多个参数（使用`:::`），让其逐个枚举并生成需要并行的命令：
+
+    ```sh
+    $ parallel gzip --best ::: *.html
+    ```
+
+    参考：[Manpage of GNU parallel](https://www.gnu.org/software/parallel/man.html)
+
+* 方式4 - seqpipe
+
+    <https://github.com/yanlinlin82/seqpipe/>
+
+    这是我自己开发的流程框架工具。其主要目的是为了记录详细的运行命令行参数及日志。在未正式发布的第5、6版本中，我仿照GNU parallel写了一些最基本的并行支持，后续考虑参考GNU parallel和其他类似工具，提供各种更灵活简便的使用方式。
 
 ## Share
 

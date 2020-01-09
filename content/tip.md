@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## [week-016](#week-016) {#week-016}
+
+* [shell命令的并行执行](../week-016/#tip-1)
+
 ## [week-015](#week-015) {#week-015}
 
 * [5行代码实现一个js的打字效果](../week-015/#tip-1)
