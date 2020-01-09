@@ -4,7 +4,7 @@ title: 调研（Review）
 
 ## [week-015](#week-016) {#week-016}
 
-* [CMake使用技巧](../week-016/#review-1}
+* [CMake使用技巧](../week-016/#review-1)
 
 ## [week-015](#week-015) {#week-015}
 
