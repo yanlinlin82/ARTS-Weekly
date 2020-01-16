@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## [week-017](#week-017) {#week-017}
+
+* [在ssh命令中使用alias](../week-017/#tip-1)
+
 ## [week-016](#week-016) {#week-016}
 
 * [shell命令的并行执行](../week-016/#tip-1)
