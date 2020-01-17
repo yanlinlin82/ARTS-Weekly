@@ -20,6 +20,21 @@ slug: week-017
 
 ## Review
 
+### C++求最大最小值方法评测 {#review-1}
+
+链接文章：[CodeProject: C++17: Benchmark of Singular Min/Max and Iterator Versions](https://www.codeproject.com/Tips/5256748/Cplusplus17-Benchmark-of-Singular-Min-Max-and-Iter)
+
+这篇文章对三种C++求最值的方法：
+
+1. 手工写循环，逐个比较
+2. 使用STL的min和max函数
+3. 使用C++17新引入的`min_element()/max_element()`函数
+
+进行了评测。结果参见：<https://github.com/shaovoon/minmaxbench>
+
+结果发现，在不同的编译器之间，优化的结果并不一致。
+
+对于性能要求高的代码，也许需要根据其编译器进行不同编写方法的选择。
 
 ## Tip
 
@@ -55,4 +70,8 @@ Connection to yanlinlin.cn closed.
 
 ## Share
 
+### C++20的特性表 {#share-1}
 
+分享链接：[C++20 Features](https://gallery.mailchimp.com/e93417593cbf4da3dba03d672/files/006311ce-fcb7-4fbb-829d-85d917c9a4f9/cpp20_refcard.pdf)
+
+进入2020年，最新的C++20标准也即将正式发布。这个PDF汇总了一些目前已确认的C++20将引入的新语言特性。
