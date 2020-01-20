@@ -21,6 +21,26 @@ slug: week-018
 
 ## Tip
 
+### 防止误操作重启服务器 {#tip-1}
+
+通过配置别名，实现在执行`shutdown`或`reboot`命令时进行警告：
+
+```sh
+alias reboot="echo 'Are you sure?' If so, run /sbin/reboot"
+alias shutdown="echo 'Are you sure?' If so, run /sbin/shutdown"
+```
+
+参考：[nixCraft: Protects Linux machines from accidental shutdowns/reboots with molly-guard](https://www.cyberciti.biz/hardware/how-to-protects-linux-and-unix-machines-from-accidental-shutdownsreboots-with-molly-guard/)
+
+### 在Linux下查找Windows OEM验证码 {#tip-2}
+
+购买笔记本电脑时，预装有Windows。一旦安装Linux后，想要找回该预装Windows的验证码，就可以用如下命令：
+
+```sh
+sudo strings /sys/firmware/acpi/tables/MSDM
+```
+
+参考：[nixCraft: Linux find Windows 10 OEM product key command](https://www.cyberciti.biz/faq/linux-find-windows-10-oem-product-key-command/)
 
 ## Share
 
