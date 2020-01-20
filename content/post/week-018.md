@@ -18,6 +18,15 @@ slug: week-018
 
 ## Review
 
+### 关于C++中的对象 {#review-1}
+
+文章链接：[Objects, Their Lifetimes and pointers](https://blog.panicsoftware.com/objects-their-lifetimes-and-pointers/)
+
+这篇文章指出了，C++语言中的对象，与wikipedia和其他面向对象语言中所定义的对象，是有区别的。这些区别来自于C++语言本身的发展历史，对于系统底层的支持，诸如不同内存分配方式、内置类型与自定义类的区别等。其重点在于：
+
+1. C++类的成员（变量）和类型并不是对象；
+2. 应避免运行时改变某个对象的类型；
+3. 一定要注意对象的生存期，在生存期以外进行使用一定要非常小心。
 
 ## Tip
 
