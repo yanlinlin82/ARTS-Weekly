@@ -62,4 +62,19 @@ sudo strings /sys/firmware/acpi/tables/MSDM
 
 ## Share {{<permalink "share">}}
 
+### 1. 关于软件测试的趋势预测 {{<permalink "share-1">}}
 
+文章链接：**[2020年即将到来的软件测试趋势](https://www.qaseven.cn/posts/upcoming-software-testing-trends-in-2020.html)**
+
+这篇文章从多个方面对软件测试做了简单的当前进展描述和未来预测，包括：
+
+* 人工智能和机器学习的应用
+* 移动应用的自动化测试
+* 物联网测试
+* 自动化API测试
+* 集成各种工具
+
+### 2. C++20标准相关 {{<permalink "share-2">}}
+
+* The Official Conference App for DroidKaigi 2020 Tokyo: <https://droidkaigi.jp/2020/en/>
+* GitHub 'conference-app-2020' project: <https://github.com/DroidKaigi/conference-app-2020>

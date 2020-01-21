@@ -4,7 +4,8 @@ title: 调研（Review）
 
 ## [week-018](#week-018) {#week-018}
 
-* [关于C++中的对象](../week-018/#review-1)
+1. [关于C++中的对象](../week-018/#review-1)
+2. [在C++中实现弱类型](../week-018/#review-2)
 
 ## [week-017](#week-017) {#week-017}
 

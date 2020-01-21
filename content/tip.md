@@ -4,8 +4,8 @@ title: 技巧（Tip）
 
 ## [week-018](#week-018) {#week-018}
 
-* [防止误操作重启服务器](../week-018/#tip-1)
-* [在Linux下查找Windows OEM验证码](../week-019/#tip-2)
+1. [防止误操作重启服务器](../week-018/#tip-1)
+2. [在Linux下查找Windows OEM验证码](../week-018/#tip-2)
 
 ## [week-017](#week-017) {#week-017}
 
