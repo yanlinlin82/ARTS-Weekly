@@ -6,7 +6,10 @@ slug: week-018
 
 ## Algorithm {{<permalink "algorithm">}}
 
-### [LeetCode题库](https://leetcode-cn.com/problemset/all/) {{<permalink "leetcode">}}
+### LeetCode {{<permalink "leetcode">}}
+
+题库链接：<https://leetcode-cn.com/problemset/all/>  
+我的刷题：<https://github.com/yanlinlin82/leetcode/>
 
 | 编号 | 难度 | 题目 | 我的解答 | 执行用时 | 内存消耗 | 排名 |
 |:----:|:----:|:-----|:---------|---------:|---------:|-----:|
@@ -27,6 +30,12 @@ slug: week-018
 1. C++类的成员（变量）和类型并不是对象；
 2. 应避免运行时改变某个对象的类型；
 3. 一定要注意对象的生存期，在生存期以外进行使用一定要非常小心。
+
+### 2. 在C++中实现弱类型 {{<permalink "review-2">}}
+
+文章链接：**[std::polymorphic\_value + Duck Typing = Type Erasure](https://foonathan.net/2020/01/type-erasure/)**
+
+这篇文章介绍了“类型消除（Type Erasure）”的实现方法，通过使用智能指针，将自定义类型封装得表现得与内置类型一样，并且避免类型强制转换时造成内存块截断，再配合“鸭子类型（Duck Typing）”，从而在C++这样的强类型语言中，实现了弱类型。
 
 ## Tip {{<permalink "tip">}}
 
