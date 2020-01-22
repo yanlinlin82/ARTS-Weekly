@@ -18,6 +18,9 @@ slug: week-018
 | 78 | 中等 | [子集](https://leetcode-cn.com/problems/subsets/) | [200121-1,cpp](https://github.com/yanlinlin82/leetcode/blob/master/00078_subsets/200121-1,cpp) | 4 ms | 15.1 MB | [96.99%](https://leetcode-cn.com/submissions/detail/44178849/) |
 | 79 | 中等 | [单词搜索](https://leetcode-cn.com/problems/word-search/) | [200121-1,cpp](https://github.com/yanlinlin82/leetcode/blob/master/00079_word-search/200121-1,cpp) | 32 ms | 11.1 MB | [72.65%](https://leetcode-cn.com/submissions/detail/44178964/) |
 | 80 | 中等 | [删除排序数组中的重复项 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/) | [200121-1,cpp](https://github.com/yanlinlin82/leetcode/blob/master/00080_remove-duplicates-from-sorted-array-ii/200121-1,cpp) | 12 ms | 8.9 MB | [93.37%](https://leetcode-cn.com/submissions/detail/44179034/) |
+| 81 | 中等 | [搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/) | [200122-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00081_search-in-rotated-sorted-array-ii/200122-1.cpp) | 8 ms | 9.1 MB | [69.29%](https://leetcode-cn.com/submissions/detail/44296630/) |
+| 82 | 中等 | [删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/) | [200122-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00082_remove-duplicates-from-sorted-list-ii/200122-1.cpp) | 12 ms | 9.1 MB | [61.70%](https://leetcode-cn.com/submissions/detail/44301383/) |
+| 83 | 简单 | [删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | [200122-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00083_remove-duplicates-from-sorted-list/200122-1.cpp) | 12 ms | 9.2 MB | [90.06%](https://leetcode-cn.com/submissions/detail/44302885/) |
 
 ## Review {{<permalink "review">}}
 
