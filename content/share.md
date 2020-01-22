@@ -6,6 +6,7 @@ title: 分享（Share）
 
 1. [关于软件测试的趋势预测](../week-018/#share-1)
 2. [C++20标准相关](../week-018/#share-2)
+3. [关于浮点数精度问题](../week-018/#share-3)
 
 ## week-017 {{<permalink "week-017">}}
 
@@ -14,7 +15,7 @@ title: 分享（Share）
 ## week-016 {{<permalink "week-016">}}
 
 1. [命令行下的数据分析工具](../week-016/#share-1)
-2. [高效Linux命令行](../week-017/#share-2)
+2. [高效Linux命令行](../week-016/#share-2)
 
 ## week-015 {{<permalink "week-015">}}
 
