@@ -89,3 +89,11 @@ sudo strings /sys/firmware/acpi/tables/MSDM
 文章链接：[JavaScript 浮点数之迷：0.1 + 0.2 为什么不等于 0.3？](https://juejin.im/post/5e23bce4f265da3e1932d972)
 
 为了精确表示浮点数（这里特指有理数，即可以表示成为两个整数相除形式的数），我用C++写了一个有理数类[rational-number](https://github.com/yanlinlin82/rational-number)，用于进一步研究特定精度下浮点数存储中的误差。
+
+### 4. 常用Linux命令行操作 {{<permalink "share-4">}}
+
+文章链接：[SegmentFault: 让你的 Linux 命令骚起来](https://segmentfault.com/a/1190000021625278)
+
+这篇文章简要介绍了`grep`、`sed`、`awk`、`sort`、`comm`、`uniq`、`tr`、`cat`、`head`、`tail`、`wc`、`find`、`tsort`、`tee`、`xxd`、`iconv`等命令。
+
+其中我不太熟悉的命令有`comm`和`tsort`，前者可用于集合运算，后者可用于拓扑排序。
