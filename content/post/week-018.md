@@ -81,3 +81,11 @@ sudo strings /sys/firmware/acpi/tables/MSDM
 
 * The Official Conference App for DroidKaigi 2020 Tokyo: <https://droidkaigi.jp/2020/en/>
 * GitHub 'conference-app-2020' project: <https://github.com/DroidKaigi/conference-app-2020>
+
+### 3. 关于浮点数精度问题 {{<permalink "share-3">}}
+
+计算机科学中，浮点数的存储及其精度问题，一直是一个难点，若理解不足，则在实际应用中遇到问题时，往往会感到诧异甚至无助。前些天在微信群里听到有人提及Javascript中“0.1 + 0.2 不等于 0.3”的问题，其实这个问题普遍存在于几乎所有的计算机语言。后来在网上看到了如下文章：
+
+文章链接：[JavaScript 浮点数之迷：0.1 + 0.2 为什么不等于 0.3？](https://juejin.im/post/5e23bce4f265da3e1932d972)
+
+为了精确表示浮点数（这里特指有理数，即可以表示成为两个整数相除形式的数），我用C++写了一个有理数类[rational-number](https://github.com/yanlinlin82/rational-number)，用于进一步研究特定精度下浮点数存储中的误差。
