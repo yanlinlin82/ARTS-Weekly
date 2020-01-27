@@ -5,6 +5,7 @@ title: 分享（Share）
 ## week-019 {{<permalink "week-019">}}
 
 1. [Qt5 C++图形界面编程入门视频](../week-019/#share-1)
+2. [精品资源汇集（the Book of Secret Knowledge）](../week-019/#share-2)
 
 ## week-018 {{<permalink "week-018">}}
 

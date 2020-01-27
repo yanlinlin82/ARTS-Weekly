@@ -50,8 +50,34 @@ ls .[^.]*
 
 注：原文中还提供了另一种方式“`.??*`”，但这个会导致单字母文件名的隐藏文件不被包含进来。
 
+### 2. 命令行管道的高级用法 {{<permalink "tip-2">}}
+
+将标准输出和标准错误分别重定向到另外的命令：
+
+```sh
+some_command > >(/bin/cmd_for_stdout) 2> >(/bin/cmd_for_stderr)
+```
+
+将标准输出和标准错误分别写入文件，并且同时还在屏幕上展示：
+
+
+```sh
+(some_command 2>&1 1>&3 | tee errorlog ) 3>&1 1>&2 | tee stdoutlog
+```
+
+参考链接：<https://github.com/trimstray/the-book-of-secret-knowledge#pipe-stdout-and-stderr-to-separate-commands>
+
 ## Share {{<permalink "share">}}
 
 ### 1. Qt5 C++图形界面编程入门视频 {{<permalink "share-1">}}
 
 视频链接：**[Qt5 C++ GUI Development Full Course For Beginners | C++ GUI](https://www.youtube.com/watch?v=Et_bgnJ_Hhg&feature=youtu.be)**
+
+### 2. 精品资源汇集（the Book of Secret Knowledge） {{<permalink "share-2">}}
+
+GitHub仓库地址：**[the Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)**
+
+提及的bash命令行相关的资源：
+
+* <https://github.com/dylanaraps/pure-bash-bible>
+* <https://github.com/jlevy/the-art-of-command-line>
