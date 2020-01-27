@@ -13,6 +13,9 @@ slug: week-019
 | 84 | 困难 | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | [200127-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00084_largest-rectangle-in-histogram/200127-1.cpp) | 492 ms | 10.3 MB | [20.29%](https://leetcode-cn.com/submissions/detail/44588295/) |
 | 85 | 困难 | [最大矩形](https://leetcode-cn.com/problems/maximal-rectangle/) | [200127-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00085_maximal-rectangle/200127-1.cpp) | 40 ms | 10.7 MB | [33.95%](https://leetcode-cn.com/submissions/detail/44597536/) |
 | 86 | 中等 | [分隔链表](https://leetcode-cn.com/problems/partition-list/) | [200127-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00086_partition-list/200127-1.cpp) | 4 ms | 8.8 MB | [97.67%](https://leetcode-cn.com/submissions/detail/44599734/) |
+| 87 | 困难 | [扰乱字符串](https://leetcode-cn.com/problems/scramble-string/) | [200128-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00087_scramble-string/200128-1.cpp) | 4 ms | 8.4 MB | [97.87%](https://leetcode-cn.com/submissions/detail/44677541/) |
+| 88 | 简单 | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | [200128-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00088_merge-sorted-array/200128-1.cpp) | 4 ms | 8.8 MB | [92.24%](https://leetcode-cn.com/submissions/detail/44677609/) |
+| 89 | 中等 | [格雷编码](https://leetcode-cn.com/problems/gray-code/) | [200128-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00089_gray-code/200128-1.cpp) | 8 ms | 9.4 MB | [55.37%](https://leetcode-cn.com/submissions/detail/44677854/) |
 
 ## Review {{<permalink "review">}}
 
@@ -46,7 +49,7 @@ slug: week-019
 ls .[^.]*
 ```
 
-文章链接：**[Linux / Unix Rsync Copy Hidden Dot Files and Directories Only](https://www.cyberciti.biz/faq/linux-unix-appleosx-bsd-rsync-copy-hidden-dot-files/)
+文章链接：**[Linux / Unix Rsync Copy Hidden Dot Files and Directories Only](https://www.cyberciti.biz/faq/linux-unix-appleosx-bsd-rsync-copy-hidden-dot-files/)**
 
 注：原文中还提供了另一种方式“`.??*`”，但这个会导致单字母文件名的隐藏文件不被包含进来。
 
@@ -75,7 +78,7 @@ some_command > >(/bin/cmd_for_stdout) 2> >(/bin/cmd_for_stderr)
 
 ### 2. 精品资源汇集（the Book of Secret Knowledge） {{<permalink "share-2">}}
 
-GitHub仓库地址：**[the Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)**
+GitHub仓库地址：<https://github.com/trimstray/the-book-of-secret-knowledge>
 
 提及的bash命令行相关的资源：
 
