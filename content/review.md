@@ -2,6 +2,11 @@
 title: 调研（Review）
 ---
 
+## week-019 {{<permalink "week-019">}}
+
+1. [编程技术的变迁](../week-019/#review-1)
+2. [二次方程解的新推导方法](../week-019/#review-2)
+
 ## week-018 {{<permalink "week-018">}}
 
 1. [关于C++中的对象](../week-018/#review-1)

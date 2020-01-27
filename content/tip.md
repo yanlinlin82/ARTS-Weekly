@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## week-019 {{<permalink "week-019">}}
+
+1. [命令行下列举所有隐藏文件](../week-019/#tip-1)
+
 ## week-018 {{<permalink "week-018">}}
 
 1. [防止误操作重启服务器](../week-018/#tip-1)

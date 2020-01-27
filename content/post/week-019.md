@@ -16,10 +16,42 @@ slug: week-019
 
 ## Review {{<permalink "review">}}
 
+### 1. 编程技术的变迁 {{<permalink "review-1">}}
+
+文章链接：**[How is computer programming different today than 20 years ago?](https://medium.com/swlh/how-is-computer-programming-different-today-than-20-years-ago-9d0154d1b6ce)**
+
+这篇文章的作者，对比了过去20年以来的编程技术变化，比如：
+
+* 许多理论概念得以实现，甚至成为主流
+* 对面向对象编程的追捧减少，涌现更多新的编程模式；实现上，人们更倾向于组合，而非继承
+* 多线程等并行执行的技术成为普遍
+* 垃圾回收机制成为许多语言的常规方法
+* 软件包管理系统对于编程语言也变得重要，而非过去那种每个软件都需要手工下载编译安装
+* 语言支持工具也变得丰富
+* 程序可以运行在显卡上
+
+### 2. 二次方程解的新推导方法 {{<permalink "review-2">}}
+
+文章链接：**[A new way to make quadratic equations easy](https://www.technologyreview.com/s/614775/a-new-way-to-make-quadratic-equations-easy/)**
+
+解二次方程，是个古老的问题，通常都是直接采用公式计算。然而这篇文章使用了一个新颖的方法，重新进行了推导，简化了推导过程。
 
 ## Tip {{<permalink "tip">}}
 
+### 1. 命令行下列举所有隐藏文件 {{<permalink "tip-1">}}
+
+如果使用通配符`.*`，会连同`.`和`..`一起被列出，想要排除它们，可以使用：
+
+```sh
+ls .[^.]*
+```
+
+文章链接：**[Linux / Unix Rsync Copy Hidden Dot Files and Directories Only](https://www.cyberciti.biz/faq/linux-unix-appleosx-bsd-rsync-copy-hidden-dot-files/)
+
+注：原文中还提供了另一种方式“`.??*`”，但这个会导致单字母文件名的隐藏文件不被包含进来。
 
 ## Share {{<permalink "share">}}
 
+### 1. Qt5 C++图形界面编程入门视频 {{<permalink "share-1">}}
 
+视频链接：**[Qt5 C++ GUI Development Full Course For Beginners | C++ GUI](https://www.youtube.com/watch?v=Et_bgnJ_Hhg&feature=youtu.be)**
