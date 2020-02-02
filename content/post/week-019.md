@@ -29,6 +29,9 @@ slug: week-019
 | 100 | 简单 | [相同的树](https://leetcode-cn.com/problems/same-tree/) | [200201-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00100_same-tree/200201-1.cpp) | 0 ms | 10.2 MB | [100.00%](https://leetcode-cn.com/submissions/detail/45164769/) |
 | 101 | 简单 | [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) | [200201-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00101_symmetric-tree/200201-1.cpp) | 0 ms | 14.9 MB | [100.00%](https://leetcode-cn.com/submissions/detail/45164931/) |
 | 102 | 中等 | [二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [200201-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00102_binary-tree-level-order-traversal/200201-1.cpp) | 0 ms | 14.2 MB | [100.00%](https://leetcode-cn.com/submissions/detail/45165071/) |
+| 103 | 中等 | [二叉树的锯齿形层次遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | [200202-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00103_binary-tree-zigzag-level-order-traversal/200202-1.cpp) | 8 ms | 13.7 MB | [59.83%](https://leetcode-cn.com/submissions/detail/45375475/) |
+| 104 | 简单 | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [200202-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00104_maximum-depth-of-binary-tree/200202-1.cpp) | 20 ms | 19.4 MB | [16.82%](https://leetcode-cn.com/submissions/detail/45376240/) |
+| 105 | 中等 | [从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [200202-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00105_construct-binary-tree-from-preorder-and-inorder-traversal/200202-1.cpp) | 28 ms | 16.5 MB | [54.16%](https://leetcode-cn.com/submissions/detail/45385476/) |
 
 ## Review {{<permalink "review">}}
 
