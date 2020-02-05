@@ -19,6 +19,9 @@ slug: week-020
 | 112 | 简单 | [路径总和](https://leetcode-cn.com/problems/path-sum/) | [200205-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00112_path-sum/200205-1.cpp) | 16 ms | 20.1 MB | [62.22%](https://leetcode-cn.com/submissions/detail/45759151/) |
 | 113 | 中等 | [路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/) | [200205-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00113_path-sum-ii/200205-1.cpp) | 24 ms | 33.3 MB | [43.71%](https://leetcode-cn.com/submissions/detail/45759466/) |
 | 114 | 中等 | [二叉树展开为链表](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/) | [200205-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00114_flatten-binary-tree-to-linked-list/200205-1.cpp) | 4 ms | 9.9 MB | [96.03%](https://leetcode-cn.com/submissions/detail/45759661/) |
+| 115 | 困难 | [不同的子序列](https://leetcode-cn.com/problems/distinct-subsequences/) | [200206-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00115_distinct-subsequences/200206-1.cpp) | 8 ms | 9.4 MB | [85.41%](https://leetcode-cn.com/submissions/detail/45908211/) |
+| 116 | 中等 | [填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/) | [200206-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00116_populating-next-right-pointers-in-each-node/200206-1.cpp) | 12 ms | 19.3 MB | [99.58%](https://leetcode-cn.com/submissions/detail/45910813/) |
+| 117 | 中等 | [填充每个节点的下一个右侧节点指针 II](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/) | [200206-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00117_populating-next-right-pointers-in-each-node-ii/200206-1.cpp) | 24 ms | 20.4 MB | [55.31%](https://leetcode-cn.com/submissions/detail/45911091/) |
 
 ## Review {{<permalink "review">}}
 
