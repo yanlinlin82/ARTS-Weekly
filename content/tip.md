@@ -4,6 +4,10 @@ title: 技巧（Tip）
 
 ## week-020 {{<permalink "week-020">}}
 
+1. [在Linux下扩容存储](../week-020/#tip-1)
+2. [Bash中的变量扩展](../week-020/#tip-2)
+3. [Linux下查看无线网卡信息](../week-020/#tip-3)
+
 ## week-019 {{<permalink "week-019">}}
 
 1. [命令行下列举所有隐藏文件](../week-019/#tip-1)

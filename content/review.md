@@ -4,6 +4,8 @@ title: 调研（Review）
 
 ## week-020 {{<permalink "week-020">}}
 
+1. [如何写git commit的注释信息](../week-020/#review-1)
+
 ## week-019 {{<permalink "week-019">}}
 
 1. [编程技术的变迁](../week-019/#review-1)
