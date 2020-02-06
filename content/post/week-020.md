@@ -22,6 +22,10 @@ slug: week-020
 | 115 | 困难 | [不同的子序列](https://leetcode-cn.com/problems/distinct-subsequences/) | [200206-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00115_distinct-subsequences/200206-1.cpp) | 8 ms | 9.4 MB | [85.41%](https://leetcode-cn.com/submissions/detail/45908211/) |
 | 116 | 中等 | [填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/) | [200206-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00116_populating-next-right-pointers-in-each-node/200206-1.cpp) | 12 ms | 19.3 MB | [99.58%](https://leetcode-cn.com/submissions/detail/45910813/) |
 | 117 | 中等 | [填充每个节点的下一个右侧节点指针 II](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/) | [200206-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00117_populating-next-right-pointers-in-each-node-ii/200206-1.cpp) | 24 ms | 20.4 MB | [55.31%](https://leetcode-cn.com/submissions/detail/45911091/) |
+| 118 | 简单 | [杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) | [200207-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00118_pascals-triangle/200207-1.cpp) | 0 ms | 8.8 MB | [100.00%](https://leetcode-cn.com/submissions/detail/46058522/) |
+| 119 | 简单 | [杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii/) | [200207-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00119_pascals-triangle-ii/200207-1.cpp) | 0 ms | 9.1 MB | [100.00%](https://leetcode-cn.com/submissions/detail/46058660/) |
+| 120 | 中等 | [三角形最小路径和](https://leetcode-cn.com/problems/triangle/) | [200207-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00120_triangle/200207-1.cpp) | 4 ms | 10.7 MB | [96.41%](https://leetcode-cn.com/submissions/detail/46059125/) |
+| 121 | 简单 | [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [200207-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00121_best-time-to-buy-and-sell-stock/200207-1.cpp) | 1068 ms | 9.6 MB | [16.18%](https://leetcode-cn.com/submissions/detail/46059292/) |
 
 ## Review {{<permalink "review">}}
 
