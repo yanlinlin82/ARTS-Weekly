@@ -5,6 +5,7 @@ title: 分享（Share）
 ## week-020 {{<permalink "week-020">}}
 
 1. [C++中的json类型实现](../week-020/#share-1)
+2. [C++中的编译期正则表达式解析](../week-020/#share-2)
 
 ## week-019 {{<permalink "week-019">}}
 

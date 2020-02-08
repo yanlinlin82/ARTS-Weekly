@@ -163,3 +163,29 @@ auto j2 = R"(
   }
 )"_json;
 ```
+
+### 2. C++中的编译期正则表达式解析 {{<permalink "share-2">}}
+
+分享项目：<https://github.com/hanickadot/compile-time-regular-expressions>
+
+这是一个基于C++新标准实现的编译器做正则表达式解析的类库。其运算速度甚至能够明显优于各种被广泛使用的正则表达式库，很值得学习。
+
+其C++17语法如下：
+
+```cpp
+static constexpr auto pattern = ctll::fixed_string{ "h.*" };
+
+constexpr auto match(std::string_view sv) noexcept {
+	return ctre::match<pattern>(sv);
+}
+```
+
+其C++20语法如下：
+
+```cpp
+constexpr auto match(std::string_view sv) noexcept {
+	return ctre::match<"h.*">(sv);
+}
+```
+
+正则表达式的初始化，不再消耗运行时，而是在编译过程中直接完成，同时也完成相应的正则语法判断。
