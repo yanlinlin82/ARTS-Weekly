@@ -15,6 +15,11 @@ slug: week-021
 | 133 | 困难 | [克隆图](https://leetcode-cn.com/problems/clone-graph/) | [200210-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00133_clone-graph/200210-1.cpp) | 16 ms | 11.4 MB | [79.04%](https://leetcode-cn.com/submissions/detail/46503062/) |
 | 134 | 中等 | [加油站](https://leetcode-cn.com/problems/gas-station/) | [200210-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00134_gas-station/200210-1.cpp) | 232 ms | 9.3 MB | [14.88%](https://leetcode-cn.com/submissions/detail/46503186/) |
 | 135 | 困难 | [分发糖果](https://leetcode-cn.com/problems/candy/) | [200210-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00135_candy/200210-1.cpp) | 40 ms | 10.2 MB | [22.15%](https://leetcode-cn.com/submissions/detail/46542936/) |
+| 136 | 简单 | [只出现一次的数字](https://leetcode-cn.com/problems/single-number/) | [200211-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00136_single-number/200211-1.cpp) | 20 ms | 11.5 MB | [39.73%](https://leetcode-cn.com/submissions/detail/46654297/) |
+| 137 | 中等 | [只出现一次的数字 II](https://leetcode-cn.com/problems/single-number-ii/) | [200211-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00137_single-number-ii/200211-1.cpp) | 16 ms | 10.6 MB | [37.31%](https://leetcode-cn.com/submissions/detail/46654396/) |
+| 138 | 中等 | [复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/) | [200211-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00138_copy-list-with-random-pointer/200211-1.cpp) | 16 ms | 13.7 MB | [69.83%](https://leetcode-cn.com/submissions/detail/46655381/) |
+| 139 | 中等 | [单词拆分](https://leetcode-cn.com/problems/word-break/) | [200211-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00139_word-break/200211-1.cpp) | 8 ms | 12.7 MB | [0.8308](https://leetcode-cn.com/submissions/detail/46656720/) |
+| 140 | 困难 | [单词拆分 II](https://leetcode-cn.com/problems/word-break-ii/) | [200211-2.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00140_word-break-ii/200211-2.cpp) | 12 ms | 16.7 MB | [0.8653](https://leetcode-cn.com/submissions/detail/46657021/) |
 
 ## Review {{<permalink "review">}}
 
