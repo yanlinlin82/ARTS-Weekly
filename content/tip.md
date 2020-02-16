@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## week-021 {{<permalink "week-021">}}
+
+1. [在vim中将某个字符替换为换行](../week-021/#tip-1)
+
 ## week-020 {{<permalink "week-020">}}
 
 1. [在Linux下扩容存储](../week-020/#tip-1)

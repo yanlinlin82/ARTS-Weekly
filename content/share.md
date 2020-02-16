@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-021 {{<permalink "week-021">}}
+
+1. [FFmpeg视频处理入门教程](../week-021/#share-1)
+
 ## week-020 {{<permalink "week-020">}}
 
 1. [C++中的json类型实现](../week-020/#share-1)

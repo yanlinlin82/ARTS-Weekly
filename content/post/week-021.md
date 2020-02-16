@@ -41,10 +41,45 @@ slug: week-021
 
 ## Review {{<permalink "review">}}
 
+### 1. 关于时间的设计缺陷问题 {{<permalink "review-1">}}
+
+分享链接：
+
+* [Linux is ready for the end of time](https://www.zdnet.com/article/linux-is-ready-for-the-end-of-time/)
+* [The Y2K bug is back, causing headaches for developers again](https://www.zdnet.com/article/the-y2k-bug-is-back-causing-headaches-for-developers-again/)
+
+这两篇文章提及的时间问题，属于时间类型在设计上存在的缺陷，导致的应用逻辑错误，在某个特定时间点爆发。著名的千年虫，就是因为只使用了两位数表示年份，于是导致从1999年到2000年跨世纪时，时间表示的逻辑上出现错乱。而有些系统会使用“00-20”和“21-99”分别表示不同世纪（以解决千年虫问题），于是，这个设计的缺陷在2020年再次出现。而32位时间戳表示方法，使用从1970年1月1日凌晨0点起始的秒数，会在2038年数完整个32位整数，于是，相应的调整需要提前准备起来。这些准备工作包括使用各种64位的表示时间的数据类型，以及（尤其重要的）在磁盘上存储的某些（文件系统用到的）32位时间戳。
 
 ## Tip {{<permalink "tip">}}
 
+### 1. 在vim中将某个字符替换为换行 {{<permalink "tip-1">}}
+
+方法1：
+
+使用`\r`代替`\n`，例如：
+
+```
+:%s/,/\r/g
+```
+
+方法2：
+
+```
+:set magic
+:s/,/,^M/g
+```
+
+这里的`^M`，需要这么输入：先按下`<Ctrl>`+`<V>`，然后按`<Enter>`。
+
+参考：
+
+* <https://stackoverflow.com/questions/20510302/using-sed-or-vim-to-replace-space-with-new-line>
+* <https://stackoverflow.com/questions/71323/how-to-replace-a-character-by-a-newline-in-vim>
 
 ## Share {{<permalink "share">}}
 
+### 1. FFmpeg视频处理入门教程 {{<permalink "share-1">}}
 
+分享链接：<http://www.ruanyifeng.com/blog/2020/01/ffmpeg.html>
+
+这篇文章介绍了FFmpeg的一些基本功能的命令用法，包括对视频媒体文件进行查看、转码、改变分辨率、改变码率等操作。
