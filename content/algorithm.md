@@ -6,7 +6,7 @@ title: 算法（Algoritm）
 
 以下列出的题号为[leetcode](https://leetcode-cn.com/problemset/all/)上的编号：
 
-* week-021: (完成25道) [131 ~ 155](../week-021/#algorithm)
+* week-021: (完成28道) [131 ~ 155, 160, 162, 164](../week-021/#algorithm)
 * week-020: (完成25道) [106 ~ 130](../week-020/#algorithm)
 * week-019: (完成22道) [84 ~ 105](../week-019/#algorithm)
 * week-018: (完成8道) [76 ~ 83](../week-018/#algorithm)
@@ -20,10 +20,10 @@ title: 算法（Algoritm）
 * week-010: (完成1道) [33](../week-010/#algorithm)
 * week-009: (完成6道) [27 ~ 32](../week-009/#algorithm)
 * week-008: (完成3道) [24 ~ 26](../week-008/#algorithm)
-* week-007: (完成2道) [22, 23](../week-007/#algorithm)
+* week-007: (完成2道) [22 ~ 23](../week-007/#algorithm)
 * week-006: (完成1道) [21](../week-006/#algorithm)
 * week-005: (完成1道) [20](../week-005/#algorithm)
 * week-004: (完成3道) [17 ~ 19](../week-004/#algorithm)
 * week-003: (完成6道) [11 ~ 16](../week-003/#algorithm)
 * week-002: (完成8道) [3 ~ 10](../week-002/#algorithm)
-* week-001: (完成3道) [1, 2, 128](../week-001/#algorithm)
+* week-001: (完成3道) [1 ~ 2, 128](../week-001/#algorithm)
