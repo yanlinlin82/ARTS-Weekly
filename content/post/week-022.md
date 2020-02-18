@@ -17,6 +17,18 @@ slug: week-022
 
 ## Tip {{<permalink "tip">}}
 
+### 1. 如何修改gnome桌面的缺省文本编辑器 {{<permalink "tip-1">}}
+
+在`~/.local/share/applications/`目录中创建文件`defaults.list`，写入如下内容：
+
+```
+[Default Applications]
+text/plain=gvim.desktop  # 若改为vim.desktop，将使用终端vim（而非图形界面vim）
+```
+
+即可将缺省的gedit改为使用vim打开相应文本文件。
+
+参考：<https://www.marksanborn.net/linux/making-gvim-your-default-text-editor-in-gnome/>
 
 ## Share {{<permalink "share">}}
 

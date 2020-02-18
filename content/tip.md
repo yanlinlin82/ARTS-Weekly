@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## week-022 {{<permalink "week-022">}}
+
+1. [如何修改gnome桌面的缺省文本编辑器](../week-022/#tip-1)
+
 ## week-021 {{<permalink "week-021">}}
 
 1. [在vim中将某个字符替换为换行](../week-021/#tip-1)
