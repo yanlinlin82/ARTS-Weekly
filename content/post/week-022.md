@@ -35,6 +35,34 @@ text/plain=gvim.desktop  # 若改为vim.desktop，将使用终端vim（而非图
 
 参考：<https://www.marksanborn.net/linux/making-gvim-your-default-text-editor-in-gnome/>
 
+### 2. 修改gnome的缺省用户目录 {{<permalink "tip-2">}}
+
+配置文件位于`~/.config/user-dirs.dirs`，可以用文本编辑器直接打开修改。
+
+或者采用如下命令：
+
+```sh
+xdg-user-dirs-update --set XDG_VIDEOS_DIR "/media/share/Video"
+```
+
+参考：<https://askubuntu.com/questions/67044/change-default-user-folders-path>
+
+### 3. 在gitignore中进行反选 {{<permalink "tip-3">}}
+
+今天遇到一个需求，希望在git仓库中，对某个目录，把特定类型文件加入仓库进行版本管理，而忽略同目录中的其他所有文件。
+
+解决方法为：先定义忽略该目录，然后在其后以“!”开头定义需要反选（即不忽略）的文件，例如：
+
+```
+$ cat .gitignore
+distfiles/*
+!distfiles/*.sha256sum
+```
+
+这个文件定义了，忽略`distfiles/`目录下，所有非“.sha256sum”结尾的文件。
+
+参考：<https://stackoverflow.com/questions/54702404/how-to-use-gitignore-reverse-select>
+
 ## Share {{<permalink "share">}}
 
 

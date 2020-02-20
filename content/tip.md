@@ -5,6 +5,8 @@ title: 技巧（Tip）
 ## week-022 {{<permalink "week-022">}}
 
 1. [如何修改gnome桌面的缺省文本编辑器](../week-022/#tip-1)
+2. [修改gnome的缺省用户目录](../week-022/#tip-2)
+3. [在gitignore中进行反选](../week-003/#tip-3)
 
 ## week-021 {{<permalink "week-021">}}
 
