@@ -2,6 +2,10 @@
 title: 调研（Review）
 ---
 
+## week-022 {{<permalink "week-022">}}
+
+1. [更易于维护的C程序结构](../week-022/#review-1)
+
 ## week-021 {{<permalink "week-021">}}
 
 1. [关于时间的设计缺陷问题](../week-021/#review-1)

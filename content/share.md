@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-022 {{<permalink "week-022">}}
+
+1. [更便利的展示目录树的小工具](../week-022/#share-1)
+
 ## week-021 {{<permalink "week-021">}}
 
 1. [FFmpeg视频处理入门教程](../week-021/#share-1)

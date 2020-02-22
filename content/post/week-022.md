@@ -24,6 +24,23 @@ slug: week-022
 
 ## Review {{<permalink "review">}}
 
+### 1. 更易于维护的C程序结构 {{<permalink "review-1">}}
+
+文章链接：[How to write a good C main function](https://opensource.com/article/19/5/how-write-good-c-main-function)
+
+这篇文章详细介绍了如何编写出更加易于维护的C程序，给出了一个详细的示例框架的各个部分，包括：
+
+* 0 copyright/licensing
+* 1 includes
+* 2 defines
+* 3 external declarations
+* 4 typedefs
+* 5 global variable declarations
+* 6 function prototypes
+* 7 command-line parsing
+* 8 function declarations
+
+符合大多数程序遵循的惯例，让读者在阅读代码时，有更多的可预期，是降低代码理解的关键之一。
 
 ## Tip {{<permalink "tip">}}
 
@@ -70,4 +87,11 @@ distfiles/*
 
 ## Share {{<permalink "share">}}
 
+### 1. 更便利的展示目录树的小工具 {{<permalink "share-1">}}
 
+项目链接：
+
+* <https://github.com/Canop/broot>
+* <https://dystroy.org/broot>
+
+对于包含较多文件的目录，列举展示其文件，通常是个比较麻烦的事。这个工具在这方面做了改进，以更清晰简洁的方式快速展示目录树内容，并提供目录跳转等功能。
