@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## week-023 {{<permalink "week-023">}}
+
+1. [在Linux命令行如何对XML数据进行格式化展示](../week-023/#tip-1)
+
 ## week-022 {{<permalink "week-022">}}
 
 1. [如何修改gnome桌面的缺省文本编辑器](../week-022/#tip-1)

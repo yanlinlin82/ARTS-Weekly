@@ -20,7 +20,25 @@ slug: week-023
 
 ## Tip {{<permalink "tip">}}
 
+### 1. 在Linux命令行如何对XML数据进行格式化展示 {{<permalink "tip-1">}}
+
+```sh
+cat input.xml | xmllint --format -
+echo "<a><b><c>d</c><e>f</e></b></a>" | xmllint --format -
+```
+
+需要`libxml2`软件包的支持，在Gentoo Linux下的安装方法为：
+
+```sh
+emerge -av libxml2
+```
+
+参考：<https://www.poftut.com/pretty-print-format-xml-command-line-linux/>
 
 ## Share {{<permalink "share">}}
 
+### 1. 实例展示维基数据的获取和查询 {{<permalink "share-1">}}
 
+文章链接：[RDF 和 SPARQL 初探：以维基数据为例](http://www.ruanyifeng.com/blog/2020/02/sparql.html)
+
+维基数据是最常用的图数据库来源，这篇文章以实例方式，详细展示了这类数据的获取及相应的查询，对于建立知识图谱和后续相关的分析很有帮助。

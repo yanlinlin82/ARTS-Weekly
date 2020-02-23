@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-023 {{<permalink "week-023">}}
+
+1. [实例展示维基数据的获取和查询](../week-023/#share-1)
+
 ## week-022 {{<permalink "week-022">}}
 
 1. [更便利的展示目录树的小工具](../week-022/#share-1)
