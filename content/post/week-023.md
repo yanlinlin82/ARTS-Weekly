@@ -22,6 +22,19 @@ slug: week-023
 
 ## Review {{<permalink "review">}}
 
+### 1. 开发运维中的机器学习 {{<permalink "review-1">}}
+
+文章链接：[7 Ways Machine Learning Can Optimize DevOps](https://www.codeproject.com/Articles/5260103/7-Ways-Machine-Learning-Can-Optimize-DevOps)
+
+这篇文章介绍了在开发运维（DevOps）过程中，机器学习能够起到的推动作用，包括七个方面：
+
+1. 改善问题反馈的效率（Improve the Efficiency of Performance Feedback）
+2. 帮助分析数据（Help With Analyzing the Available Data）
+3. 善用趋势信息（Make Use of Trends）
+4. 对相关性进行分析（Correlate Data Across Sets and Platforms）
+5. 更高效地处理预警（Manage Alerts Efficiently）
+6. 针对目标进行优化（Optimize Metrics and Goals）
+7. 合理测试软件（Test Software Properly）
 
 ## Tip {{<permalink "tip">}}
 

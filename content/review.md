@@ -2,6 +2,10 @@
 title: 调研（Review）
 ---
 
+## week-023 {{<permalink "week-023">}}
+
+1. [开发运维中的机器学习](../week-023/#review-1)
+
 ## week-022 {{<permalink "week-022">}}
 
 1. [更易于维护的C程序结构](../week-022/#review-1)
