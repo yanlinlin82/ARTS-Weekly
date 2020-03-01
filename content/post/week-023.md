@@ -53,6 +53,26 @@ emerge -av libxml2
 
 参考：<https://www.poftut.com/pretty-print-format-xml-command-line-linux/>
 
+### 2. 在VIM中对部分行进行排序 {{<permalink "tip-2">}}
+
+```
+:{range}sort
+```
+
+比如，对11~20行进行排序：
+
+```
+:11,20sort
+```
+
+或者使用”Shift+v“，进入“Visual Line模式”，选择所需排序的行后：
+
+```
+:'<,'>sort   # 这里只需输入“:sort”
+```
+
+参考：<https://vim.fandom.com/wiki/Sort_lines>
+
 ## Share {{<permalink "share">}}
 
 ### 1. 实例展示维基数据的获取和查询 {{<permalink "share-1">}}

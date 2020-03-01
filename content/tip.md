@@ -5,6 +5,7 @@ title: 技巧（Tip）
 ## week-023 {{<permalink "week-023">}}
 
 1. [在Linux命令行如何对XML数据进行格式化展示](../week-023/#tip-1)
+2. [在VIM中对部分行进行排序](../week-023/#tip-2)
 
 ## week-022 {{<permalink "week-022">}}
 
