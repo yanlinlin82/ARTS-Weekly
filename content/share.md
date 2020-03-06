@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-024 {{<permalink "week-024">}}
+
+1. [理解Bash中的协程](../week-024/#share-1)
+
 ## week-023 {{<permalink "week-023">}}
 
 1. [实例展示维基数据的获取和查询](../week-023/#share-1)

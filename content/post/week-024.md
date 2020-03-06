@@ -37,4 +37,8 @@ $ xdg-open <文件>
 
 ## Share {{<permalink "share">}}
 
+### 1. 理解Bash中的协程 {{<permalink "share-1">}}
 
+过去做并发编程的开发时，接触得比较多的概念，就是“进程（procedure）”和“线程（thread）”。然而，不知道从什么时候起，“协程（co-processes）”这个概念突然就遍布整个世界了。偶然翻看bash的man帮助信息时，发现竟然连bash都已经自带了关键词coproc的支持，于是抽空做了点研究学习。
+
+链接：<https://yanlinlin.cn/tip/bash-coproc/>
