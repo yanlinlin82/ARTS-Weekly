@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## week-024 {{<permalink "week-024">}}
+
+1. [当`gnome-open`不能使用时](../week-024/#tip-1)
+
 ## week-023 {{<permalink "week-023">}}
 
 1. [在Linux命令行如何对XML数据进行格式化展示](../week-023/#tip-1)
