@@ -4,6 +4,8 @@ title: 调研（Review）
 
 ## week-024 {{<permalink "week-024">}}
 
+1. [用FPGA加速压缩算法](../week-024/#review-1)
+
 ## week-023 {{<permalink "week-023">}}
 
 1. [开发运维中的机器学习](../week-023/#review-1)

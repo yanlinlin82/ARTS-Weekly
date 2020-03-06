@@ -15,6 +15,11 @@ slug: week-024
 
 ## Review {{<permalink "review">}}
 
+### 1. 用FPGA加速压缩算法 {{<permalink "review-1">}}
+
+分享链接：[Accelerating Compression with FPGAs](https://www.codeproject.com/Articles/5260032/Accelerating-Compression-with-FPGAs)
+
+这是来自Intel公司的文章。Intel提供了一个名为“DPC++”的编译工具，能够生成oneAPI生成各种硬件平台上的相应代码，包括FPGA平台。这篇文章介绍了GZIP压缩算法，并用FPGA实现了其中的“Look in our history”、“Pick the best match”、“Write the result”、“Store the string”步骤，能够在单个时钟周期内完成，实测达到3.5GB/s的处理速度，压缩比34.2%。
 
 ## Tip {{<permalink "tip">}}
 
