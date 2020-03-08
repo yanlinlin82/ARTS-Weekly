@@ -24,6 +24,12 @@ slug: week-024
 
 这是来自Intel公司的文章。Intel提供了一个名为“DPC++”的编译工具，能够生成oneAPI生成各种硬件平台上的相应代码，包括FPGA平台。这篇文章介绍了GZIP压缩算法，并用FPGA实现了其中的“Look in our history”、“Pick the best match”、“Write the result”、“Store the string”步骤，能够在单个时钟周期内完成，实测达到3.5GB/s的处理速度，压缩比34.2%。
 
+### 2. 开源协议的未来 {{<permalink "review-2">}}
+
+分享链接：[Computer Weekly: The future of open source licences is changing](https://www.computerweekly.com/feature/The-future-of-open-source-licences-is-changing)
+
+这是《计算机周刊》上的一篇社论，主要谈论开源协议的一些发展趋势和未来。由于越来越多开源项目的开发者围绕其项目运营公司，而他们维护的项目，被云平台服务商直接使用，却得不到相应的回馈支持，这使得很多开源项目不得不修改其使用条款，从而变得不再“开源”。也因此，现在使用最多的软件许可协议，已经不再是开源GPL，而更多是MIT或Apache。
+
 ## Tip {{<permalink "tip">}}
 
 ### 1. 当`gnome-open`不能使用时 {{<permalink "tip-1">}}

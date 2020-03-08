@@ -5,6 +5,7 @@ title: 调研（Review）
 ## week-024 {{<permalink "week-024">}}
 
 1. [用FPGA加速压缩算法](../week-024/#review-1)
+2. [开源协议的未来](../week-024/#review-2)
 
 ## week-023 {{<permalink "week-023">}}
 
