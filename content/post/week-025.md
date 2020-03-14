@@ -18,12 +18,33 @@ slug: week-025
 | 197 | 简单 | [上升的温度](https://leetcode-cn.com/problems/rising-temperature/) | [200313-1.sql](https://github.com/yanlinlin82/leetcode/blob/master/00197_rising-temperature/200313-1.sql) | 490 ms | 0 MB | [18.44%](https://leetcode-cn.com/submissions/detail/53371419/) |
 | 198 | 简单 | [打家劫舍](https://leetcode-cn.com/problems/house-robber/) | [200313-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00198_house-robber/200313-1.cpp) | 4 ms | 9.6 MB | [67.73%](https://leetcode-cn.com/submissions/detail/53374072/) |
 | 199 | 中等 | [二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/) | [200313-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00199_binary-tree-right-side-view/200313-1.cpp) | 8 ms | 13.6 MB | [43.99%](https://leetcode-cn.com/submissions/detail/53376164/) |
+| 200 | 中等 | [岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) | [200314-2.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00200_number-of-islands/200314-2.cpp) | 48 ms | 17 MB | [5.54%](https://leetcode-cn.com/submissions/detail/53677799/) |
+| 201 | 中等 | [数字范围按位与](https://leetcode-cn.com/problems/bitwise-and-of-numbers-range/) | [200314-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00201_bitwise-and-of-numbers-range/200314-1.cpp) | 16 ms | 7.3 MB | [57.75%](https://leetcode-cn.com/submissions/detail/53685450/) |
+| 202 | 简单 | [快乐数](https://leetcode-cn.com/problems/happy-number/) | [200314-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00202_happy-number/200314-1.cpp) | 8 ms | 7.8 MB | [25.35%](https://leetcode-cn.com/submissions/detail/53689093/) |
 
 ## Review {{<permalink "review">}}
 
 
 ## Tip {{<permalink "tip">}}
 
+### 1. 设置bash history的上限 {{<permalink "tip-1">}}
+
+在bash中，可以通过命令`history`查看过去使用过的命令行。这个历史记录是有上限数量的：
+
+```sh
+$ history | wc -l
+500
+$ echo $HISTSIZE
+500
+```
+
+可以通过修改这个环境变量（将如下命令加入`~/.bashrc`中），来调整该上限：
+
+```sh
+export HISTSIZE=999999
+```
+
+参考：<https://www.linuxquestions.org/questions/linux-newbie-8/bash-history-limit-775909/>
 
 ## Share {{<permalink "share">}}
 

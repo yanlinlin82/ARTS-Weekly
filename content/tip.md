@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## week-025 {{<permalink "week-025">}}
+
+1. [设置bash history的上限](../week-025/#tip-1)
+
 ## week-024 {{<permalink "week-024">}}
 
 1. [当`gnome-open`不能使用时](../week-024/#tip-1)
