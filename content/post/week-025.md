@@ -24,6 +24,13 @@ slug: week-025
 
 ## Review {{<permalink "review">}}
 
+### 1. 企业内部开源 {{<permalink "review-1">}}
+
+分享链接：<https://github.blog/2020-03-11-why-organizations-should-commit-to-innersource-in-2020/>
+
+这是GitHub的一篇博文，提到一个概念“innersource”，我不确定中文应该怎么说，姑且称之为“内部开源”吧。
+
+这个概念其实早在2000年就已经提出（参见[wikipedia](https://en.wikipedia.org/wiki/Inner_source)），指的是在企业内部采取或借鉴开源社区的方式，对软件开发项目进行管理。开源社区的成功项目，在全球合作、软件质量控制、激励等诸多方面，经过这么多年的发展，形成了一系列行之有效的做法。这些做法，通过“内部开源”的方式，也同样有利于企业的软件开发项目。
 
 ## Tip {{<permalink "tip">}}
 
@@ -45,6 +52,60 @@ export HISTSIZE=999999
 ```
 
 参考：<https://www.linuxquestions.org/questions/linux-newbie-8/bash-history-limit-775909/>
+
+### 2. 设置可移植的脚本解释器定义行 {{<permalink "tip-2">}}
+
+分享链接：[Make Linux/Unix Script Portable With #!/usr/bin/env As a Shebang](https://www.cyberciti.biz/tips/finding-bash-perl-python-portably-using-env.html)
+
+对于经常编写和使用脚本的人而言，每次都带着脚本解释器运行，是个烦人的工作：
+
+```sh
+$ perl foo.pl arg1 arg2  # 使用perl对foo.pl进行解释执行，带着参数arg1 arg2
+```
+
+于是，一个常见的做法是，把解释器写到脚本的第一行，并以“#!”开头，例如：
+
+```sh
+$ head -n1 foo.pl  # 查看脚本的第一行
+#!/usr/bin/perl
+$ chmod +x foo.pl  # 设置脚本属性，允许执行
+$ ./foo.pl         # 直接运行该脚本
+```
+
+这个脚本首行的解释器定义，有个名称叫做“shebang”（读音为：US [ʃə'bæŋ] 或 UK [ʃɪ'bæŋ]），目前有“释伴”的中文译法，兼具音译和意译，可惜尚未得到广泛共识。
+
+然而，这种写法要求给出perl程序的全路径，这在不同的系统环境中，由于perl可能安装到其他自定义路径，因而造成脚本的移植性/适应性的降低。
+
+针对此问题，一个改进的做法是，通过`/usr/bin/env`进行调用。`env`程序被认为是所有系统都会自带的，且位于固定的`/usr/bin/`目录中，通过它，就能自动搜索PATH路径，找到正确的解释程序（如perl，或其他程序）：
+
+```
+#!/usr/bin/env perl
+```
+
+这篇文章给出的题图中，其定义为：
+
+```
+#!/usr/bin/env perl -w
+```
+
+增加了`-w`参数，是为了让perl针对各类不规范用法提出警告。这是很好的习惯。可惜这种写法会造成错误提示：
+
+```sh
+$ ./foo.pl
+/usr/bin/env: ‘perl -w’: No such file or directory
+```
+
+经过阅读`man env`使用帮助说明，找到`env`命令需要指定参数`-S`，才能允许后续追加其他参数。最终的解决方案是：
+
+```
+#!/usr/bin/env -S perl -T -w
+```
+
+其他参考链接：
+
+* [StackExchange: Shebang line with `#!/usr/bin/env command --argument` fails on Linux](https://unix.stackexchange.com/questions/63979/shebang-line-with-usr-bin-env-command-argument-fails-on-linux)
+* [StackOverflow: How to use multiple arguments for awk with a shebang (i.e. #!)?](https://stackoverflow.com/questions/4303128/how-to-use-multiple-arguments-for-awk-with-a-shebang-i-e)
+* [Wikipedia: Shebang](https://zh.wikipedia.org/wiki/Shebang)
 
 ## Share {{<permalink "share">}}
 

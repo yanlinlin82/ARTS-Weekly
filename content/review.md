@@ -2,6 +2,10 @@
 title: 调研（Review）
 ---
 
+## week-025 {{<permalink "week-025">}}
+
+1. [企业内部开源](../week-025/#review-1)
+
 ## week-024 {{<permalink "week-024">}}
 
 1. [用FPGA加速压缩算法](../week-024/#review-1)

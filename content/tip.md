@@ -5,6 +5,7 @@ title: 技巧（Tip）
 ## week-025 {{<permalink "week-025">}}
 
 1. [设置bash history的上限](../week-025/#tip-1)
+2. [设置可移植的脚本解释器定义行](../week-025/#tip-2)
 
 ## week-024 {{<permalink "week-024">}}
 
