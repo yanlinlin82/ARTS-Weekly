@@ -109,4 +109,16 @@ $ ./foo.pl
 
 ## Share {{<permalink "share">}}
 
+### 1. 前端：圣杯布局与双飞翼布局 {{<permalink "share-1">}}
 
+这是我第一次听说这两个名词：“圣杯布局”和“双飞翼布局”。前端的世界果然日益复杂了！
+
+通过搜索，找到如下文章，仔细进行了学习：
+
+* [简书：圣杯布局和双飞翼布局的理解与思考](https://www.jianshu.com/p/81ef7e7094e8)
+* [简书：圣杯布局和双飞翼布局（前端面试必看）](https://www.jianshu.com/p/f9bcddb0e8b4)
+* [CSDN：圣杯布局与双飞翼布局](https://blog.csdn.net/infotw/article/details/99643165)
+
+这两种布局，都是实现网页的三栏分割布局，其中左右两栏固定宽度，而中间栏宽度自适应。
+
+圣杯布局的原创，来自英文网页：[In Search of the Holy Grail](https://alistapart.com/article/holygrail/)。而双飞翼布局则来自淘宝UED。这两种布局，都利用了“负边距布局”的特性进行实现。

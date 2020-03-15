@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-025 {{<permalink "week-025">}}
+
+1. [前端：圣杯布局与双飞翼布局](../week-025/#share-1)
+
 ## week-024 {{<permalink "week-024">}}
 
 1. [理解Bash中的协程](../week-024/#share-1)
