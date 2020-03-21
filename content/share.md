@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-026 {{<permalink "week-026">}}
+
+1. [关于浮点数](../week-026/#share-1)
+
 ## week-025 {{<permalink "week-025">}}
 
 1. [前端：圣杯布局与双飞翼布局](../week-025/#share-1)
