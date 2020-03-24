@@ -20,6 +20,19 @@ slug: week-027
 
 ## Tip {{<permalink "tip">}}
 
+### 1. 加速R包安装 {{<permalink "tip-1">}}
+
+分享链接：
+
+* [Faster R package installation](https://www.jumpingrivers.com/blog/faster-r-package-installation-rstudio/)
+* [(Much) Faster Package (Re-)Installation via Caching](http://dirk.eddelbuettel.com/blog/2017/11/27/)
+
+主要涉及的方法：
+
+1. 配置`.Rprofile`，加入：`options(Ncpus = 9)`
+2. `install.packages(..., Ncpus = 6)`
+3. 使用ccache
+4. 使用binary包
 
 ## Share {{<permalink "share">}}
 

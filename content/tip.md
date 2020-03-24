@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## week-027 {{<permalink "week-027">}}
+
+1. [加速R包安装](../week-027/#tip-1)
+
 ## week-026 {{<permalink "week-026">}}
 
 1. [关于文本文件处理的两个小问题](../week-026/#tip-1)
