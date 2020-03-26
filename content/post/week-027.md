@@ -37,4 +37,8 @@ slug: week-027
 
 ## Share {{<permalink "share">}}
 
+### 1. C++20标准的新变化 {{<permalink "share-1">}}
 
+分享链接：[Changes between C++17 and C++20 DIS](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2020/p2131r0.html)
+
+这是今年将要正式发布的C++20标准，将要引入或去掉的各种语言特性。其中诸如概念（Concepts）、协程（Coroutines）、模块（Modules）等概念，将进一步改善C++代码的表达能力，值得关注和学习。

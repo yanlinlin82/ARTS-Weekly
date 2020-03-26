@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-027 {{<permalink "week-027">}}
+
+1. [C++20标准的新变化](../week-027/#share-1)
+
 ## week-026 {{<permalink "week-026">}}
 
 1. [关于浮点数](../week-026/#share-1)
