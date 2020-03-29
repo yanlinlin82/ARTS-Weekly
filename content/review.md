@@ -2,10 +2,15 @@
 title: 调研（Review）
 ---
 
+## week-027 {{<permalink "week-027">}}
+
+1. [GCC-10中的代码静态分析功能](../week-027/#review-1)
+2. [JIT的缺陷](../week-027/#review-2)
+
 ## week-026 {{<permalink "week-026">}}
 
-1. [C++中的多线程编程](../week-026/review-1)
-2. [软件行业的创业中的23条建议](../week-026/review-2)
+1. [C++中的多线程编程](../week-026/#review-1)
+2. [软件行业的创业中的23条建议](../week-026/#review-2)
 
 ## week-025 {{<permalink "week-025">}}
 

@@ -18,6 +18,17 @@ slug: week-027
 
 ## Review {{<permalink "review">}}
 
+### 1. GCC-10中的代码静态分析功能 {{<permalink "review-1">}}
+
+分享链接：[Static analysis in GCC 10](https://developers.redhat.com/blog/2020/03/26/static-analysis-in-gcc-10/)
+
+在即将正式发布的GCC-10中，将会推出“-fanalyzer”选项，该选项能够通过对代码的静态分析，在编译器，对诸如重复释放、内存泄露、资源泄露等问题进行警告。这对于C/C++程序，无疑是具有巨大帮助的。
+
+### 2. JIT的缺陷 {{<permalink "review-2">}}
+
+分享链接：[JITs are un-ergonomic](https://abe-winter.github.io/2020/03/28/jitu-brutus.html)
+
+这篇文章对现在被普遍使用的JS JIT（即时编译）技术进行了一系列的评价，认为JIT会导致基准测试（benchmark）的结果的可参考性有限，也因此提出了一些相应的改进方向。
 
 ## Tip {{<permalink "tip">}}
 
