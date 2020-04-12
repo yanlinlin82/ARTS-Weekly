@@ -21,4 +21,8 @@ slug: week-029
 
 ## Share {{<permalink "share">}}
 
+### 1. 介绍Bash流程控制的电子书 {{<permalink "share-1">}}
 
+分享链接：<https://opensource.com/downloads/bash-programming-guide>
+
+这是OpenSource.com公开发布的免费电子书，详细介绍了Bash编程中，关于条件语句、循环语句等语法及其使用。

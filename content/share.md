@@ -2,6 +2,14 @@
 title: 分享（Share）
 ---
 
+## week-029 {{<permalink "week-029">}}
+
+1. [介绍Bash流程控制的电子书](../week-029/#share-1)
+
+## week-028 {{<permalink "week-028">}}
+
+1. [C++20标准的参考卡片](../week-028/#share-1)
+
 ## week-027 {{<permalink "week-027">}}
 
 1. [C++20标准的新变化](../week-027/#share-1)

@@ -22,4 +22,8 @@ slug: week-028
 
 ## Share {{<permalink "share">}}
 
+### 1. C++20标准的参考卡片 {{<permalink "share-1">}}
 
+分享链接：<https://www.bfilipek.com/2020/01/cpp20refcard.html>
+
+浓缩到一页纸上的内容，对最主要的C++20标准的快速介绍。
