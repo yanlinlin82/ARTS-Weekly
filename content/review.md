@@ -2,6 +2,14 @@
 title: 调研（Review）
 ---
 
+## week-029 {{<permalink "week-029">}}
+
+1. [疫情下暴露出来的关于高可用的问题](../week-029/#review-1)
+
+## week-028 {{<permalink "week-028">}}
+
+1. [关于代码调试时的态度问题](../week-028/#review-1)
+
 ## week-027 {{<permalink "week-027">}}
 
 1. [GCC-10中的代码静态分析功能](../week-027/#review-1)

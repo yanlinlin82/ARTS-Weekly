@@ -2,6 +2,14 @@
 title: 技巧（Tip）
 ---
 
+## week-029 {{<permalink "week-029">}}
+
+1. [Sed命令示例](../week-029/#tip-1)
+
+## week-028 {{<permalink "week-028">}}
+
+1. [快速用sudo执行上一条命令](../week-028/#tip-1)
+
 ## week-027 {{<permalink "week-027">}}
 
 1. [加速R包安装](../week-027/#tip-1)

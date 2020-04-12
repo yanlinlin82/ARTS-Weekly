@@ -16,9 +16,29 @@ slug: week-028
 
 ## Review {{<permalink "review">}}
 
+### 1. 关于代码调试时的态度问题 {{<permalink "review-1">}}
+
+分享链接：[When debugging, your attitude matters](https://jvns.ca/blog/debugging-attitude-matters/)
+
+这篇文章的作者，在调试前端页面的CSS时，总结的心得。通常其他介绍调试的文章，都会讲述各种技术细节和技巧，而这篇文章更加重点突出调试时应保持好的态度，包括努力搞清底层原理，尤其CSS这样在不同浏览器之间很容易出现差异的技术中，更加需要细心，同时还应注意选择比较权威的帮助文档进行参考学习。
 
 ## Tip {{<permalink "tip">}}
 
+### 1. 快速用sudo执行上一条命令 {{<permalink "tip-1">}}
+
+当使用普通用户执行一条需要root权限的命令时，会收到如下错误提示：
+
+```
+Permission denied
+```
+
+这时候需要使用`sudo`命令重新执行一遍该命令。除了上翻命令历史并在前面加上`sudo`前缀外，还可以使用如下方式：
+
+```sh
+sudo !!
+```
+
+参考链接：<https://medium.com/better-programming/15-essential-linux-command-line-tips-and-tricks-95e2bfa2890f>
 
 ## Share {{<permalink "share">}}
 
