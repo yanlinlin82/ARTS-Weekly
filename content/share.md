@@ -2,6 +2,14 @@
 title: 分享（Share）
 ---
 
+## week-031 {{<permalink "week-031">}}
+
+1. [在Ubuntu上快速搭建VPN服务的方法](../week-031/#share-1)
+
+## week-030 {{<permalink "week-030">}}
+
+1. [基于C++开发Web应用](../week-030/#share-1)
+
 ## week-029 {{<permalink "week-029">}}
 
 1. [介绍Bash流程控制的电子书](../week-029/#share-1)

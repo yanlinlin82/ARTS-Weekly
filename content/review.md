@@ -2,6 +2,14 @@
 title: 调研（Review）
 ---
 
+## week-031 {{<permalink "week-031">}}
+
+1. [快速阅读的方法](../week-031/#share-1)
+
+## week-030 {{<permalink "week-030">}}
+
+1. [不雇佣数据科学家的七个理由](../week-030/#review-1)
+
 ## week-029 {{<permalink "week-029">}}
 
 1. [疫情下暴露出来的关于高可用的问题](../week-029/#review-1)
