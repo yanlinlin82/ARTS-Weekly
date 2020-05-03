@@ -2,9 +2,13 @@
 title: 调研（Review）
 ---
 
+## week-032 {{<permalink "week-032">}}
+
+1. [疫情下经济衰退中企业的攻防策略](../week-032/#review-1)
+
 ## week-031 {{<permalink "week-031">}}
 
-1. [快速阅读的方法](../week-031/#share-1)
+1. [快速阅读的方法](../week-031/#review-1)
 
 ## week-030 {{<permalink "week-030">}}
 

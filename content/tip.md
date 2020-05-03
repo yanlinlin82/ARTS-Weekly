@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## week-032 {{<permalink "week-032">}}
+
+1. [同时使用多个git分支的方法](../week-032/#tip-1)
+
 ## week-031 {{<permalink "week-031">}}
 
 1. [如何从shell历史中排除某些命令使不做记录](../week-031/#tip-1)

@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-032 {{<permalink "week-032">}}
+
+1. [R语言中有关广义线性模型的一些资源](../week-032/#share-1)
+
 ## week-031 {{<permalink "week-031">}}
 
 1. [在Ubuntu上快速搭建VPN服务的方法](../week-031/#share-1)
