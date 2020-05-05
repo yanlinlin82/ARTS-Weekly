@@ -2,6 +2,10 @@
 title: 调研（Review）
 ---
 
+## week-033 {{<permalink "week-033">}}
+
+1. [C++中实现“else-before-if”](../week-033/#review-1)
+
 ## week-032 {{<permalink "week-032">}}
 
 1. [疫情下经济衰退中企业的攻防策略](../week-032/#review-1)
