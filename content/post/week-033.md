@@ -94,3 +94,12 @@ done
 * <https://www.openmainframeproject.org/projects/coboltrainingcourse>
 
 COBOL是一门古老的计算机语言，而且在很多大公司里被使用。没想到，时至今日，还有这样一门课程，教授该语言。
+
+### 2. 将照片处理成为3D效果 {{<permalink "share-2">}}
+
+分享链接：
+
+* <https://github.com/vt-vl-lab/3d-photo-inpainting>
+* <https://shihmengli.github.io/3D-Photo-Inpainting/>
+
+人工智能在处理图像上，做出来的神奇效果。

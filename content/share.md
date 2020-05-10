@@ -5,6 +5,7 @@ title: 分享（Share）
 ## week-033 {{<permalink "week-033">}}
 
 1. [COBOL语言课程](../week-033/#share-1)
+2. [将照片处理成为3D效果](../week-033/#share-2)
 
 ## week-032 {{<permalink "week-032">}}
 
