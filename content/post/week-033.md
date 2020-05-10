@@ -12,6 +12,7 @@ slug: week-033
 |:----:|:----:|:-----|:---------|---------:|---------:|-----:|:-----|
 | 230 | 中等 | [二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/) | [200504-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00230_kth-smallest-element-in-a-bst/200504-1.cpp) | 32 ms | 24 MB | [43.57%](https://leetcode-cn.com/submissions/detail/67991708/) |  |
 | 231 | 简单 | [2的幂](https://leetcode-cn.com/problems/power-of-two/) | [200504-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00231_power-of-two/200504-1.cpp) | 0 ms | 5.7 MB | [100.00%](https://leetcode-cn.com/submissions/detail/67992784/) |  |
+| 232 | 简单 | [用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | [200510-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00232_implement-queue-using-stacks/200510-1.cpp) | 0 ms | 6.9 MB | [100.00%](https://leetcode-cn.com/submissions/detail/69722139/) |  |
 
 ## Review {{<permalink "review">}}
 
@@ -61,7 +62,35 @@ unless (edgeCase2)
 
 ## Tip {{<permalink "tip">}}
 
+### 1. Linux下如何重复执行命令直至成功 {{<permalink "tip-1">}}
+
+分享链接：[How to repeat a Linux command until it succeeds](https://www.networkworld.com/article/3541298/how-to-repeat-a-linux-command-until-it-succeeds.html)
+
+可以使用`while`或`until`两个命令来构造循环：
+
+```sh
+$ while ! cat missingfile
+do
+    echo waiting for missingfile
+    sleep 10
+done
+```
+
+```sh
+$ until cat missingfile
+do
+    echo waiting for missingfile
+    sleep 10
+done
+```
 
 ## Share {{<permalink "share">}}
 
+### 1. COBOL语言课程 {{<permalink "share-1">}}
 
+分享链接：
+
+* <https://github.com/openmainframeproject/cobol-programming-course>
+* <https://www.openmainframeproject.org/projects/coboltrainingcourse>
+
+COBOL是一门古老的计算机语言，而且在很多大公司里被使用。没想到，时至今日，还有这样一门课程，教授该语言。

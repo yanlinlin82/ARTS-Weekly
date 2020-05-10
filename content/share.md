@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-033 {{<permalink "week-033">}}
+
+1. [COBOL语言课程](../week-033/#share-1)
+
 ## week-032 {{<permalink "week-032">}}
 
 1. [R语言中有关广义线性模型的一些资源](../week-032/#share-1)
