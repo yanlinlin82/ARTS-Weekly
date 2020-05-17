@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## week-034 {{<permalink "week-034">}}
+
+1. [如何去掉git仓库中的敏感信息](../week-034/#tip-1)
+
 ## week-033 {{<permalink "week-033">}}
 
 1. [Linux下如何重复执行命令直至成功](../week-033/#tip-1)

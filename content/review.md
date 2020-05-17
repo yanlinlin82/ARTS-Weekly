@@ -2,6 +2,10 @@
 title: 调研（Review）
 ---
 
+## week-034 {{<permalink "week-034">}}
+
+1. [关于随机数与内核](../week-034/#review-1)
+
 ## week-033 {{<permalink "week-033">}}
 
 1. [C++中实现“else-before-if”](../week-033/#review-1)

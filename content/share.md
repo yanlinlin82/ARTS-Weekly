@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-034 {{<permalink "week-034">}}
+
+1. [以游戏方式学习Git用法](../week-034/#share-1)
+
 ## week-033 {{<permalink "week-033">}}
 
 1. [COBOL语言课程](../week-033/#share-1)
