@@ -19,6 +19,40 @@ slug: week-034
 
 ## Tip {{<permalink "tip">}}
 
+### 1. 如何去掉git仓库中的敏感信息 {{<permalink "tip-1">}}
+
+分享链接：[Removing sensitive data from a repository](https://help.github.com/en/github/authenticating-to-github/removing-sensitive-data-from-a-repository)
+
+当存在较大文件，想从仓库中去掉时，也可以用这个方法。
+
+这个方法其实是把历史提交中某些commit过滤去掉，具体操作如下：
+
+```sh
+$ git filter-branch --force --index-filter \
+  "git rm --cached --ignore-unmatch PATH-TO-YOUR-FILE-WITH-SENSITIVE-DATA" \
+  --prune-empty --tag-name-filter cat -- --all
+  > Rewrite 48dc599c80e20527ed902928085e7861e6b3cbe6 (266/266)
+  > Ref 'refs/heads/master' was rewritten
+```
+
+```sh
+$ echo "YOUR-FILE-WITH-SENSITIVE-DATA" >> .gitignore
+$ git add .gitignore
+$ git commit -m "Add YOUR-FILE-WITH-SENSITIVE-DATA to .gitignore"
+> [master 051452f] Add YOUR-FILE-WITH-SENSITIVE-DATA to .gitignore
+>  1 files changed, 1 insertions(+), 0 deletions(-)
+```
+
+```sh
+$ git push origin --force --all
+> Counting objects: 1074, done.
+> Delta compression using 2 threads.
+> Compressing objects: 100% (677/677), done.
+> Writing objects: 100% (1058/1058), 148.85 KiB, done.
+> Total 1058 (delta 590), reused 602 (delta 378)
+> To https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+>  + 48dc599...051452f master -> master (forced update)
+```
 
 ## Share {{<permalink "share">}}
 
