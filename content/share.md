@@ -2,6 +2,11 @@
 title: 分享（Share）
 ---
 
+## week-035 {{<permalink "week-035">}}
+
+1. [直观掌握内存与指针的概念](../week-035/#share-1)
+2. [用R语言绘制各类图形](../week-035/#share-2)
+
 ## week-034 {{<permalink "week-034">}}
 
 1. [以游戏方式学习Git用法](../week-034/#share-1)
