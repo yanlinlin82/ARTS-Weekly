@@ -2,6 +2,10 @@
 title: 调研（Review）
 ---
 
+## week-035 {{<permalink "week-035">}}
+
+1. [C++中实现具有多态性的赋值](../week-035/#review-1)
+
 ## week-034 {{<permalink "week-034">}}
 
 1. [关于随机数与内核](../week-034/#review-1)

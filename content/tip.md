@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## week-035 {{<permalink "week-035">}}
+
+1. [列举Linux用户](../week-035/#tip-1)
+
 ## week-034 {{<permalink "week-034">}}
 
 1. [如何去掉git仓库中的敏感信息](../week-034/#tip-1)
