@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-036 {{<permalink "week-036">}}
+
+1. [两行JS代码实现的迷宫](../week-036/#share-1)
+
 ## week-035 {{<permalink "week-035">}}
 
 1. [直观掌握内存与指针的概念](../week-035/#share-1)

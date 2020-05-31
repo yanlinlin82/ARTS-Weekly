@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## week-036 {{<permalink "week-036">}}
+
+1. [管理并使用不同版本的R包](../week-036/#tip-1)
+
 ## week-035 {{<permalink "week-035">}}
 
 1. [列举Linux用户](../week-035/#tip-1)

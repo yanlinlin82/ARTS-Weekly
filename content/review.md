@@ -2,6 +2,10 @@
 title: 调研（Review）
 ---
 
+## week-036 {{<permalink "week-036">}}
+
+1. [从编译角度去理解一个C++程序](../week-036/#review-1)
+
 ## week-035 {{<permalink "week-035">}}
 
 1. [C++中实现具有多态性的赋值](../week-035/#review-1)
