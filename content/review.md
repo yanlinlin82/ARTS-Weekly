@@ -2,6 +2,10 @@
 title: 调研（Review）
 ---
 
+## week-037 {{<permalink "week-037">}}
+
+1. [基于C++20实现类型安全的SQL](../week-037/#review-1)
+
 ## week-036 {{<permalink "week-036">}}
 
 1. [从编译角度去理解一个C++程序](../week-036/#review-1)

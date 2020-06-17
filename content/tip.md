@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## week-037 {{<permalink "week-037">}}
+
+1. [如何对已经安装的R包进行地毯式地学习](../week-037/#tip-1)
+
 ## week-036 {{<permalink "week-036">}}
 
 1. [管理并使用不同版本的R包](../week-036/#tip-1)
