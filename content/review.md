@@ -2,6 +2,10 @@
 title: 调研（Review）
 ---
 
+## week-038 {{<permalink "week-038">}}
+
+1. [在关系型数据库中处理级联类型](../week-038/#review-1)
+
 ## week-037 {{<permalink "week-037">}}
 
 1. [基于C++20实现类型安全的SQL](../week-037/#review-1)

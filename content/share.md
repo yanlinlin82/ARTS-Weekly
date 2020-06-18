@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-038 {{<permalink "week-038">}}
+
+1. [8086的高清照片](../week-038/#share-1)
+
 ## week-037 {{<permalink "week-037">}}
 
 1. [使用Pandas清洗数据](../week-037/#share-1)

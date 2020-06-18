@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## week-038 {{<permalink "week-038">}}
+
+1. [C++中的区间类型](../week-038/#tip-1)
+
 ## week-037 {{<permalink "week-037">}}
 
 1. [如何对已经安装的R包进行地毯式地学习](../week-037/#tip-1)
