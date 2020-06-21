@@ -17,10 +17,48 @@ slug: week-039
 
 ## Review {{<permalink "review">}}
 
+### 1. 如何正确使用注释 {{<permalink "review-1">}}
+
+分享链接：[Code Health: To Comment or Not to Comment?](https://testing.googleblog.com/2017/07/code-health-to-comment-or-not-to-comment.html)
+
+有的地方不应该使用注释，注释暗示了代码需要更好地进行重构；有的地方，合理的注释，则有助于更清晰地表达出代码这么写的原因。
+
+好的注释如：
+
+```
+// Compute once because it’s expensive.
+```
+
+```
+// Create a new Foo instance because Foo is not thread-safe.
+```
+
+```
+// Note that order matters because...
+```
+
+```
+@SuppressWarnings("unchecked") // The cast is safe because...
+```
 
 ## Tip {{<permalink "tip">}}
 
+### 1. 带超时时间地运行命令 {{<permalink "tip-1">}}
+
+分享链接：[Linux run a command with a time limit (timeout)](https://www.cyberciti.biz/faq/linux-run-a-command-with-a-time-limit/)
+
+```sh
+date
+timeout 3s ping 192.168.1.1
+date
+```
+
+第二个参数表示时间，可以用“s”、“m”、“h”或“d”后缀。到时间后，若程序没有执行完成，会接到KILL信号。
 
 ## Share {{<permalink "share">}}
 
+### 1. 微软云上基于R语言的机器学习资源 {{<permalink "share-1">}}
 
+分享链接：[Resources for Machine Learning Operations with R](https://github.com/revodavid/mlops-r)
+
+该分享来自2020年RStudioConf，提供了微软Azure云上关于机器学习资源的介绍，并给出了详尽的文档和教程示例的链接。

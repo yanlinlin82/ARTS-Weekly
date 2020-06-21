@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## week-039 {{<permalink "week-039">}}
+
+1. [带超时时间地运行命令](../week-039/#tip-1)
+
 ## week-038 {{<permalink "week-038">}}
 
 1. [C++中的区间类型](../week-038/#tip-1)

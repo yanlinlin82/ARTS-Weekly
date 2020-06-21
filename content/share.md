@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-039 {{<permalink "week-039">}}
+
+1. [微软云上基于R语言的机器学习资源](../week-039/#share-1)
+
 ## week-038 {{<permalink "week-038">}}
 
 1. [8086的高清照片](../week-038/#share-1)

@@ -2,6 +2,10 @@
 title: 调研（Review）
 ---
 
+## week-039 {{<permalink "week-039">}}
+
+1. [如何正确使用注释](../week-039/#review-1)
+
 ## week-038 {{<permalink "week-038">}}
 
 1. [在关系型数据库中处理级联类型](../week-038/#review-1)
