@@ -2,6 +2,10 @@
 title: 调研（Review）
 ---
 
+## week-040 {{<permalink "week-040">}}
+
+1. [匿名的好处](../week-040/#review-1)
+
 ## week-039 {{<permalink "week-039">}}
 
 1. [如何正确使用注释](../week-039/#review-1)

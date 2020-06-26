@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## week-040 {{<permalink "week-040">}}
+
+1. [远程传输文件](../week-040/#tip-1)
+
 ## week-039 {{<permalink "week-039">}}
 
 1. [带超时时间地运行命令](../week-039/#tip-1)

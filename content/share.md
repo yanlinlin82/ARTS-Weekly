@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-040 {{<permalink "week-040">}}
+
+1. [关于硬件性能测试及其调优的免费电子书](../week-040/#share-1)
+
 ## week-039 {{<permalink "week-039">}}
 
 1. [微软云上基于R语言的机器学习资源](../week-039/#share-1)
