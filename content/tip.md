@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## week-041 {{<permalink "week-041">}}
+
+1. [如何解决ggplot输出PDF时汉字显示不正常的问题](../week-041/#tip-1)
+
 ## week-040 {{<permalink "week-040">}}
 
 1. [远程传输文件](../week-040/#tip-1)
