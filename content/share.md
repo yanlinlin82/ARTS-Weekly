@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-041 {{<permalink "week-041">}}
+
+1. [打造一个旧式的BASIC解释器](../week-041/#share-1)
+
 ## week-040 {{<permalink "week-040">}}
 
 1. [关于硬件性能测试及其调优的免费电子书](../week-040/#share-1)

@@ -16,6 +16,15 @@ slug: week-041
 
 ## Review {{<permalink "review">}}
 
+### 1. “语境坍缩”与“内容坍缩” {{<permalink "review-1">}}
+
+分享链接：[From context collapse to content collapse](http://www.roughtype.com/?p=8724)
+
+在互联网社交平台普及前，人们在不同语境下，与不同圈子的人，发表不同言论。如今，社交网络上的发声，往往无差别地传递到了这些不同语境的对象。此即“语境坍缩”。
+
+社交平台逐渐允许屏蔽信息只让部分人看到，以此来对抗“语境坍缩”的影响。
+
+新近发生的，更多是“内容坍缩”，即大量不同内容提供者，开始在同一场景下竞争厮杀，这相比过去门户网站把控着主流观点及内容的情况，是一种进步。
 
 ## Tip {{<permalink "tip">}}
 
@@ -79,5 +88,16 @@ Primary key fingerprint: E273 94AC A3F9 D904 9522  E054 6289 A25F 4AE8 DA82
 
 提示验证成功（`Good signature`）。
 
+其他参考链接：[The GNU Privacy Handbook: Making and verifying signatures](https://www.gnupg.org/gph/en/manual/x135.html)
+
 ## Share {{<permalink "share">}}
 
+### 1. 打造一个旧式的BASIC解释器 {{<permalink "share-1">}}
+
+分享链接：[Building a BASIC Interpreter, '80s style](https://able.bio/kerrishotts/building-a-basic-interpreter-80s-style--79a9d703)
+
+这应该是系列文章的其中一篇。作者在尝试重现上世纪80年代的一些工作，即仅使用汇编语言这样的支持有限的平台，重新打造一个BASIC的解释器。
+
+在这篇文章中，作者介绍了“line transformation（列格式转换）”、“tokenization（词语切分）”和“runtime syntex checking（运行时语法检查）”这三个解释器重要实现环节，以及相应的汇编代码实现。
+
+这种重新发明轮子的做法，其实是很有效的学习方法，因为在这个过程中，有大量隐含的问题，会暴露在操作者的视野中，使其得到相应的技能锻炼和提高。我自己也曾尝试过用C++写一个C++解释器：[icpp: an interpreter for C++](https://github.com/yanlinlin82/icpp)，虽然并没有完全完成，但的确是一段很有意思也很有启发的旅程。

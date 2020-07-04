@@ -2,6 +2,10 @@
 title: 调研（Review）
 ---
 
+## week-041 {{<permalink "week-041">}}
+
+1. [“语境坍缩”与“内容坍缩”](../week-041/#review-1)
+
 ## week-040 {{<permalink "week-040">}}
 
 1. [匿名的好处](../week-040/#review-1)
