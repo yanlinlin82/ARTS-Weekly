@@ -37,6 +37,47 @@ library(emojifont)
 
 参考链接：[R-help: display UTF8 characters in pdf](https://r.789695.n4.nabble.com/display-UTF8-characters-in-pdf-td4729577.html)
 
-## Share {{<permalink "share">}}
+### 2. 如何使用GPG验证下载的软件包 {{<permalink "tip-2">}}
 
+今天在Windows系统下载Putty工具的安装包，该下载页面提供了signature，用于验证软件包未被篡改（此前存在过非官网下载该工具被植入了木马的情况）。
+
+需要使用软件包GnuPG：<https://www.gnupg.org/>
+
+使用方法如下：
+
+```sh
+$ gpg --verify putty-64bit-0.74-installer.msi.gpg putty-64bit-0.74-installer.msi
+gpg: Signature made Sat 27 Jun 2020 03:01:02 PM CST
+gpg:                using RSA key E27394ACA3F9D9049522E0546289A25F4AE8DA82
+gpg: Can't check signature: No public key
+```
+
+这时提示没有公钥，于是尝试搜索该公钥，并根据提示输入数字“1”，导入该公钥：
+
+```sh
+yanll@yanll-laptop [2020-07-04 18:08:11] ~/Downloads $ gpg --search E27394ACA3F9D9049522E0546289A25F4AE8DA82
+gpg: data source: https://192.146.137.141:443
+(1)	PuTTY Releases <putty@projects.tartarus.org>
+	  3072 bit RSA key 6289A25F4AE8DA82, created: 2018-08-19, expires: 2021-09-02
+Keys 1-1 of 1 for "E27394ACA3F9D9049522E0546289A25F4AE8DA82".  Enter number(s), N)ext, or Q)uit > 1
+gpg: key 6289A25F4AE8DA82: public key "PuTTY Releases <putty@projects.tartarus.org>" imported
+gpg: Total number processed: 1
+gpg:               imported: 1
+```
+
+再次检查签名：
+
+```sh
+yanll@yanll-laptop [2020-07-04 18:10:23] ~/Downloads $ gpg --verify putty-64bit-0.74-installer.msi.gpg putty-64bit-0.74-installer.msi
+gpg: Signature made Sat 27 Jun 2020 03:01:02 PM CST
+gpg:                using RSA key E27394ACA3F9D9049522E0546289A25F4AE8DA82
+gpg: Good signature from "PuTTY Releases <putty@projects.tartarus.org>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: E273 94AC A3F9 D904 9522  E054 6289 A25F 4AE8 DA82
+```
+
+提示验证成功（`Good signature`）。
+
+## Share {{<permalink "share">}}
 
