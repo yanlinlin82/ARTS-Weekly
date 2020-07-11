@@ -45,4 +45,8 @@ slug: week-042
 
 ## Share {{<permalink "share">}}
 
+### 1. 用R脚本自动实现简历更新 {{<permalink "share-1">}}
 
+分享链接：[Data Driven CV](http://nickstrayer.me/datadrivencv/)
+
+个人简历经常需要更新，更新内容包括新做的项目，新发表的文章等等。通过Rmarkdown来实现简历的排版，内容读取自文本数据文件，就可以只需更新数据，很方便地进行个人简历更新了。

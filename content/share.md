@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-042 {{<permalink "week-042">}}
+
+1. [用R脚本自动实现简历更新](../week-042/#share-1)
+
 ## week-041 {{<permalink "week-041">}}
 
 1. [打造一个旧式的BASIC解释器](../week-041/#share-1)
