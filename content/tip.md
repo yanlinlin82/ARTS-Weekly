@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## week-042 {{<permalink "week-042">}}
+
+1. [在Rmarkdown中展示数据表格](../week-042/#tip-1)
+
 ## week-041 {{<permalink "week-041">}}
 
 1. [如何解决ggplot输出PDF时汉字显示不正常的问题](../week-041/#tip-1)

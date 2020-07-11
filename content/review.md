@@ -2,6 +2,10 @@
 title: 调研（Review）
 ---
 
+## week-042 {{<permalink "week-042">}}
+
+1. [安全性与易用性的平衡](../week-042/#review-1)
+
 ## week-041 {{<permalink "week-041">}}
 
 1. [“语境坍缩”与“内容坍缩”](../week-041/#review-1)
