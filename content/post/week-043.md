@@ -15,6 +15,11 @@ slug: week-043
 
 ## Review {{<permalink "review">}}
 
+### 1. 微软对远程办公的数据分析 {{<permalink "review-1">}}
+
+分享链接：[Microsoft Analyzed Data on Its Newly Remote Workforce](https://hbr.org/2020/07/microsoft-analyzed-data-on-its-newly-remote-workforce)
+
+由于疫情，很多公司被迫采取远程办公的模式。这篇文章，来自微软对其开展远程办公的实际情况，进行了数据收集及分析。对远程办公带来的各种好处和挑战，进行了数据方面的陈述与分析。比如，会议的时间有所缩短，这使得会议效率有所提高。这很可能成为将来的长期影响和策略。
 
 ## Tip {{<permalink "tip">}}
 

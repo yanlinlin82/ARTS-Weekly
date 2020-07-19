@@ -2,6 +2,10 @@
 title: 调研（Review）
 ---
 
+## week-043 {{<permalink "week-043">}}
+
+1. [微软对远程办公的数据分析](../week-043/#review-1)
+
 ## week-042 {{<permalink "week-042">}}
 
 1. [安全性与易用性的平衡](../week-042/#review-1)
