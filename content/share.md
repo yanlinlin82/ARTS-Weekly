@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-043 {{<permalink "week-043">}}
+
+1. [关于深度学习训练](../week-043/#share-1)
+
 ## week-042 {{<permalink "week-042">}}
 
 1. [用R脚本自动实现简历更新](../week-042/#share-1)
