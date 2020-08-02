@@ -2,6 +2,10 @@
 title: 调研（Review）
 ---
 
+## week-044 {{<permalink "week-044">}}
+
+1. [竞争性编程](../week-044/#review-1)
+
 ## week-043 {{<permalink "week-043">}}
 
 1. [微软对远程办公的数据分析](../week-043/#review-1)
