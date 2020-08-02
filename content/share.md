@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-044 {{<permalink "week-044">}}
+
+1. [LaTeX学习教程](../week-044/#share-1)
+
 ## week-043 {{<permalink "week-043">}}
 
 1. [关于深度学习训练](../week-043/#share-1)

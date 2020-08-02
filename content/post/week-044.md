@@ -28,7 +28,26 @@ slug: week-044
 
 ## Tip {{<permalink "tip">}}
 
+### 1. CSS实现手风琴效果 {{<permalink "tip-1">}}
+
+分享链接：[纯CSS实现手风琴效果（附演示）](https://blog.csdn.net/weixin_41700993/article/details/106441304)
+
+在网页多级菜单中，通常会出现鼠标移动到某个菜单项，相应子菜单展开的效果。一直以为这样的效果必须有JS代码才能完成。然而，这里展示了一种纯CSS的实现方法。其核心是使用了`overflow`和`transition`属性：
+
+```css
+.box-item-content {
+  cursor: pointer;
+  height: 0;
+  overflow: hidden;
+  background-color: #1abc9c;
+  transition: .5s all;
+}
+```
 
 ## Share {{<permalink "share">}}
 
+### 1. LaTeX学习教程 {{<permalink "share-1">}}
 
+分享链接：[Overleaf: Learn LaTeX in 30 minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)
+
+尽管平时Word用得更多，且现在有pandoc之类的支持，写markdown也容易很多。但LaTeX作为一项古老且灵活的技术，能够确保稳定的高质量格式输出，还是值得学习和使用的。更何况，很多学术发表，使用LaTeX应该还是不错甚至首选的选择。
