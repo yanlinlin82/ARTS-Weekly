@@ -15,10 +15,38 @@ slug: week-045
 
 ## Review {{<permalink "review">}}
 
+### 1. 网页前端视觉呈现方面应注意的问题 {{<permalink "review-1">}}
+
+分享链接：[The 6 Most Common Accessibility Problems (and How to Fix Them)](https://blog.scottlogic.com/2020/07/02/6-most-common-accessibility-problems.html)
+
+这是由WebAIM在百万个网站上统计得到的最常见的视觉呈现问题，包括：
+
+* 低对比度文字（Low Contrast Text）
+* 图片没有缺省文字（Missing Alternative Text for Images）
+* 空链接或空按钮（Empty Links and Empty Buttons）
+* 输入框缺少标示说明（Missing Form Input Labels）
+* 缺少HTML页面语言定义（Missing Document Language）
+
+在介绍这些常见问题的同时，本文也给出了相应的解决方法建议。
 
 ## Tip {{<permalink "tip">}}
 
+### 1. 在命令行中处理日期 {{<permalink "tip-1">}}
+
+具体操作如下所示：
+
+```
+$ date                         # 获取当前时间
+$ date +%F                     # 获取当天日期，格式为YYYY-MM-DD
+$ date +%s                     # 获取当前时间戳
+$ date -d @$(date +%s)         # 见时间戳还原为日期
+$ date "+%Y-%m-%d %H:%M:%S%z"  # 按特定格式显示完整详细时间（带时区）
+```
 
 ## Share {{<permalink "share">}}
 
+### 1. 用GO语言构建Web应用的教程 {{<permalink "share-1">}}
 
+分享链接：[Build web application with golang](https://github.com/astaxie/build-web-application-with-golang)
+
+这个GitHub仓库，提供了一份详尽的用GO语言构建Web应用的教程，而且提供了包括中文在内的多语言版本。

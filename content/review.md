@@ -2,6 +2,10 @@
 title: 调研（Review）
 ---
 
+## week-045 {{<permalink "week-045">}}
+
+1. [网页前端视觉呈现方面应注意的问题](../week-045/#review-1)
+
 ## week-044 {{<permalink "week-044">}}
 
 1. [竞争性编程](../week-044/#review-1)

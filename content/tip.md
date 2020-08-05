@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## week-045 {{<permalink "week-045">}}
+
+1. [在命令行中处理日期](../week-045/#tip-1)
+
 ## week-044 {{<permalink "week-044">}}
 
 1. [CSS实现手风琴效果](../week-044/#tip-1)

@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-045 {{<permalink "week-045">}}
+
+1. [用GO语言构建Web应用的教程](../week-045/#share-1)
+
 ## week-044 {{<permalink "week-044">}}
 
 1. [LaTeX学习教程](../week-044/#share-1)
