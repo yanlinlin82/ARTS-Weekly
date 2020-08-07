@@ -2,6 +2,10 @@
 title: 调研（Review）
 ---
 
+## week-046 {{<permalink "week-046">}}
+
+1. [疫情期间在家教育孩子的六条建议](../week-046/#review-1)
+
 ## week-045 {{<permalink "week-045">}}
 
 1. [网页前端视觉呈现方面应注意的问题](../week-045/#review-1)

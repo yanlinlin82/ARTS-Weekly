@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-046 {{<permalink "week-046">}}
+
+1. [动画展示GPT3的原理](../week-046/#share-1)
+
 ## week-045 {{<permalink "week-045">}}
 
 1. [用GO语言构建Web应用的教程](../week-045/#share-1)

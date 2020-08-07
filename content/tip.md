@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## week-046 {{<permalink "week-046">}}
+
+1. [带颜色地显示man帮助信息](../week-046/#tip-1)
+
 ## week-045 {{<permalink "week-045">}}
 
 1. [在命令行中处理日期](../week-045/#tip-1)
