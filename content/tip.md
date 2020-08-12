@@ -2,6 +2,12 @@
 title: 技巧（Tip）
 ---
 
+## week-047 {{<permalink "week-047">}}
+
+1. [Perl打印宽字符报错的解决](../week-047/#tip-1)
+2. [批量截取图片区域，并合并到PDF文件](../week-047/#tip-2)
+3. [如何解决ImageMagick的"security policy 'PDF' ..."的报错](../week-047/#tip-3)
+
 ## week-046 {{<permalink "week-046">}}
 
 1. [带颜色地显示man帮助信息](../week-046/#tip-1)

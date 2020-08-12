@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-047 {{<permalink "week-047">}}
+
+1. [Perl电子书](../week-047/#share-1)
+
 ## week-046 {{<permalink "week-046">}}
 
 1. [动画展示GPT3的原理](../week-046/#share-1)

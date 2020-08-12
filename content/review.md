@@ -2,6 +2,10 @@
 title: 调研（Review）
 ---
 
+## week-047 {{<permalink "week-047">}}
+
+1. [关于随机对照实验](../week-047/#review-1)
+
 ## week-046 {{<permalink "week-046">}}
 
 1. [疫情期间在家教育孩子的六条建议](../week-046/#review-1)
