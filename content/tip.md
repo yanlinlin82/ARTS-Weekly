@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## week-048 {{<permalink "week-048">}}
+
+1. [在bash中处理日期计算](../week-048/#tip-1)
+
 ## week-047 {{<permalink "week-047">}}
 
 1. [Perl打印宽字符报错的解决](../week-047/#tip-1)

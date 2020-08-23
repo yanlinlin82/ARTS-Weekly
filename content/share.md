@@ -2,6 +2,11 @@
 title: 分享（Share）
 ---
 
+## week-048 {{<permalink "week-048">}}
+
+1. [C++命令行解析库](../week-048/#share-1)
+2. [C++ Weekly视频：constexpr map实现](../week-048/#share-2)
+
 ## week-047 {{<permalink "week-047">}}
 
 1. [Perl电子书](../week-047/#share-1)
