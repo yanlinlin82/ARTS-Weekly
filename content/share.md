@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-049 {{<permalink "week-049">}}
+
+1. [Azure SQL学习教程](../week-049/#share-1)
+
 ## week-048 {{<permalink "week-048">}}
 
 1. [C++命令行解析库](../week-048/#share-1)

@@ -2,6 +2,11 @@
 title: 技巧（Tip）
 ---
 
+## week-049 {{<permalink "week-049">}}
+
+1. [文件查找命令](../week-049/#tip-1)
+2. [将命令结果写入文件](../week-049/#tip-2)
+
 ## week-048 {{<permalink "week-048">}}
 
 1. [在bash中处理日期计算](../week-048/#tip-1)

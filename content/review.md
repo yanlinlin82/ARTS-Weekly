@@ -2,6 +2,10 @@
 title: 调研（Review）
 ---
 
+## week-049 {{<permalink "week-049">}}
+
+1. [网络安全团队建设](../week-049/#review-1)
+
 ## week-048 {{<permalink "week-048">}}
 
 1. [依据流程构建工具](../week-048/#review-1)
