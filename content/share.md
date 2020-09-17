@@ -2,6 +2,15 @@
 title: 分享（Share）
 ---
 
+## week-051 {{<permalink "week-051">}}
+
+1. [免费在线电子书：Bayesian Methods for Hackers](../week-051/#share-1)
+2. [免费在线电子书：R Programming for Data Science](../week-051/#share-2)
+
+## week-050 {{<permalink "week-050">}}
+
+1. [Azure上的公共数据](../week-050/#share-1)
+
 ## week-049 {{<permalink "week-049">}}
 
 1. [Azure SQL学习教程](../week-049/#share-1)

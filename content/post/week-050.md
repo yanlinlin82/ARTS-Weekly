@@ -23,7 +23,33 @@ slug: week-050
 
 ## Tip {{<permalink "tip">}}
 
+### 1. 获取github中某项目的最新发布路径 {{<permalink "tip-1">}}
+
+分享链接：[How to download the latest GitHub repo release via command line](https://geraldonit.com/2019/01/15/how-to-download-the-latest-github-repo-release-via-command-line/)
+
+通过如下命令，可以获取json，详细记录了某个repo最新的release的相关信息：
+
+```
+curl -s https://api.github.com/repos/gvenzl/csv2db/releases/latest
+```
+
+如下命令可以获取最新发布的版本（标签）：
+
+```
+curl -s https://api.github.com/repos/gvenzl/csv2db/releases/latest | grep "tag_name"
+```
 
 ## Share {{<permalink "share">}}
 
+### 1. Azure上的公共数据 {{<permalink "share-1">}}
 
+分享链接：<https://azure.microsoft.com/en-us/services/open-datasets/catalog/>
+
+其中包含：
+
+* Machine Learning Samples: <https://azure.microsoft.com/en-us/services/open-datasets/catalog/ml-samples/>
+* Genomics Data Lake: <https://azure.microsoft.com/en-us/services/open-datasets/catalog/genomics-data-lake/>
+    * Illumina Platinum Genomes
+    * Human Reference Genomes
+    * ClinVar Annotations
+    * Genome in a Bottle

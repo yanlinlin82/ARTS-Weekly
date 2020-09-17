@@ -2,6 +2,14 @@
 title: 技巧（Tip）
 ---
 
+## week-051 {{<permalink "week-051">}}
+
+1. [指定HTML页面中某些资源进行预加载](../week-051/#tip-1)
+
+## week-050 {{<permalink "week-050">}}
+
+1. [获取github中某项目的最新发布路径](../week-050/#tip-1)
+
 ## week-049 {{<permalink "week-049">}}
 
 1. [文件查找命令](../week-049/#tip-1)

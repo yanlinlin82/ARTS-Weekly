@@ -23,7 +23,40 @@ slug: week-051
 
 ## Tip {{<permalink "tip">}}
 
+### 1. 指定HTML页面中某些资源进行预加载 {{<permalink "tip-1">}}
+
+分享链接：[通过rel="preload"进行内容预加载](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Preloading_content)
+
+```html
+<head>
+  <meta charset="utf-8">
+  <title>JS and CSS preload example</title>
+
+  <link rel="preload" href="style.css" as="style">
+  <link rel="preload" href="main.js" as="script">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>bouncing balls</h1>
+  <canvas></canvas>
+
+  <script src="main.js"></script>
+</body>
+```
 
 ## Share {{<permalink "share">}}
 
+### 1. 免费在线电子书：Bayesian Methods for Hackers {{<permalink "share-1">}}
 
+分享链接：
+
+* <https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers>
+* <https://nbviewer.jupyter.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Prologue/Prologue.ipynb>
+
+### 2. 免费在线电子书：R Programming for Data Science {{<permalink "share-2">}}
+
+分享链接：<https://bookdown.org/rdpeng/rprogdatascience/>
+
+作者：Roger D. Peng
