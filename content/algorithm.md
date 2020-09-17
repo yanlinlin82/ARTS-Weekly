@@ -6,6 +6,8 @@ title: 算法（Algoritm）
 
 以下列出的题号为[leetcode](https://leetcode-cn.com/problemset/all/)上的编号：
 
+* week-051: (完成2道) [328, 331](../week-051/#algorithm)
+* week-050: (完成2道) [322, 326](../week-050/#algorithm)
 * week-049: (完成2道) [318 ~ 319](../week-049/#algorithm)
 * week-048: (完成2道) [312 ~ 313](../week-048/#algorithm)
 * week-047: (完成2道) [309 ~ 310](../week-047/#algorithm)
