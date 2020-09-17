@@ -15,6 +15,11 @@ slug: week-051
 
 ## Review {{<permalink "review">}}
 
+### 1. 使用Boost software license {{<permalink "review-1">}}
+
+分享链接：[Why You Should Use the Boost Software License](https://pdimov.github.io/blog/2020/09/06/why-use-the-boost-license/)
+
+这篇文章解释了，目前主流常用的MIT、Apache、BSD等许可协议存在的发布问题：要求带上协议文本文件。会增加使用该协议的麻烦。并相应解释并建议了，可以使用Boost软件许可协议。
 
 ## Tip {{<permalink "tip">}}
 

@@ -15,6 +15,11 @@ slug: week-050
 
 ## Review {{<permalink "review">}}
 
+### 1. C++ concept archetypes {{<permalink "review-1">}}
+
+分享链接：[Andrzej's C++ blog: Concept archetypes](https://akrzemi1.wordpress.com/2020/09/02/concept-archetypes/)
+
+这篇文章介绍了在C++20标准中新引入的concept（概念），并从一个简单实例一步步从头实现，来展示了该新语言特性解决的问题。
 
 ## Tip {{<permalink "tip">}}
 

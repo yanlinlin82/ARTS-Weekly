@@ -2,6 +2,14 @@
 title: 调研（Review）
 ---
 
+## week-051 {{<permalink "week-051">}}
+
+1. [使用Boost software license](../week-051/#review-1)
+
+## week-050 {{<permalink "week-050">}}
+
+1. [C++ concept archetypes](../week-050/#review-1)
+
 ## week-049 {{<permalink "week-049">}}
 
 1. [网络安全团队建设](../week-049/#review-1)
