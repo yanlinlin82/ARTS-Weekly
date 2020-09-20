@@ -15,10 +15,33 @@ slug: week-052
 
 ## Review {{<permalink "review">}}
 
+### 1. 关于计算规模与安全性 {{<permalink "review-1">}}
+
+参考链接：[Small Computing and the Security Mindset](http://www.lord-enki.net/medium-backup/2020-09-18_Small-Computing-and-the-Security-Mindset-821dfb512aa7.html)
+
+本文提出了一个“小计算（Small Computing）”的概念，认为现今主流的计算发展趋势都是“大计算（Big Computing）”。后者带来了很多复杂性，和安全性上的缺陷，而小计算因其相对单一或简单，在安全上会更有优势。
 
 ## Tip {{<permalink "tip">}}
 
+### 1. 更改Pandas中的列名 {{<permalink "tip-1">}}
+
+参考链接：[How to rename columns in pandas dataframe](https://www.listendata.com/2020/09/How-to-rename-columns-in-Pandas.html)
+
+```python
+import pandas as pd
+df = pd.read_csv("https://raw.githubusercontent.com/JackyP/testing/master/datasets/nycflights.csv", usecols=range(1,17))
+
+df2 = df.rename(columns={'year':'years'})
+
+df.rename(columns={'year':'years'}, inplace = True)
+```
 
 ## Share {{<permalink "share">}}
 
+### 1. GitHub Repo: TidyTuesday {{<permalink "share-1">}}
 
+链接：[TidyTuesday: A weekly social data project in R](https://github.com/rfordatascience/tidytuesday)
+
+提供了一些公开的数据集，用于数据处理相关练习。
+
+此外，还提供了一些不错的电子书、数据源等链接。

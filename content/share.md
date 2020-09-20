@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-052 {{<permalink "week-052">}}
+
+1. [GitHub Repo: TidyTuesday](../week-052/#share-1)
+
 ## week-051 {{<permalink "week-051">}}
 
 1. [免费在线电子书：Bayesian Methods for Hackers](../week-051/#share-1)

@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## week-052 {{<permalink "week-052">}}
+
+1. [更改Pandas中的列名](../week-052/#tip-1)
+
 ## week-051 {{<permalink "week-051">}}
 
 1. [指定HTML页面中某些资源进行预加载](../week-051/#tip-1)

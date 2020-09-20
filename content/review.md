@@ -2,6 +2,10 @@
 title: 调研（Review）
 ---
 
+## week-052 {{<permalink "week-052">}}
+
+1. [关于计算规模与安全性](../week-052/#review-1)
+
 ## week-051 {{<permalink "week-051">}}
 
 1. [使用Boost software license](../week-051/#review-1)
