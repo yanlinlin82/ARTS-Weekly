@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-053 {{<permalink "week-053">}}
+
+1. [CppCon 2020会议分享](../week-053/#share-1)
+
 ## week-052 {{<permalink "week-052">}}
 
 1. [GitHub Repo: TidyTuesday](../week-052/#share-1)
