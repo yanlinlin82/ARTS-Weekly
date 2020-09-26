@@ -5,6 +5,8 @@ title: 分享（Share）
 ## week-053 {{<permalink "week-053">}}
 
 1. [CppCon 2020会议分享](../week-053/#share-1)
+2. [计算机相关警句](../week-053/#share-2)
+3. [Python学习资源](../week-053/#share-3)
 
 ## week-052 {{<permalink "week-052">}}
 
