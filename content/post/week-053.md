@@ -15,8 +15,33 @@ slug: week-053
 
 ## Review {{<permalink "review">}}
 
+### 1. 关于C/C++中的整型溢出问题 {{<permalink "review-1">}}
+
+分享链接：[How expensive is integer-overflow trapping in C++?](https://lemire.me/blog/2020/09/23/how-expensive-is-integer-overflow-trapping-in-c/)
+
+整数类型表示范围是有限制的，一旦超出范围，结果就很难确保正确。所以，比较恰当的做法是，终止程序。然而在C/C++中，要开启这样的检查（`-ftrapv`），却将牺牲很大的性能。
 
 ## Tip {{<permalink "tip">}}
+
+### 1. Bash脚本相关的小技巧和建议 {{<permalink "tip-1">}}
+
+分享链接：[TecMint: 10 Useful Tips for Writing Effective Bash Scripts in Linux](https://www.tecmint.com/useful-tips-for-writing-bash-scripts-in-linux/)
+
+```sh
+set -e  # 让脚本在遇到错误时退出
+set -u  # 强制要求变量在使用前被赋值
+```
+
+* 尽量要写注释（说明命令目的）
+* 尽量要封装函数
+* 在引用变量时，尽量使用双引号
+
+* 尽量使用`readonly`定义常量（静态变量）：
+
+```sh
+readonly passwd_file=”/etc/passwd”
+readonly group_file=”/etc/group”
+```
 
 
 ## Share {{<permalink "share">}}
@@ -38,3 +63,7 @@ slug: week-053
 分享链接：[Python Monday](http://damiantgordon.com/PythonMonday/)
 
 每周一个主题，持续学习Python
+
+### 4. 在线电子书《Tidy Modeling with R》 {{<permalink "share-4">}}
+
+分享链接：[Tidy Modeling with R](https://www.tmwr.org/)

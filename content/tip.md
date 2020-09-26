@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## week-053 {{<permalink "week-053">}}
+
+1. [Bash脚本相关的小技巧和建议](../week-053/#tip-1)
+
 ## week-052 {{<permalink "week-052">}}
 
 1. [更改Pandas中的列名](../week-052/#tip-1)
