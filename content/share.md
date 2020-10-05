@@ -2,6 +2,11 @@
 title: 分享（Share）
 ---
 
+## week-054 {{<permalink "week-054">}}
+
+1. [一个小型C编译器chibicc](../week-054/#share-1)
+2. [静态网页服务的性能对比](../week-054/#share-2)
+
 ## week-053 {{<permalink "week-053">}}
 
 1. [CppCon 2020会议分享](../week-053/#share-1)

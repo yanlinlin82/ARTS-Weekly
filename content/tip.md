@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## week-054 {{<permalink "week-054">}}
+
+1. [Git中比较二进制文件](../week-054/#tip-1)
+
 ## week-053 {{<permalink "week-053">}}
 
 1. [Bash脚本相关的小技巧和建议](../week-053/#tip-1)

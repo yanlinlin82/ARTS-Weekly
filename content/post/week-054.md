@@ -16,6 +16,13 @@ slug: week-054
 
 ## Review {{<permalink "review">}}
 
+### 1. 关于学术界与产业界的选择 {{<permalink "review-1">}}
+
+分享链接：[The Good, the Bad, and the Bye Bye: Why I Left My Tenured Academic Job](https://reyammer.io/blog/2020/10/03/the-good-the-bad-and-the-bye-bye-why-i-left-my-tenured-academic-job/)
+
+作者仔细分析了学术界和产业界的各自优劣，最终放弃例终身教职，转而投身产业界。其中很多内容是全世界各国都相通的，值得借鉴和参考。
+
+其实，诸如“We write papers that do not deserve to be written”这样的问题，未必仅存于学术界，然而如何坚持初心，不受困于围城，则是另一个问题了。
 
 ## Tip {{<permalink "tip">}}
 
@@ -42,4 +49,16 @@ slug: week-054
 
 ## Share {{<permalink "share">}}
 
+### 1. 一个小型C编译器chibicc {{<permalink "share-1">}}
 
+分享链接：[GitHub: chibicc: A Small C Compiler](https://github.com/rui314/chibicc)
+
+作者正在写一本关于C编译器和底层编程的书，而这个仓库是该书所对应的小型C编译器的实现源码。
+
+### 2. 静态网页服务的性能对比 {{<permalink "share-2">}}
+
+分享链接：[Static webhosting benchmark: AWS, Google, Firebase, Netlify, GitHub & Cloudflare](https://www.savjee.be/2020/05/benchmarking-static-website-hosting-providers/)
+
+作者2017年做过一次对比，近期又重复了一次。最终得到的结果是“The best all-around performer is AWS CloudFront, followed closely by GitHub Pages”。
+
+相应的数据分享在：<https://github.com/Savjee/static-website-hosting-benchmark>

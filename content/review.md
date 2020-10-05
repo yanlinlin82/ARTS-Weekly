@@ -2,6 +2,10 @@
 title: 调研（Review）
 ---
 
+## week-054 {{<permalink "week-054">}}
+
+1. [关于学术界与产业界的选择](../week-054/#review-1)
+
 ## week-053 {{<permalink "week-053">}}
 
 1. [关于C/C++中的整型溢出问题](../week-053/#review-1)
