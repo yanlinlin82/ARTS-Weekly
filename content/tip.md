@@ -2,6 +2,11 @@
 title: 技巧（Tip）
 ---
 
+## week-055 {{<permalink "week-055">}}
+
+1. [显示dd命令的读写进度](../week-055/#tip-1)
+2. [PGP的使用，对下载文件的校验](../week-055/#tip-2)
+
 ## week-054 {{<permalink "week-054">}}
 
 1. [Git中比较二进制文件](../week-054/#tip-1)

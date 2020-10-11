@@ -21,6 +21,53 @@ slug: week-055
 
 ## Tip {{<permalink "tip">}}
 
+### 1. 显示dd命令的读写进度 {{<permalink "tip-1">}}
+
+分享链接：[Linux dd Command Show Progress Copy Bar With Status](https://www.cyberciti.biz/faq/linux-unix-dd-command-show-progress-while-coping/)
+
+```sh
+dd if=/path/to/input of=/path/to/output status=progress
+```
+
+### 2. PGP的使用，对下载文件的校验 {{<permalink "tip-2">}}
+
+分享链接：[UNIX / Linux PGP TarBall File Signature Keys Verification](https://www.cyberciti.biz/faq/pgp-tarball-file-signature-keys-verification/)
+
+```sh
+# 下载文件
+$ wget http://nginx.org/download/nginx-1.18.0.tar.gz
+$ wget https://nginx.org/download/nginx-1.18.0.tar.gz.asc
+
+# 校验
+$ gpg nginx-1.18.0.tar.gz.asc
+## OR ##
+$ gpg --with-fingerprint nginx-1.18.0.tar.gz.asc
+gpg: WARNING: no command supplied.  Trying to guess what you mean ...
+gpg: assuming signed data in 'nginx-1.18.0.tar.gz'
+gpg: Signature made Tuesday 21 April 2020 07:43:35 PM IST
+gpg:                using RSA key 520A9993A1C052F8
+gpg: Can't check signature: No public key
+
+# 获取公钥
+gpg --recv-key <publicKey>
+## we can also get keys from speifici key server ##
+gpg --keyserver pgpkeys.mit.edu --recv-key <publicKey>
+
+# 校验
+$ gpg --verify nginx-1.18.0.tar.gz.asc nginx-1.18.0.tar.gz
+
+# 获取公钥
+$ wget https://nginx.org/keys/mdounin.key
+$ gpg --import mdounin.key
+gpg: key 520A9993A1C052F8: 2 signatures not checked due to missing keys
+gpg: key 520A9993A1C052F8: public key "Maxim Dounin <mdounin@mdounin.ru>" imported
+gpg: Total number processed: 1
+gpg:               imported: 1
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 1u
+
+$ gpg --verify nginx-1.18.0.tar.gz.asc nginx-1.18.0.tar.gz
+```
 
 ## Share {{<permalink "share">}}
 
