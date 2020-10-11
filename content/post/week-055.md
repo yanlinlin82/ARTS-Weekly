@@ -8,8 +8,11 @@ slug: week-055
 
 [LeetCode题库](https://leetcode-cn.com/problemset/all/)
 
-| 编号 | 难度 | 题目 | 我的解答 | 执行用时 | 内存消耗 | 用时排名 | 内存排名 | 查看结果 | 备注 |
-|:----:|:----:|:-----|:---------|---------:|---------:|:--------:|:--------:|:--------:|:-----|
+| 编号 | 难度 | 题目 | 我的解答 | 执行用时 | 内存消耗 | 用时排名 | 内存排名 | 查看结果 |
+|:----:|:----:|:-----|:---------|---------:|---------:|:--------:|:--------:|:--------:|
+| 344 | 简单 | [反转字符串](https://leetcode-cn.com/problems/reverse-string/) | [201011-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00344_reverse-string/201011-1.cpp) | 76 ms | 22.9 MB | 8.91% | 28.11% | [查看结果](https://leetcode-cn.com/submissions/detail/114965401/) |
+| 345 | 简单 | [反转字符串中的元音字母](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/) | [201011-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00345_reverse-vowels-of-a-string/201011-1.cpp) | 8 ms | 7.7 MB | 92.50% | 58.02% | [查看结果](https://leetcode-cn.com/submissions/detail/114967092/) |
+| 347 | 中等 | [前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) | [201011-1.cpp](https://github.com/yanlinlin82/leetcode/blob/master/00347_top-k-frequent-elements/201011-1.cpp) | 36 ms | 13.6 MB | 84.74% | 86.80% | [查看结果](https://leetcode-cn.com/submissions/detail/115007226/) |
 
 ## Review {{<permalink "review">}}
 
