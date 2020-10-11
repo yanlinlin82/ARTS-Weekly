@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-055 {{<permalink "week-055">}}
+
+1. [关于R语言的电子书](../week-055/#share-1)
+
 ## week-054 {{<permalink "week-054">}}
 
 1. [一个小型C编译器chibicc](../week-054/#share-1)

@@ -74,4 +74,8 @@ $ gpg --verify nginx-1.18.0.tar.gz.asc nginx-1.18.0.tar.gz
 
 ## Share {{<permalink "share">}}
 
+### 1. 关于R语言的电子书 {{<permalink "share-1">}}
 
+分享链接：[Getting used to R, RStudio, and R Markdown](https://bookdown.org/chesterismay/rbasics/)
+
+对应GitHub：<https://github.com/ismayc/rbasics>
