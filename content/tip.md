@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## week-056 {{<permalink "week-056">}}
+
+1. [Linux的帮助命令`man`的使用](../week-056/#tip-1)
+
 ## week-055 {{<permalink "week-055">}}
 
 1. [显示dd命令的读写进度](../week-055/#tip-1)

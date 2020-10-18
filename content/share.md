@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-056 {{<permalink "week-056">}}
+
+1. [数据工程师进阶路径](../week-056/#share-1)
+
 ## week-055 {{<permalink "week-055">}}
 
 1. [关于R语言的电子书](../week-055/#share-1)

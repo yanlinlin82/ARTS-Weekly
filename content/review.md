@@ -2,6 +2,10 @@
 title: 调研（Review）
 ---
 
+## week-056 {{<permalink "week-056">}}
+
+1. [如何确保互联网的可连通性](../week-056/#review-1)
+
 ## week-055 {{<permalink "week-055">}}
 
 1. [C++中的`using namespace std`](../week-055/#review-1)
