@@ -15,6 +15,11 @@ slug: week-058
 
 ## Review {{<permalink "review">}}
 
+### 1. 停止使用RSA {{<permalink "review-1">}}
+
+分享链接：[Seriously, stop using RSA](https://blog.trailofbits.com/2019/07/08/fuck-rsa/)
+
+基于大质数分解的RSA算法，曾经被大量应用于各种密钥系统。而如今，该算法已经成为一个非常脆弱的系统，不仅其弱参数很难甚至不可能被检查，其性能低下迫使开发人员采用危险的捷径。这篇文章详细解释了这些缺陷，并呼吁改用更加安全且已经成熟的椭圆曲线算法。
 
 ## Tip {{<permalink "tip">}}
 

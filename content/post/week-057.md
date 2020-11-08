@@ -15,6 +15,11 @@ slug: week-057
 
 ## Review {{<permalink "review">}}
 
+### 1. 部署机器学习模型 {{<permalink "review-1">}}
+
+分享链接：[How to put machine learning models into production](https://stackoverflow.blog/2020/10/12/how-to-put-machine-learning-models-into-production/)
+
+平常大多数关于机器学习的教程和资料，都在介绍如何训练模型，对于模型的最终部署，提及得很少。这篇文章也提到，绝大多数（接近九成）的模型并未得到部署和应用。这篇文章针对部署中需要考虑的方方面面（诸如数据量、框架、工具、效率、反馈、迭代等）进行了介绍，在打算将某个模型进行应用时，应该进行提前考虑。
 
 ## Tip {{<permalink "tip">}}
 

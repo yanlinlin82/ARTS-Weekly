@@ -2,6 +2,18 @@
 title: 调研（Review）
 ---
 
+## week-059 {{<permalink "week-059">}}
+
+1. [CSV格式的优劣](../week-059/#review-1)
+
+## week-058 {{<permalink "week-058">}}
+
+1. [停止使用RSA](../week-058/#review-1)
+
+## week-057 {{<permalink "week-057">}}
+
+1. [部署机器学习模型](../week-057/#review-1)
+
 ## week-056 {{<permalink "week-056">}}
 
 1. [如何确保互联网的可连通性](../week-056/#review-1)
