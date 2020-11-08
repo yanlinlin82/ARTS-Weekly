@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-059 {{<permalink "week-059">}}
+
+1. [快速学习PCA的教程资料](../week-059/#share-1)
+
 ## week-058 {{<permalink "week-058">}}
 
 1. [来自R语言的格言金句](../week-058/#share-1)

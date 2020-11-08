@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## week-059 {{<permalink "week-059">}}
+
+1. [使用R包`future`延迟计算](../week-059/#tip-1)
+
 ## week-058 {{<permalink "week-058">}}
 
 1. [图形展示人数比例](../week-058/#tip-1)
