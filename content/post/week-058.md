@@ -23,7 +23,28 @@ slug: week-058
 
 ## Tip {{<permalink "tip">}}
 
+### 1. 图形展示人数比例 {{<permalink "tip-1">}}
+
+使用R包`personograph`：
+
+```r
+personograph(list(first = 0.93, second = 0.07),
+             colors = list(first = "red", second = "blue"))
+```
+
+参考链接：[Lying with Statistics: One Beer a Day will Kill you!](https://blog.ephorie.de/lying-with-statistics-one-beer-a-day-will-kill-you)
+
+上面这个链接本身，也值得阅读，展示了绝对比例和相对比值之间的差异，以及如何用这样的统计方法进行“欺骗”。
 
 ## Share {{<permalink "share">}}
 
+### 1. 来自R语言的格言金句 {{<permalink "share-1">}}
 
+分享链接：[R Fortunes: Collected Wisdom (PDF)](https://cloud.r-project.org/web/packages/fortunes/vignettes/fortunes.pdf)
+
+上述链接来自R包`fortunes`，运行如下命令，将随机抽取并显示这些金句：
+
+```r
+library(fortunes)
+fortune()
+```

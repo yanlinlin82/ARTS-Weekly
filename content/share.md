@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-058 {{<permalink "week-058">}}
+
+1. [来自R语言的格言金句](../week-058/#share-1)
+
 ## week-057 {{<permalink "week-057">}}
 
 1. [电子书《Tidy Modeling with R》](../week-057/#share-1)

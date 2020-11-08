@@ -2,6 +2,10 @@
 title: 技巧（Tip）
 ---
 
+## week-058 {{<permalink "week-058">}}
+
+1. [图形展示人数比例](../week-058/#tip-1)
+
 ## week-057 {{<permalink "week-057">}}
 
 1. [自动进行数据探索分析](../week-057/#tip-1)
