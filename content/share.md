@@ -2,6 +2,10 @@
 title: 分享（Share）
 ---
 
+## week-057 {{<permalink "week-057">}}
+
+1. [电子书《Tidy Modeling with R》](../week-057/#share-1)
+
 ## week-056 {{<permalink "week-056">}}
 
 1. [数据工程师进阶路径](../week-056/#share-1)
